@@ -1,0 +1,80 @@
+.container {
+  max-width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  background-image: url('/images/solid_background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.content--light {
+  background: var(--background-light) url("/images/background/background-light.jpg") no-repeat top left;
+  background-size: cover;
+}
+
+.content--dark {
+  background: var(--background-dark) url("/images/background/background-dark.jpg") no-repeat top left;
+  background-size: cover;
+}
+
+.content--light *::-webkit-scrollbar-thumb {
+  background: var(--border-light);
+}
+
+.content--light * {
+  scrollbar-color: var(--border-light) transparent;
+}
+
+.content--dark *::-webkit-scrollbar-thumb {
+  background: var(--border-dark);
+}
+
+.content--dark * {
+  scrollbar-color: var(--border-dark) transparent;
+}
+
+.homePage--light {
+  background: #DBE6EC;
+}
+
+.homePage--dark {
+  background: #151718;
+}
+
+.main {
+  position: relative;
+  padding: 60px 90px 30px;
+}
+
+.containerInner {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    padding: 60px 47px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .main {
+    padding: 40px 20px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .main {
+    padding: 30px 10px;
+  }
+}

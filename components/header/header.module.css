@@ -1,0 +1,601 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9 !important;
+  width: 100%;
+  border: 0;
+  border-radius: 0 !important;
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.userMenu {
+  z-index: 10030 !important;
+}
+
+.userMenuText > span {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.ddIcon {
+  color: #7e99b0;
+  margin-left: 5px;
+  margin-top: -2px;
+  margin-right: -8px;
+}
+
+.userMenuIcon {
+  padding: 0 !important;
+  margin-right: -30px;
+  color: #06d3d7 !important;
+}
+
+.appLogo {
+  transform: scale(6);
+  position: fixed;
+  left: 100px;
+  top: 30px;
+  cursor: pointer;
+}
+
+.logoContainer {
+  margin-left: 30px;
+}
+
+.logoLink {
+  display: flex;
+  font-size: 0;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.userBlock {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.walletPointContainer {
+  margin: 0 5px;
+}
+
+.walletPoint {
+  width: 2px;
+  height: 2px;
+  background: #0B5E8E;
+  border-radius: 2px;
+}
+
+.walletPoint--dark {
+  background: #4CADE6;
+}
+
+.version {
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  color: #fff !important;
+  font-size: 10px !important;
+}
+
+.networkIcon {
+  font-size: 100px !important;
+  margin-bottom: 20px;
+}
+
+.yearnLogo {
+  width: 130px !important;
+  height: 25px !important;
+  left: 20px;
+  top: 16px;
+  position: absolute;
+  cursor: pointer !important;
+}
+
+.animClass {
+  width: 400px;
+  margin: auto;
+  margin-bottom: -100px;
+  margin-top: -100px;
+  display: none;
+}
+
+.intro {
+  background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  color: #fff !important;
+}
+
+.aboutmodal dialog {
+  border: 10px solid red;
+}
+
+.abouttext {
+  background: none !important;
+  font-size: 14px !important;
+  line-height: 1.5em !important;
+}
+
+.abouttext a {
+  color: #374dfa !important;
+}
+
+.abouttitle {
+  background: none !important;
+  margin-bottom: 20px !important;
+  font-size: 16px !important;
+  margin: 0 !important;
+}
+
+.instantSearch {
+  position: absolute;
+  left: 10px;
+  border-right: 1px solid rgba(128, 128, 128, 0.2);
+  padding-right: 15px;
+  height: 100%;
+}
+
+.walletIcon {
+  width: 18px;
+  height: 18px;
+}
+
+.notificationsButton {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px !important;
+  border-radius: 100px !important;
+  background: transparent !important;
+}
+
+.accountButtonContainer {
+  position: relative;
+  margin-left: 14px;
+}
+
+.accountButton {
+  min-width: 168px !important;
+  padding: 0 !important;
+  position: fixed;
+  z-index: 10030 !important;
+  border-radius: 40px !important;
+  border: 1px solid #0B5E8E !important;
+  background: none !important;
+}
+
+.accountButton:hover .accountButtonAddress {
+  background: #86B9D6 !important;
+}
+
+.accountButton:active .accountButtonAddress {
+  background: #9BC9E4 !important;
+}
+
+.accountButton:active .headBalanceTxt {
+  color: #0B5E8E !important;
+}
+
+.accountButton--dark {
+  border-color: #4CADE6 !important;
+}
+
+.accountButton--dark:hover .accountButtonAddress {
+  background: #5F7285 !important;
+}
+
+.accountButton--dark:active .accountButtonAddress {
+  background: #2D3741 !important;
+}
+
+.accountButton--dark:active .headBalanceTxt {
+  color: #4CADE6 !important;
+}
+
+.accountButtonConnect--light {
+  background: #9BC9E4 !important;
+}
+
+.accountButtonConnect--light:hover {
+  background: #86B9D6 !important;
+}
+
+.accountButtonConnect--dark {
+  background: #2D3741 !important;
+  border: 1px solid #4CADE6 !important;
+}
+
+.accountButtonConnect--dark:hover {
+  background: #5F7285 !important;
+}
+
+.accountButtonAddress {
+  height: 28px;
+  border-radius: 40px !important;
+  outline: 1px solid #0B5E8E !important;
+  color: #ffffff !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  background: #9BC9E4 !important;
+  z-index: 2;
+  transition: all 0.16s ease;
+}
+
+.accountButtonAddress--dark {
+  background-color: #2D3741 !important;
+  outline-color: #4CADE6 !important;
+}
+
+.headBalanceTxt {
+  height: 28px;
+  border-radius: 40px;
+  margin-left: -22px !important;
+  padding-left: 32px !important;
+  padding-right: 15px !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: #0A2C40 !important;
+  background: #DBE6EC !important;
+}
+
+.headBalanceTxt--dark {
+  color: #DBE6EC !important;
+  background: #151718 !important;
+}
+
+.headSwitchBtn {
+  position: absolute;
+  top: 0;
+  height: 68px;
+  width: 100%;
+  background: #0B5E8E;
+  border-radius: 16px;
+  padding-left: 12.5px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+.headSwitchBtn--dark {
+  background: #4CADE6;
+}
+
+.headSwitchBtnText {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.switchNetworkBtn {
+  background: rgba(6, 211, 215, 0.3) !important;
+  color: rgba(6, 211, 215, 1) !important;
+  border-radius: 60px !important;
+  padding: 12px 24px 14px 24px !important;
+  font-weight: 700 !important;
+  text-transform: none !important;
+  border: 1px solid rgba(6, 211, 215, 1) !important;
+  margin-top: 30px !important;
+  transform: scale(0.9);
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+.switchNetworkBtn:hover {
+  background: rgba(6, 211, 215, 1) !important;
+  color: #111729 !important;
+  text-transform: none !important;
+  border: 1px solid rgba(6, 211, 215, 1) !important;
+  transform: scale(0.9);
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+}
+
+.prettyButton {
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  margin-left: 14px !important;
+  background: linear-gradient(-45deg, #23a6d5, #234ce7);
+  background-size: 200% 200%;
+  animation: gradient 35s ease infinite;
+  color: #fff !important;
+  -webkit-transition: background-image 1s ease-in-out;
+  transition: background-image 1s ease-in-out;
+  border-radius: 30px !important;
+  padding: 9px 20px !important;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.prettyButton:hover {
+  background-image: linear-gradient(270deg, #1c46f5 0, #0005d3) !important;
+}
+
+.accountIcon {
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+}
+
+.headBtnTxt {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 120%;
+  white-space: nowrap;
+}
+
+.metamask {
+  background-image: url("/connectors/icn-metamask.svg");
+}
+
+.ledger {
+  background-image: url("/connectors/icn-ledger.svg");
+}
+
+.coinbase {
+  background-image: url("/connectors/coinbaseWalletIcon.svg");
+}
+
+.torus {
+  background-image: url("/connectors/torus.jpg");
+}
+
+.trust {
+  background-image: url("/connectors/trustWallet.svg");
+}
+
+.themeSelectContainer {
+  /* position: absolute;
+  left: 150px; */
+}
+
+.switchIcon {
+  font-size: 1rem !important;
+  margin-top: 0.275rem;
+  color: rgba(108, 108, 123, 1);
+}
+
+.switchIcon:hover {
+  background: none !important;
+}
+
+.backButton {
+  width: 40px;
+  flex: 1;
+  top: 170px;
+  left: 5px;
+  position: absolute;
+  z-index: 0;
+  color: white !important;
+  border-radius: 60px;
+}
+
+.chainInvalidError {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: fixed;
+  left: 0;
+  top: 0px;
+  text-align: center;
+  min-width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+  background: rgba(17, 23, 42, 0.9);
+  z-index: 1100 !important;
+}
+
+.ErrorContent {
+}
+
+.ErrorTxt {
+  color: #fff;
+  max-width: 420px;
+  line-height: 1.5em !important;
+  font-size: 1.4em !important;
+}
+
+.shortcutInfo {
+  color: rgb(133, 133, 133);
+  font-size: 16px;
+  margin-right: 15px;
+}
+
+.ffTitle {
+  cursor: pointer;
+  min-width: 150px;
+  width: calc(50% - 678px);
+  font-size: 24px !important;
+  color: #1c46f5;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.linksBar {
+  flex: 1;
+  display: flex;
+}
+
+.link {
+  margin: 2px 0px !important;
+  margin-right: 24px !important;
+  cursor: pointer;
+}
+
+.link:hover {
+  border-bottom: 2px solid #1c46f5;
+  margin-bottom: 0px !important;
+}
+
+.linkActive {
+  margin: 2px 0px !important;
+  margin-bottom: 0px !important;
+  border-bottom: 2px solid #1c46f5;
+  margin-right: 24px !important;
+  cursor: pointer;
+}
+
+.testnetDisclaimer {
+  box-sizing: border-box;
+}
+
+.testnetDisclaimerText {
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 120%;
+  background: #9BC9E4 !important;
+  border: 1px solid #0B5E8E !important;
+  border-radius: 40px !important;
+  padding: 3px 10px !important;
+  color: #ffffff;
+}
+
+.testnetDisclaimerText--light {
+  background-color: #9BC9E4 !important;
+}
+
+.testnetDisclaimerText--dark {
+  background-color: rgb(33, 43, 72) !important;
+}
+
+.menuBody--light {
+  border-radius: 0;
+  border: 1px solid rgba(126, 153, 176, 0.2);
+  background: #0B5E8E;
+}
+
+.statButton {
+  padding: 5px;
+  margin-left: 10px;
+  background: #DBE6EC;
+  border: 1px solid #0B5E8E;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.32s ease;
+}
+
+.statButton:hover {
+  background: #B9DFF5;
+}
+
+.statButton--dark {
+  background: #151718;
+  border-color: #4CADE6;
+}
+
+.statButton--dark:hover {
+  background: #24292D;
+}
+
+@media (max-width: 1550px) {
+  .headerContainer {
+    outline: 1px solid #86B9D6;
+  }
+
+  .headerContainer--dark {
+    outline: 1px solid #5F7285;
+  }
+}
+
+@media (max-width: 686px) {
+  .testnetDisclaimerText {
+    font-size: 12px !important;
+    line-height: 22px !important;
+  }
+}
+
+@media (max-width: 670px) {
+  .testnetDisclaimer {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .testnetDisclaimer {
+    display: none;
+  }
+
+  .logoContainer {
+    margin-left: 20px;
+  }
+
+  .userBlock {
+    margin-right: 10px;
+  }
+
+  .notificationsButton {
+    margin-left: 0 !important;
+  }
+
+  .headBalanceTxt {
+    padding-right: 10px !important;
+    max-width: 70px;
+    font-size: 8px !important;
+    text-align: left !important;
+    white-space: pre-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .headSwitchBtnText {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 440px) {
+  .logoContainer {
+    margin-left: 10px;
+  }
+
+  .accountButtonContainer {
+    margin-left: 5px;
+  }
+
+  .headBtnTxt {
+    font-size: 10px !important;
+  }
+
+  .statButton {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 380px) {
+  .logoContainer {
+    display: none;
+  }
+
+  .userBlock {
+    width: 100%;
+    justify-content: center;
+  }
+}

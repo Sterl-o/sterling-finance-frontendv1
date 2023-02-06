@@ -1,0 +1,189 @@
+.dialogContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: auto;
+  min-height: auto;
+  padding: 50px 0;
+}
+
+.dialogWrapper {
+  z-index: 10030 !important;
+  position: fixed !important;
+}
+
+.paperBody--dark,
+.paperBody--light {
+  background: rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.warningContainer {
+  position: relative;
+  padding: 10px 40px 40px;
+  width: 705px;
+}
+
+.warningContainer--light {
+  background: #DBE6EC;
+  border: 1px solid #86B9D6;
+}
+
+.warningContainer--dark {
+  background: #151718;
+  border: 1px solid #5F7285;
+}
+
+.warningIcon {
+  width: 70px;
+  height: 70px;
+}
+
+.title1 {
+  margin-left: 20px !important;
+  font-weight: 500 !important;
+  font-size: 24px !important;
+  line-height: 120% !important;
+  color: #0A2C40 !important;
+}
+
+.title1--dark {
+  color: #ffffff !important;
+}
+
+.title2 {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  font-family: 'PPNeueMachina', serif !important;
+  font-weight: 800 !important;
+  font-size: 40px !important;
+  line-height: 120% !important;
+  color: #0B5E8E !important;
+}
+
+.title2--dark {
+  color: #4CADE6 !important;
+}
+
+.paragraph {
+  text-align: left !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 120% !important;
+  color: #5688A5 !important;
+}
+
+.paragraph1 {
+  font-weight: 400 !important;
+  font-size: 18 !important;
+}
+
+.paragraph--dark {
+  color: #7C838A !important;
+}
+
+.buttonsContainer {
+  margin-top: 30px;
+}
+
+.primaryButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 625px;
+  height: 65px;
+  margin-bottom: 20px !important;
+  background-image: url("/images/ui/warning-btn-success--light.svg");
+  cursor: pointer;
+}
+
+.primaryButton--dark {
+  background-image: url("/images/ui/warning-btn-success--dark.svg");
+}
+
+.secondaryButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 625px;
+  height: 65px;
+  background-image: url("/images/ui/warning-btn-more--light.svg");
+  cursor: pointer;
+}
+
+.secondaryButton--dark {
+  background-image: url("/images/ui/warning-btn-more--dark.svg");
+}
+
+.buttonTextPrimary {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 120% !important;
+  text-align: center !important;
+  color: #8F5AE8 !important;
+}
+
+.buttonTextSecondary {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 120% !important;
+  text-align: center !important;
+  color: #5688A5 !important;
+}
+
+.buttonTextSecondary--dark {
+  color: #7C838A !important;
+}
+
+@media (max-width: 720px) {
+  .dialogContainer {
+    min-width: auto;
+    min-height: auto;
+    padding: 50px 0;
+  }
+
+  .warningContainer {
+    width: 90%;
+    padding: 10px 20px 20px;
+  }
+
+  .warningIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .title1,
+  .title2 {
+    font-size: 18px !important;
+  }
+
+  .paragraph {
+    font-size: 12px !important;
+  }
+
+  .paragraph1 {
+    font-size: 14px !important;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .primaryButton {
+    border-right: 1px solid #8F5AE8;
+  }
+
+  .primaryButton--dark {
+    border-right: 1px solid #7F828B;
+  }
+
+  .secondaryButton {
+    border-right: 1px solid #5688A5;
+  }
+
+  .secondaryButton--dark {
+    border-right: 1px solid #7C838A;
+  }
+}
