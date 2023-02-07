@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "export": "next --openssl-legacy-provider export",
+    "build": "next --openssl-legacy-provider build",
+    "export": "next export",
     "build2": "next build && next export",
     "start": "next start"
   },
