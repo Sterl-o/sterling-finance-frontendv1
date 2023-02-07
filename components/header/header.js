@@ -537,27 +537,11 @@ function Header(props) {
               </StyledBadge>
             </IconButton>
           )}
-        </div>
         {unlockOpen && (
           <Unlock modalOpen={unlockOpen} closeModal={closeUnlock} />
         )}
         <TransactionQueue setQueueLength={setQueueLength} />
       </div>
-
-      {warningOpen && (
-        <SSWarning
-          close={switchChain}
-          title={"Wrong Network:"}
-          subTitle={"The chain you are connected is not supported!"}
-          icon={"icon-network"}
-          description={
-            "Please check that your wallet is connected to Polygon Mainnet, only after you can proceed."
-          }
-          btnLabel1={"Switch to Polygon Mainnet"}
-          btnLabel2={"Switch Wallet Provider"}
-          action2={onAddressClicked}
-        />
-      )}
     </TopHeader>
   );
 }
