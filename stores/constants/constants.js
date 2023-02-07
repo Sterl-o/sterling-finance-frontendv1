@@ -44,34 +44,10 @@ export const BASE_ASSETS_WHITELIST = [
     symbol: "WETH",
   },
   {
-    id: "0x13748d548d95d78a3c83fe3f32604b4796cffa23",
-    address: "0x13748d548d95d78a3c83fe3f32604b4796cffa23",
-    chainId: "42161",
-    symbol: "KOGECOIN",
-  },
-  {
-    id: "0x62f594339830b90ae4c084ae7d223ffafd9658a7",
-    address: "0x62f594339830b90ae4c084ae7d223ffafd9658a7",
-    chainId: "42161",
-    symbol: "SPHERE",
-  },
-  {
     id: "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
     address: "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
     chainId: "42161",
     symbol: "WBTC",
-  },
-  {
-    id: "0x236eec6359fb44cce8f97e99387aa7f8cd5cde1f",
-    address: "0x236eec6359fb44cce8f97e99387aa7f8cd5cde1f",
-    chainId: "42161",
-    symbol: "USD+",
-  },
-  {
-    id: "0x255707b70bf90aa112006e1b07b9aea6de021424",
-    address: "0x255707b70bf90aa112006e1b07b9aea6de021424",
-    chainId: "42161",
-    symbol: "TETU",
   },
   {
     id: "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
@@ -84,18 +60,6 @@ export const BASE_ASSETS_WHITELIST = [
     address: "0xfA157458912D54492df38448c613375C772F2b08",
     chainId: "42161",
     symbol: "STERLING",
-  },
-  {
-    id: "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
-    address: "0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4",
-    chainId: "42161",
-    symbol: "stETH",
-  },
-  {
-    id: "0x3e121107f6f22da4911079845a470757af4e1a1b",
-    address: "0x3e121107f6f22da4911079845a470757af4e1a1b",
-    chainId: "42161",
-    symbol: "FXS",
   },
   {
     id: "0x1a3acf6d19267e2d3e7f898f42803e90c9219062",
