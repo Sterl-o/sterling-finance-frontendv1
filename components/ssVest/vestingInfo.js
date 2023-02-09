@@ -197,20 +197,11 @@ export default function VestingInfo({
       )}
       {showVestingStructure && (
         <div className={classes.seccondSection}>
-          {/* 
-          <Typography className={[classes.info, classes[`info--${appTheme}`]].join(' ')} color="textSecondary">
-            1 {govToken?.symbol} locked for 4 years = 1.00 {veToken?.symbol}
-          </Typography>
-          <Typography className={[classes.info, classes[`info--${appTheme}`]].join(' ')} color="textSecondary">
-            1 {govToken?.symbol} locked for 3 years = 0.75 {veToken?.symbol}</Typography>
-          <Typography className={[classes.info, classes[`info--${appTheme}`]].join(' ')} color="textSecondary">
-            1 {govToken?.symbol} locked for 2 years = 0.50 {veToken?.symbol}</Typography>
-          */}
           <Typography
             className={[classes.info, classes[`info--${appTheme}`]].join(" ")}
             color="textSecondary"
           >
-            1 {govToken?.symbol} locked for 1 years = 0.25 {veToken?.symbol}
+            1 {govToken?.symbol} locked for 2 weeks = 0.25 {veToken?.symbol}
           </Typography>
         </div>
       )}

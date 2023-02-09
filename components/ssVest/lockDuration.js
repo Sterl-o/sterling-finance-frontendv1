@@ -68,17 +68,17 @@ export default function ffLockDuration({nft, updateLockDuration}) {
 
     let days = 0;
     switch (value) {
-      case 'week':
-        days = 8;
+      case 'two_weeks':
+        days = 14;
         break;
-      case 'month':
-        days = 30;
+      case 'four_weeks':
+        days = 28;
         break;
-      case 'year':
-        days = 365;
+      case 'six_weeks':
+        days = 42;
         break;
-      case 'years':
-        days = 1461;
+      case 'eight_weeks':
+        days = 56;
         break;
       default:
     }
@@ -162,27 +162,27 @@ export default function ffLockDuration({nft, updateLockDuration}) {
       <div
         className={[classes.vestPeriodToggle, 'g-flex', 'g-flex--align-center', 'g-flex--space-between'].join(' ')}>
         <div
-          className={[classes.vestPeriodLabel, classes[`vestPeriodLabel--${selectedValue === 'week' ? 'checked' : ''}`]].join(' ')}
-          onClick={() => handleChange('week')}>
-          1 week
+          className={[classes.vestPeriodLabel, classes[`vestPeriodLabel--${selectedValue === 'two_weeks' ? 'checked' : ''}`]].join(' ')}
+          onClick={() => handleChange('two_weeks')}>
+          2 weeks
         </div>
 
         <div
-          className={[classes.vestPeriodLabel, classes[`vestPeriodLabel--${selectedValue === 'month' ? 'checked' : ''}`]].join(' ')}
-          onClick={() => handleChange('month')}>
-          1 month
+          className={[classes.vestPeriodLabel, classes[`vestPeriodLabel--${selectedValue === 'four_weeks' ? 'checked' : ''}`]].join(' ')}
+          onClick={() => handleChange('four_weeks')}>
+          4 weeks
         </div>
 
         <div
-          className={[classes.vestPeriodLabel, classes[`vestPeriodLabel--${selectedValue === 'year' ? 'checked' : ''}`]].join(' ')}
-          onClick={() => handleChange('year')}>
-          1 year
+          className={[classes.vestPeriodLabel, classes[`vestPeriodLabel--${selectedValue === 'six_weeks' ? 'checked' : ''}`]].join(' ')}
+          onClick={() => handleChange('six_weeks')}>
+          6 weeks
         </div>
 
         <div
-          className={[classes.vestPeriodLabel, classes[`vestPeriodLabel--${selectedValue === 'years' ? 'checked' : ''}`]].join(' ')}
-          onClick={() => handleChange('years')}>
-          4 years
+          className={[classes.vestPeriodLabel, classes[`vestPeriodLabel--${selectedValue === 'eight_weeks' ? 'checked' : ''}`]].join(' ')}
+          onClick={() => handleChange('eight_weeks')}>
+          8 weeks
         </div>
       </div>
 
