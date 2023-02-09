@@ -12,11 +12,11 @@ import classes from './home.module.css'
 import {useRouter} from "next/router";
 
 const socialLinks = {
-    twitter: 'https://twitter.com/sterlingswap',
-    discord: 'https://t.co/dFsniy2Ktq',
-    telegram: 'https://t.co/gkg3Ba1nmm',
-    gitbook: 'https://sterling-1.gitbook.io/sterling-1/',
-    medium: 'https://medium.com/@SterlingSwap',
+    twitter: 'https://twitter.com/sterling_fi?s=21&t=z162jS3pcVpz50VAhFhUAw',
+    discord: 'https://discord.gg/pstpQaR93t',
+    // telegram: 'https://t.co/gkg3Ba1nmm',
+    gitbook: 'https://sterling-finance.gitbook.io/',
+    // medium: 'https://medium.com/@SterlingSwap',
 }
 
 const HomePage = () => {
