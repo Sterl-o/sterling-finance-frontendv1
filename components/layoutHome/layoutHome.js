@@ -49,7 +49,7 @@ export default function Layout({
           as="font"
           crossOrigin=""
         />
-        <meta name="description" content="Sterling allows low cost, near 0 slippage trades on uncorrelated or tightly correlated assets built on Polygon." />
+        <meta name="description" content="Sterling allows low cost, near 0 slippage trades on uncorrelated or tightly correlated assets built on Arbitrum." />
         <meta name="og:title" content="Sterling" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
