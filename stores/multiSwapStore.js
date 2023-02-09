@@ -336,7 +336,9 @@ class MultiSwapStore {
     }
 
     get isMultiswapInclude() {
-        return !(MULTISWAP_INCLUDE.includes(this.tokenIn?.toLowerCase()) || MULTISWAP_INCLUDE.includes(this.tokenOut?.toLowerCase()))
+        // Sterling Desactivate Multiswaps
+        // return !(MULTISWAP_INCLUDE.includes(this.tokenIn?.toLowerCase()) || MULTISWAP_INCLUDE.includes(this.tokenOut?.toLowerCase()))
+        return false
     }
 
     async _swapQuery() {
