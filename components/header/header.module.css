@@ -78,7 +78,7 @@
 }
 
 .walletPoint--dark {
-  background: #4CADE6;
+  background: #e64c4c;
 }
 
 .version {
@@ -186,7 +186,7 @@
 }
 
 .accountButton--dark {
-  border-color: #4CADE6 !important;
+  border-color: #e64c4c !important;
 }
 
 .accountButton--dark:hover .accountButtonAddress {
@@ -198,7 +198,7 @@
 }
 
 .accountButton--dark:active .headBalanceTxt {
-  color: #4CADE6 !important;
+  color: #e64c4c !important;
 }
 
 .accountButtonConnect--light {
@@ -211,7 +211,7 @@
 
 .accountButtonConnect--dark {
   background: #2D3741 !important;
-  border: 1px solid #4CADE6 !important;
+  border: 1px solid #e64c4c !important;
 }
 
 .accountButtonConnect--dark:hover {
@@ -232,7 +232,7 @@
 
 .accountButtonAddress--dark {
   background-color: #2D3741 !important;
-  outline-color: #4CADE6 !important;
+  outline-color: #e64c4c !important;
 }
 
 .headBalanceTxt {
@@ -265,7 +265,7 @@
 }
 
 .headSwitchBtn--dark {
-  background: #4CADE6;
+  background: #e64c4c;
 }
 
 .headSwitchBtnText {
@@ -509,7 +509,7 @@
 
 .statButton--dark {
   background: #151718;
-  border-color: #4CADE6;
+  border-color: #e64c4c;
 }
 
 .statButton--dark:hover {

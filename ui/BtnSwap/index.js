@@ -17,7 +17,7 @@ const BtnSwap = (props) => {
     isDisabled ? "#D4D5DB" : "#D2D0F2",
   );
   const [borderColorDark, setBorderColorDark] = useState(
-    isDisabled ? "#494B51" : "#33284C",
+    isDisabled ? "#494B51" : "#4c2828",
   );
 
   window.addEventListener("resize", () => {
@@ -45,7 +45,7 @@ const BtnSwap = (props) => {
     setBorderColorLight("#D2D0F2");
 
     setBgColorDark("#e85a5a");
-    setBorderColorDark("#33284C");
+    setBorderColorDark("#4c2828");
   };
 
   const mouseDown = () => {
@@ -68,7 +68,7 @@ const BtnSwap = (props) => {
       setBorderColorLight(isDisabled ? "#D4D5DB" : "#D2D0F2");
 
       setBgColorDark(isDisabled ? "#7F828B" : "#e85a5a");
-      setBorderColorDark(isDisabled ? "#494B51" : "#33284C");
+      setBorderColorDark(isDisabled ? "#494B51" : "#4c2828");
     }
     return (
       <></>

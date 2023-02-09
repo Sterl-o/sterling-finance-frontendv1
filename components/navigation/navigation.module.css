@@ -419,14 +419,14 @@ a.linkz {
 .nav-button--dark:hover {
   background: #24292D !important;
   color: #ffffff !important;
-  border: 1px solid #4CADE6 !important;
+  border: 1px solid #e64c4c !important;
   z-index: 9;
 }
 
 .nav-button--dark:active {
   background: #2D3741 !important;
   color: #ffffff !important;
-  border: 1px solid #4CADE6 !important;
+  border: 1px solid #e64c4c !important;
   z-index: 9;
 }
 

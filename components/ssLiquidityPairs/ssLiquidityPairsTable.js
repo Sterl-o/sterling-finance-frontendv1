@@ -660,14 +660,14 @@ const useStyles = makeStyles({
     },
   },
   "filterButton--dark": {
-    background: "#4CADE6",
+    background: "#e64c4c",
     color: "#0A2C40",
     "&:hover": {
       background: "#5F7285",
     },
     "&:active": {
       background: "#5F7285",
-      border: "1px solid #4CADE6",
+      border: "1px solid #e64c4c",
     },
   },
   searchButton: {
@@ -688,14 +688,14 @@ const useStyles = makeStyles({
     },
   },
   "searchButton--dark": {
-    background: "#4CADE6",
+    background: "#e64c4c",
     color: "#0A2C40",
     "&:hover": {
       background: "#5F7285",
     },
     "&:active": {
       background: "#5F7285",
-      border: "1px solid #4CADE6",
+      border: "1px solid #e64c4c",
     },
   },
   filterContainer: {
@@ -711,7 +711,7 @@ const useStyles = makeStyles({
   },
   "filterContainer--dark": {
     background: "#151718",
-    border: "1px solid #4CADE6",
+    border: "1px solid #e64c4c",
   },
   alignContentRight: {
     textAlign: "right",
@@ -749,10 +749,10 @@ const useStyles = makeStyles({
   "filterItem--dark": {
     borderColor: "#5F7285",
     "&:not(:last-child)::before": {
-      backgroundColor: "#4CADE6",
+      backgroundColor: "#e64c4c",
     },
     "&:not(:last-child)::after": {
-      backgroundColor: "#4CADE6",
+      backgroundColor: "#e64c4c",
     },
   },
   filterLabel: {
@@ -853,7 +853,7 @@ const useStyles = makeStyles({
     background: "#D2D0F2",
   },
   "actionButtonText--dark": {
-    background: "#33284C",
+    background: "#4c2828",
   },
   table: {
     tableLayout: "auto",
@@ -1103,7 +1103,7 @@ const EnhancedTableToolbar = (props) => {
                     style={{
                       width: 20,
                       height: 20,
-                      color: appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                      color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                     }}
                   />
                 </InputAdornment>
@@ -1151,7 +1151,7 @@ const EnhancedTableToolbar = (props) => {
               style={{
                 fontSize: "inherit",
                 fontWeight: 500,
-                color: appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                 whiteSpace: "nowrap",
                 paddingRight: 4,
               }}
@@ -3102,7 +3102,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                             fontWeight: 500,
                             fontSize: 12,
                             lineHeight: "120%",
-                            color: appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                            color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                           }}
                           noWrap
                         >
@@ -3113,7 +3113,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                           <ExpandMore
                             style={{
                               color:
-                                appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                                appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                             }}
                           />
                         )}
@@ -3122,7 +3122,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                           <ExpandLess
                             style={{
                               color:
-                                appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                                appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                             }}
                           />
                         )}

@@ -133,7 +133,7 @@ input[type=number].massiveInputAmount {
 
 .searchInput--dark:active {
   background: #24292D !important;
-  border: 1px solid #4CADE6 !important;
+  border: 1px solid #e64c4c !important;
 }
 
 .searchInput:focus {
@@ -630,7 +630,7 @@ input[type=number].massiveInputAmount {
 }
 
 .displayDualIconContainer--dark:hover {
-  fill: #4CADE6;
+  fill: #e64c4c;
 }
 
 .displayDualIconContainer--dark:active {
@@ -1059,7 +1059,7 @@ input[type=number].massiveInputAmount {
 }
 
 .manageLocalBtn--dark {
-  color: #4CADE6 !important;
+  color: #e64c4c !important;
 }
 
 .assetSelectActions {

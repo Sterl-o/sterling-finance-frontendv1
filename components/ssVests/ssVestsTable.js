@@ -490,7 +490,7 @@ const useStyles = makeStyles((theme) => ({
     background: '#D2D0F2',
   },
   'actionButtonText--dark': {
-    background: '#33284C',
+    background: '#4c2828',
   },
   accordionSummaryContent: {
     margin: 0,
@@ -1130,7 +1130,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                             fontWeight: 500,
                             fontSize: 12,
                             lineHeight: '120%',
-                            color: appTheme === 'dark' ? '#4CADE6' : '#0B5E8E',
+                            color: appTheme === 'dark' ? '#e64c4c' : '#0B5E8E',
                           }}
                           noWrap>
                           {expanded !== labelId ? 'Show' : 'Hide'} Details
@@ -1139,14 +1139,14 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                         {expanded !== labelId &&
                           <ExpandMore
                             style={{
-                              color: appTheme === 'dark' ? '#4CADE6' : '#0B5E8E',
+                              color: appTheme === 'dark' ? '#e64c4c' : '#0B5E8E',
                             }}/>
                         }
 
                         {expanded === labelId &&
                           <ExpandLess
                             style={{
-                              color: appTheme === 'dark' ? '#4CADE6' : '#0B5E8E',
+                              color: appTheme === 'dark' ? '#e64c4c' : '#0B5E8E',
                             }}/>
                         }
                       </div>

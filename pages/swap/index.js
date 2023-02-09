@@ -51,7 +51,7 @@ function Swap({ changeTheme }) {
 
   const [isHoverState, setIsHoverState] = useState(false);
   const [isClickState, setIsClickState] = useState(false);
-  const [btnColor, setBtnColor] = useState(appTheme === 'dark' ? '#33284C' : '#D2D0F2');
+  const [btnColor, setBtnColor] = useState(appTheme === 'dark' ? '#4c2828' : '#D2D0F2');
 
   const btnDefaultColor = () => {
     setIsHoverState(false);
@@ -69,7 +69,7 @@ function Swap({ changeTheme }) {
   const getBtnColor = () => {
     switch (appTheme) {
       case 'dark':
-        return isClickState ? '#523880' : (isHoverState ? '#402E61' : '#33284C');
+        return isClickState ? '#523880' : (isHoverState ? '#402E61' : '#4c2828');
       case 'light':
       default:
         return isClickState ? '#B9A4EE' : (isHoverState ? '#C6BAF0' : '#D2D0F2');

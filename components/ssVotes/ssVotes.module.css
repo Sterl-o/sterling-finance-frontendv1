@@ -237,7 +237,7 @@
 }
 
 .actionButtonText--dark {
-  background: #33284C;
+  background: #4c2828;
 }
 
 .searchButton {
@@ -262,7 +262,7 @@
 }
 
 .searchButton--dark {
-  background: #4CADE6 !important;
+  background: #e64c4c !important;
   color: #0A2C40 !important;
 }
 
@@ -272,7 +272,7 @@
 
 .searchButton--dark:active {
   background: #5F7285;
-  border: 1px solid #4CADE6;
+  border: 1px solid #e64c4c;
 }
 
 @media (max-width: 1360px) {

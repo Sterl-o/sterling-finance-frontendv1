@@ -298,7 +298,7 @@ input[type=number].massiveInputAmount {
 .networkButtonCornerLB--dark,
 .networkButtonCornerRT--dark,
 .networkButtonCornerRB--dark {
-  border: 1px solid #4CADE6;
+  border: 1px solid #e64c4c;
 }
 
 .networkButtonCornerLT {
@@ -498,7 +498,7 @@ input[type=number].massiveInputAmount {
 }
 
 .routeArrow--dark {
-  color: #4CADE6 !important;
+  color: #e64c4c !important;
 }
 
 .routeLinesLeftText,
@@ -521,7 +521,7 @@ input[type=number].massiveInputAmount {
 .routeLinesLeftText--dark,
 .routeLinesRightText--dark {
   background: var(--background-dark);
-  color: #4CADE6;
+  color: #e64c4c;
 }
 
 .routeLinesLeft,

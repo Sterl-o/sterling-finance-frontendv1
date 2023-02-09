@@ -26,7 +26,7 @@ const HomePage = () => {
   const [isHoverState, setIsHoverState] = useState(false);
   const [isClickState, setIsClickState] = useState(false);
   const [btnColor, setBtnColor] = useState(
-    appTheme === "dark" ? "#33284C" : "#D2D0F2"
+    appTheme === "dark" ? "#4c2828" : "#D2D0F2"
   );
   const layoutRef = useRef(null);
   const pageRef = useRef(null);
@@ -47,7 +47,7 @@ const HomePage = () => {
   const getBtnColor = () => {
     switch (appTheme) {
       case "dark":
-        return isClickState ? "#523880" : isHoverState ? "#402E61" : "#33284C";
+        return isClickState ? "#523880" : isHoverState ? "#402E61" : "#4c2828";
       case "light":
       default:
         return isClickState ? "#B9A4EE" : isHoverState ? "#C6BAF0" : "#D2D0F2";
@@ -221,7 +221,7 @@ const HomePage = () => {
         </div>
         <div className={classes.layoutDescription} ref={layoutRef}>
           <div className={classes.layoutDescriptionLogo}>
-            <img src="/images/logo.png" height="60px" />
+            <img src="/images/logo.png" height="120px" />
           </div>
           <div className={classes.layoutDescriptionText}>
             <p>

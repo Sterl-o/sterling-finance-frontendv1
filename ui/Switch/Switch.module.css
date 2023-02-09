@@ -62,11 +62,11 @@
 .switch--active .toggle--dark,
 .switch--active:hover .toggle--dark {
   transform: translateX(24px);
-  background: #4CADE6;
+  background: #e64c4c;
 }
 
 .switch--active .track--dark,
 .switch--active:hover .track--dark {
   background: #24292D;
-  border: 1px solid #4CADE6;
+  border: 1px solid #e64c4c;
 }

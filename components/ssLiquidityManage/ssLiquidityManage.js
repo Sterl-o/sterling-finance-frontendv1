@@ -1082,7 +1082,7 @@ export default function ssLiquidityManage() {
                     fontWeight: 500,
                     fontSize: 14,
                     lineHeight: "120%",
-                    color: appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                    color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                   }}
                   onClick={() => setAmountPercent(assetValue, type)}
                 >
@@ -1099,7 +1099,7 @@ export default function ssLiquidityManage() {
                     fontWeight: 500,
                     fontSize: 14,
                     lineHeight: "120%",
-                    color: appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                    color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                   }}
                   onClick={() => setAmountPercent(assetValue, "stake")}
                 >
@@ -1424,7 +1424,7 @@ export default function ssLiquidityManage() {
             <path
               d="M0.5 10C0.5 4.7533 4.7533 0.5 10 0.5C15.2467 0.5 19.5 4.7533 19.5 10C19.5 15.2467 15.2467 19.5 10 19.5C4.7533 19.5 0.5 15.2467 0.5 10Z"
               fill={appTheme === "dark" ? "#151718" : "#DBE6EC"}
-              stroke={appTheme === "dark" ? "#4CADE6" : "#0B5E8E"}
+              stroke={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
             />
           </svg>
         )}
@@ -1440,11 +1440,11 @@ export default function ssLiquidityManage() {
             <path
               d="M0.5 10C0.5 4.7533 4.7533 0.5 10 0.5C15.2467 0.5 19.5 4.7533 19.5 10C19.5 15.2467 15.2467 19.5 10 19.5C4.7533 19.5 0.5 15.2467 0.5 10Z"
               fill={appTheme === "dark" ? "#151718" : "#DBE6EC"}
-              stroke={appTheme === "dark" ? "#4CADE6" : "#0B5E8E"}
+              stroke={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
             />
             <path
               d="M5 10C5 7.23858 7.23858 5 10 5C12.7614 5 15 7.23858 15 10C15 12.7614 12.7614 15 10 15C7.23858 15 5 12.7614 5 10Z"
-              fill={appTheme === "dark" ? "#4CADE6" : "#0B5E8E"}
+              fill={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
             />
           </svg>
         )}
@@ -2037,7 +2037,7 @@ export default function ssLiquidityManage() {
               <path
                 d="M0.5 10C0.5 4.7533 4.7533 0.5 10 0.5C15.2467 0.5 19.5 4.7533 19.5 10C19.5 15.2467 15.2467 19.5 10 19.5C4.7533 19.5 0.5 15.2467 0.5 10Z"
                 fill={appTheme === "dark" ? "#151718" : "#DBE6EC"}
-                stroke={appTheme === "dark" ? "#4CADE6" : "#0B5E8E"}
+                stroke={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
               />
             </svg>
           )}
@@ -2053,11 +2053,11 @@ export default function ssLiquidityManage() {
               <path
                 d="M0.5 10C0.5 4.7533 4.7533 0.5 10 0.5C15.2467 0.5 19.5 4.7533 19.5 10C19.5 15.2467 15.2467 19.5 10 19.5C4.7533 19.5 0.5 15.2467 0.5 10Z"
                 fill={appTheme === "dark" ? "#151718" : "#DBE6EC"}
-                stroke={appTheme === "dark" ? "#4CADE6" : "#0B5E8E"}
+                stroke={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
               />
               <path
                 d="M5 10C5 7.23858 7.23858 5 10 5C12.7614 5 15 7.23858 15 10C15 12.7614 12.7614 15 10 15C7.23858 15 5 12.7614 5 10Z"
-                fill={appTheme === "dark" ? "#4CADE6" : "#0B5E8E"}
+                fill={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
               />
             </svg>
           )}
@@ -2093,7 +2093,7 @@ export default function ssLiquidityManage() {
               <path
                 d="M0.5 10C0.5 4.7533 4.7533 0.5 10 0.5C15.2467 0.5 19.5 4.7533 19.5 10C19.5 15.2467 15.2467 19.5 10 19.5C4.7533 19.5 0.5 15.2467 0.5 10Z"
                 fill={appTheme === "dark" ? "#151718" : "#DBE6EC"}
-                stroke={appTheme === "dark" ? "#4CADE6" : "#0B5E8E"}
+                stroke={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
               />
             </svg>
           )}
@@ -2109,11 +2109,11 @@ export default function ssLiquidityManage() {
               <path
                 d="M0.5 10C0.5 4.7533 4.7533 0.5 10 0.5C15.2467 0.5 19.5 4.7533 19.5 10C19.5 15.2467 15.2467 19.5 10 19.5C4.7533 19.5 0.5 15.2467 0.5 10Z"
                 fill={appTheme === "dark" ? "#151718" : "#DBE6EC"}
-                stroke={appTheme === "dark" ? "#4CADE6" : "#0B5E8E"}
+                stroke={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
               />
               <path
                 d="M5 10C5 7.23858 7.23858 5 10 5C12.7614 5 15 7.23858 15 10C15 12.7614 12.7614 15 10 15C7.23858 15 5 12.7614 5 10Z"
-                fill={appTheme === "dark" ? "#4CADE6" : "#0B5E8E"}
+                fill={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
               />
             </svg>
           )}

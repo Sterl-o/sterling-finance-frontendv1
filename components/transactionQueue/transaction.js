@@ -238,7 +238,7 @@ export default function Transaction({ transaction }) {
                 fontWeight: 500,
                 fontSize: 12,
                 lineHeight: "120%",
-                color: appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                 cursor: "pointer",
               }}
               onClick={onViewTX}

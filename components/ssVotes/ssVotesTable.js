@@ -46,7 +46,7 @@ import {TableBodyPlaceholder} from "../table";
 
 const CustomSlider = styled(Slider)(({ theme, appTheme, disabled }) => {
   const MuiSliderthumb = {
-    backgroundColor: appTheme === "dark" ? "#4CADE6" : "#bb4f4f",
+    backgroundColor: appTheme === "dark" ? "#e64c4c" : "#bb4f4f",
   };
 
   const MuiSliderTrack = {
@@ -1673,7 +1673,7 @@ export default function EnhancedTable({
                                 fontSize: 12,
                                 lineHeight: "120%",
                                 color:
-                                  appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                                  appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                               }}
                               noWrap
                             >
@@ -1684,7 +1684,7 @@ export default function EnhancedTable({
                               <ExpandMore
                                 style={{
                                   color:
-                                    appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                                 }}
                               />
                             )}
@@ -1693,7 +1693,7 @@ export default function EnhancedTable({
                               <ExpandLess
                                 style={{
                                   color:
-                                    appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                                 }}
                               />
                             )}

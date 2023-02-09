@@ -89,7 +89,7 @@
 
 .searchInput--dark:active {
   background: #24292D !important;
-  border: 1px solid #4CADE6 !important;
+  border: 1px solid #e64c4c !important;
 }
 
 .searchInput:focus {
@@ -320,7 +320,7 @@
 
 .dividerLine--dark::before,
 .dividerLine--dark::after {
-  background: #4CADE6;
+  background: #e64c4c;
 }
 
 .paperScrollPaper {
@@ -411,7 +411,7 @@
 }
 
 .buttonOverride--dark {
-  background: #33284C !important;
+  background: #4c2828 !important;
   border: 1px solid #e85a5a !important;
   color: #e85a5a !important;
 }
@@ -630,7 +630,7 @@
 }
 
 .balanceMax--dark {
-  color: #4CADE6;
+  color: #e64c4c;
 }
 
 .liqBody {
@@ -930,7 +930,7 @@
 }
 
 .toggleOption--dark .toggleOptionText {
-  color: #4CADE6;
+  color: #e64c4c;
 }
 
 .toggleOption--dark.active .toggleOptionText {
@@ -1518,7 +1518,7 @@
 }
 
 .manageLocalBtn--dark {
-  color: #4CADE6 !important;
+  color: #e64c4c !important;
 }
 
 .buttonOverrideContainer--dark {
@@ -1551,7 +1551,7 @@
 
 .selecticonIcon--dark {
   border-left: 1px solid #5F7285;
-  color: #4CADE6 !important;
+  color: #e64c4c !important;
 }
 
 .pairDetails {

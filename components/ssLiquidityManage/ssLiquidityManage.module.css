@@ -347,7 +347,7 @@ input[type=number].mediumInputAmount {
 }
 
 .slippageIcon--dark {
-  fill: #4CADE6;
+  fill: #e64c4c;
 }
 
 .popoverPaper {
@@ -597,7 +597,7 @@ input[type=number].mediumInputAmount {
 }
 
 .swapIconContainerIcon--dark {
-  fill: #4CADE6;
+  fill: #e64c4c;
 }
 
 .swapIconContainer--dark .swapIconContainerInside {
@@ -615,12 +615,12 @@ input[type=number].mediumInputAmount {
 
 .swapIconContainer--dark:hover .swapIconContainerInside {
   background: #2D3741;
-  border: 1px solid #4CADE6;
+  border: 1px solid #e64c4c;
 }
 
 .swapIconContainer--dark:active .swapIconContainerInside {
   background: #5F7285;
-  border: 1px solid #4CADE6;
+  border: 1px solid #e64c4c;
 }
 
 .swapIconContainerWithdraw {
@@ -703,7 +703,7 @@ input[type=number].mediumInputAmount {
 }
 
 .displayDualIconContainer--dark:hover {
-  fill: #4CADE6;
+  fill: #e64c4c;
 }
 
 .displayDualIconContainer--dark:active {
@@ -1065,7 +1065,7 @@ input[type=number].mediumInputAmount {
 }
 
 .controlPopover--dark {
-  color: #4CADE6;
+  color: #e64c4c;
 }
 
 .toggles {
@@ -1128,7 +1128,7 @@ input[type=number].mediumInputAmount {
 }
 
 .toggleOption--dark .toggleOptionText {
-  color: #4CADE6;
+  color: #e64c4c;
 }
 
 .toggleOption--dark.active .toggleOptionText {
@@ -1159,7 +1159,7 @@ input[type=number].mediumInputAmount {
   border: 1px solid #5F7285 !important;
   border-right: none !important;
   border-radius: 0 !important;
-  color: #4CADE6 !important;
+  color: #e64c4c !important;
 }
 
 .tokenSelectInput > .menuOption > .menuOptionSec,
@@ -1496,7 +1496,7 @@ input[type=number].mediumInputAmount {
 }
 
 .buttonOverride--dark {
-  background: #33284C !important;
+  background: #4c2828 !important;
   border: 1px solid #e85a5a !important;
   color: #e85a5a !important;
 }
@@ -1567,7 +1567,7 @@ input[type=number].mediumInputAmount {
 }
 
 .balanceMax--dark {
-  color: #4CADE6;
+  color: #e64c4c;
 }
 
 .liqBody {
@@ -1672,7 +1672,7 @@ input[type=number].mediumInputAmount {
 
 .dividerLine--dark::before,
 .dividerLine--dark::after {
-  background: #4CADE6;
+  background: #e64c4c;
 }
 
 @media (max-width:660px) {

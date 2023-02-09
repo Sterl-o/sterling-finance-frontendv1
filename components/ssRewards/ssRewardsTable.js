@@ -1548,7 +1548,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                   fontSize: 12,
                                   lineHeight: "120%",
                                   color:
-                                    appTheme === "dark" ? "#4CADE6" : "#0B5E8E",
+                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
                                 }}
                                 noWrap
                               >
@@ -1560,7 +1560,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                   style={{
                                     color:
                                       appTheme === "dark"
-                                        ? "#4CADE6"
+                                        ? "#e64c4c"
                                         : "#0B5E8E",
                                   }}
                                 />
@@ -1571,7 +1571,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                   style={{
                                     color:
                                       appTheme === "dark"
-                                        ? "#4CADE6"
+                                        ? "#e64c4c"
                                         : "#0B5E8E",
                                   }}
                                 />

@@ -176,7 +176,7 @@
     /* border: 1px solid #5F7285 !important; */
     border-right: none !important;
     border-radius: 0 !important;
-    color: #4CADE6 !important;
+    color: #e64c4c !important;
   }
   
   .tokenSelectInput > .menuOption > .menuOptionSec,
@@ -233,7 +233,7 @@
   }
   
   .slippageIcon--dark {
-    fill: #4CADE6;
+    fill: #e64c4c;
   }
 
   .slippageIconContainer {

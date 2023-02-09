@@ -16,7 +16,7 @@ const Logo = (props) => {
     <>
       <img
         src='/images/logo.png'
-        height='16.6px'
+        height='50px'
       />
     </>
   );

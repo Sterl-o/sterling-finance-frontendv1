@@ -631,7 +631,7 @@ input[type=number].massiveInputAmount {
 }
 
 .displayDualIconContainer--dark:hover {
-  fill: #4CADE6;
+  fill: #e64c4c;
 }
 
 .displayDualIconContainer--dark:active {
@@ -672,7 +672,7 @@ input[type=number].massiveInputAmount {
 }
 
 .displayAssetIcon--dark {
-  background: #4CADE6;
+  background: #e64c4c;
 }
 
 .displayAssetIconWhite {
@@ -870,7 +870,7 @@ input[type=number].massiveInputAmount {
 }
 
 .vestPeriodLabel--dark.vestPeriodLabel--checked {
-  background: #4CADE6;
+  background: #e64c4c;
 }
 
 .textField {

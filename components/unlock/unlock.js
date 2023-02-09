@@ -325,7 +325,7 @@ function MyComponent(props) {
                       alignItems: "center",
                     }}>
                     {activatingNetwork === name && (
-                      <Loader color={appTheme === 'dark' ? '#4CADE6' : '#0B5E8E'} />
+                      <Loader color={appTheme === 'dark' ? '#e64c4c' : '#0B5E8E'} />
                     )}
 
                     <Typography
@@ -585,7 +585,7 @@ function MyComponent(props) {
 //                       alignItems: "center",
 //                     }}>
 //                     {activatingNetwork === name && (
-//                       <Loader color={appTheme === 'dark' ? '#4CADE6' : '#0B5E8E'} />
+//                       <Loader color={appTheme === 'dark' ? '#e64c4c' : '#0B5E8E'} />
 //                     )}
 
 //                     <Typography
