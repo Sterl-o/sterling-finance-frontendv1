@@ -698,7 +698,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                 fontWeight: 400,
                 fontSize: 14,
                 lineHeight: "120%",
-                color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+                color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
               }}
             >
               {symbol1}
@@ -710,7 +710,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                 fontWeight: 400,
                 fontSize: 14,
                 lineHeight: "120%",
-                color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+                color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
               }}
             >
               {symbol2}
@@ -852,7 +852,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                         color:
                                           appTheme === "dark"
                                             ? "#7C838A"
-                                            : "#5688A5",
+                                            : "#bb4f4f",
                                       }}
                                       noWrap
                                     >
@@ -908,7 +908,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                         color:
                                           appTheme === "dark"
                                             ? "#7C838A"
-                                            : "#5688A5",
+                                            : "#bb4f4f",
                                       }}
                                       noWrap
                                     >
@@ -1084,15 +1084,15 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                 color="primary"
                                 style={{
                                   padding: "7px 14px",
-                                  border: "1px solid #5688A5",
+                                  border: "1px solid #bb4f4f",
                                   borderColor:
-                                    appTheme === "dark" ? "#C6CDD2" : "#5688A5",
+                                    appTheme === "dark" ? "#C6CDD2" : "#bb4f4f",
                                   borderRadius: 100,
                                   fontWeight: 500,
                                   fontSize: 14,
                                   lineHeight: "120%",
                                   color:
-                                    appTheme === "dark" ? "#C6CDD2" : "#5688A5",
+                                    appTheme === "dark" ? "#C6CDD2" : "#bb4f4f",
                                 }}
                                 onClick={() => {
                                   onClaim(row);
@@ -1119,7 +1119,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
               border: "1px solid #86B9D6",
               borderColor: appTheme === "dark" ? "#5F7285" : "#86B9D6",
               borderRadius: 100,
-              color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+              color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
             }}
             ActionsComponent={TablePaginationActions}
             rowsPerPageOptions={[5, 10, 25]}
@@ -1248,7 +1248,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                         color:
                                           appTheme === "dark"
                                             ? "#7C838A"
-                                            : "#5688A5",
+                                            : "#bb4f4f",
                                       }}
                                       noWrap
                                     >
@@ -1304,7 +1304,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                         color:
                                           appTheme === "dark"
                                             ? "#7C838A"
-                                            : "#5688A5",
+                                            : "#bb4f4f",
                                       }}
                                       noWrap
                                     >
@@ -1368,12 +1368,12 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                       border: `1px solid ${
                                         appTheme === "dark"
                                           ? "#C6CDD2"
-                                          : "#5688A5"
+                                          : "#bb4f4f"
                                       }`,
                                       borderColor:
                                         appTheme === "dark"
                                           ? "#C6CDD2"
-                                          : "#5688A5",
+                                          : "#bb4f4f",
                                       borderRadius: 100,
                                       fontWeight: 500,
                                       fontSize: 14,
@@ -1381,7 +1381,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                       color:
                                         appTheme === "dark"
                                           ? "#C6CDD2"
-                                          : "#5688A5",
+                                          : "#bb4f4f",
                                     }}
                                     onClick={(event) => {
                                       event.stopPropagation();
@@ -1484,7 +1484,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                                 color:
                                                   appTheme === "dark"
                                                     ? "#7C838A"
-                                                    : "#5688A5",
+                                                    : "#bb4f4f",
                                               }}
                                             >
                                               {bribe?.token?.symbol}
@@ -1704,7 +1704,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                           color:
                                             appTheme === "dark"
                                               ? "#7C838A"
-                                              : "#5688A5",
+                                              : "#bb4f4f",
                                         }}
                                       >
                                         {formatSymbol(row.token0?.symbol)}
@@ -1719,7 +1719,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                           color:
                                             appTheme === "dark"
                                               ? "#7C838A"
-                                              : "#5688A5",
+                                              : "#bb4f4f",
                                         }}
                                       >
                                         {formatSymbol(row.token1?.symbol)}
@@ -1745,7 +1745,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
               border: "1px solid #86B9D6",
               borderColor: appTheme === "dark" ? "#5F7285" : "#86B9D6",
               borderRadius: 100,
-              color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+              color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
             }}
             ActionsComponent={TablePaginationActions}
             rowsPerPageOptions={[5, 10, 25]}

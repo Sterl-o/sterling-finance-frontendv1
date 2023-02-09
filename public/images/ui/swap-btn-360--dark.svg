@@ -2,9 +2,9 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="swap-btn-360--dark" transform="translate(0.000000, -0.000001)">
             <rect id="Rectangle" fill="#33284C" fill-rule="nonzero" x="0.5" y="0.500001399" width="319" height="49"></rect>
-            <rect id="Rectangle" stroke="#8F5AE8" x="0.5" y="0.500001399" width="319" height="49"></rect>
-            <polygon id="Path" fill="#8F5AE8" fill-rule="nonzero" points="0 16.0000014 16 1.39876e-06 1.39876e-06 1.77635684e-15"></polygon>
-            <polygon id="Path" fill="#8F5AE8" fill-rule="nonzero" points="320 34.0000014 304 50.0000014 320 50.0000014"></polygon>
+            <rect id="Rectangle" stroke="#e85a5a" x="0.5" y="0.500001399" width="319" height="49"></rect>
+            <polygon id="Path" fill="#e85a5a" fill-rule="nonzero" points="0 16.0000014 16 1.39876e-06 1.39876e-06 1.77635684e-15"></polygon>
+            <polygon id="Path" fill="#e85a5a" fill-rule="nonzero" points="320 34.0000014 304 50.0000014 320 50.0000014"></polygon>
         </g>
     </g>
 </svg>

@@ -24,7 +24,7 @@
 .backIcon {
     width: 19px !important;
     height: 19px !important;
-    color: #5688A5 !important;
+    color: #bb4f4f !important;
 }
   
 .backIcon--dark {
@@ -70,7 +70,7 @@
     font-size: 16px !important;
     line-height: 120% !important;
     text-align: center !important;
-    color: #8F5AE8 !important;
+    color: #e85a5a !important;
     box-shadow: none !important;
     border-radius: 0 !important;
 }
@@ -137,7 +137,7 @@
 }
 
 .expiry {
-    color: #5688A5;
+    color: #bb4f4f;
     margin-top: 0;
     margin-bottom: 0;
 }

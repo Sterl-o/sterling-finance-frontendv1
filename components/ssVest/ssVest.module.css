@@ -126,7 +126,7 @@
 }
 
 .smallerTextDate--light {
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .smallerTextDate--dark {
@@ -368,7 +368,7 @@
   font-size: 16px !important;
   line-height: 120% !important;
   text-align: center !important;
-  color: #8F5AE8 !important;
+  color: #e85a5a !important;
   box-shadow: none !important;
   border-radius: 0 !important;
 }
@@ -764,7 +764,7 @@ input[type=number].massiveInputAmount {
 .backIcon {
   width: 19px !important;
   height: 19px !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .backIcon--dark {
@@ -796,7 +796,7 @@ input[type=number].massiveInputAmount {
   font-weight: 500 !important;
   font-size: 20px !important;
   line-height: 120% !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .amount--dark {
@@ -818,7 +818,7 @@ input[type=number].massiveInputAmount {
   font-weight: 500 !important;
   font-size: 12px !important;
   line-height: 120% !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
   margin-top: 15px !important;
 }
 

@@ -8,10 +8,10 @@ const BtnSwap = (props) => {
   const {appTheme} = useAppThemeContext();
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [bgColorLight, setBgColorLight] = useState(
-    isDisabled ? "#A3A9BA" : "#8F5AE8",
+    isDisabled ? "#A3A9BA" : "#e85a5a",
   );
   const [bgColorDark, setBgColorDark] = useState(
-    isDisabled ? "#7F828B" : "#8F5AE8",
+    isDisabled ? "#7F828B" : "#e85a5a",
   );
   const [borderColorLight, setBorderColorLight] = useState(
     isDisabled ? "#D4D5DB" : "#D2D0F2",
@@ -29,10 +29,10 @@ const BtnSwap = (props) => {
       return;
     }
 
-    setBgColorLight("#8F5AE8");
+    setBgColorLight("#e85a5a");
     setBorderColorLight("#C6BAF0");
 
-    setBgColorDark("#8F5AE8");
+    setBgColorDark("#e85a5a");
     setBorderColorDark("#402E61");
   };
 
@@ -41,10 +41,10 @@ const BtnSwap = (props) => {
       return;
     }
 
-    setBgColorLight("#8F5AE8");
+    setBgColorLight("#e85a5a");
     setBorderColorLight("#D2D0F2");
 
-    setBgColorDark("#8F5AE8");
+    setBgColorDark("#e85a5a");
     setBorderColorDark("#33284C");
   };
 
@@ -53,10 +53,10 @@ const BtnSwap = (props) => {
       return;
     }
 
-    setBgColorLight("#8F5AE8");
+    setBgColorLight("#e85a5a");
     setBorderColorLight("#B9A4EE");
 
-    setBgColorDark("#8F5AE8");
+    setBgColorDark("#e85a5a");
     setBorderColorDark("#523880");
   };
 
@@ -64,10 +64,10 @@ const BtnSwap = (props) => {
     if (disabledState !== isDisabled) {
       setDisabledState(isDisabled);
 
-      setBgColorLight(isDisabled ? "#A3A9BA" : "#8F5AE8");
+      setBgColorLight(isDisabled ? "#A3A9BA" : "#e85a5a");
       setBorderColorLight(isDisabled ? "#D4D5DB" : "#D2D0F2");
 
-      setBgColorDark(isDisabled ? "#7F828B" : "#8F5AE8");
+      setBgColorDark(isDisabled ? "#7F828B" : "#e85a5a");
       setBorderColorDark(isDisabled ? "#494B51" : "#33284C");
     }
     return (

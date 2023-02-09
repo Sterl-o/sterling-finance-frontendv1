@@ -276,7 +276,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 140%;
-  color: #5688A5;
+  color: #bb4f4f;
 }
 
 .selectArrow {
@@ -372,28 +372,28 @@
 
 .buttonOverride--light {
   background: #D2D0F2 !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--light::before {
-  border-color: #8F5AE8 transparent transparent transparent;
+  border-color: #e85a5a transparent transparent transparent;
 }
 
 .buttonOverride--light::after {
-  border-color: transparent transparent #8F5AE8 transparent;
+  border-color: transparent transparent #e85a5a transparent;
 }
 
 .buttonOverride--light:not(:disabled):hover {
   background: #C6BAF0 !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--light:not(:disabled):active {
   background: #B9A4EE !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--light:disabled {
@@ -412,28 +412,28 @@
 
 .buttonOverride--dark {
   background: #33284C !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--dark::before {
-  border-color: #8F5AE8 transparent transparent transparent;
+  border-color: #e85a5a transparent transparent transparent;
 }
 
 .buttonOverride--dark::after {
-  border-color: transparent transparent #8F5AE8 transparent;
+  border-color: transparent transparent #e85a5a transparent;
 }
 
 .buttonOverride--dark:not(:disabled):hover {
   background: #402E61 !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--dark:not(:disabled):active {
   background: #523880 !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--dark:disabled {
@@ -765,7 +765,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 120%;
-  color: #5688A5;
+  color: #bb4f4f;
 }
 
 .pairSymbolLabel--dark {
@@ -803,7 +803,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
-  color: #5688A5;
+  color: #bb4f4f;
   background: #DBE6EC;
   border: 1px solid #86B9D6;
 }
@@ -1320,7 +1320,7 @@
 .depositInfoHeading {
   width: 100%;
   font-weight: 700 !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
   padding-bottom: 15px !important;
   border-bottom: 1px solid rgba(126, 153, 176, 0.2);
   font-size: 14px !important;
@@ -1503,7 +1503,7 @@
 }
 
 .buttonOverrideContainer--light {
-  background: #8F5AE8;
+  background: #e85a5a;
   position: relative;
   width: 100%;
   margin-top: 20px;
@@ -1522,7 +1522,7 @@
 }
 
 .buttonOverrideContainer--dark {
-  background: #8F5AE8;
+  background: #e85a5a;
   position: relative;
   width: 100%;
   margin-top: 20px;

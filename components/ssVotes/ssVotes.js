@@ -211,7 +211,7 @@ export default function ssVotes() {
                 style={{
                   fontWeight: 400,
                   fontSize: windowWidth < 660 ? 14 : 18,
-                  color: appTheme === "dark" ? "#ffffff" : "#5688A5",
+                  color: appTheme === "dark" ? "#ffffff" : "#bb4f4f",
                   whiteSpace: "nowrap",
                 }}
               >
@@ -254,7 +254,7 @@ export default function ssVotes() {
                 style={{
                   fontWeight: 700,
                   fontSize: windowWidth < 660 ? 14 : 16,
-                  // color: appTheme === 'dark' ? '#8F5AE8' : '#8F5AE8',
+                  // color: appTheme === 'dark' ? '#e85a5a' : '#e85a5a',
                   whiteSpace: "nowrap",
                 }}
               >
@@ -282,7 +282,7 @@ export default function ssVotes() {
                 style={{
                   fontWeight: 700,
                   fontSize: windowWidth < 660 ? 14 : 16,
-                  // color: appTheme === 'dark' ? '#8F5AE8' : '#8F5AE8',
+                  // color: appTheme === 'dark' ? '#e85a5a' : '#e85a5a',
                   whiteSpace: "nowrap",
                 }}
               >

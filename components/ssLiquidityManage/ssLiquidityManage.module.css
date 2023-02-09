@@ -247,7 +247,7 @@ input[type=number].mediumInputAmount {
   flex: 1;
   transition: none !important;
   opacity: 1;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .button--dark {
@@ -487,7 +487,7 @@ input[type=number].mediumInputAmount {
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
-  color: #5688A5;
+  color: #bb4f4f;
 }
 
 .tokenTextSecond {
@@ -726,7 +726,7 @@ input[type=number].mediumInputAmount {
   font-size: 16px !important;
   line-height: 120% !important;
   text-align: center !important;
-  color: #8F5AE8 !important;
+  color: #e85a5a !important;
   box-shadow: none !important;
   border-radius: 0 !important;
 }
@@ -919,7 +919,7 @@ input[type=number].mediumInputAmount {
   width: 100%;
   margin-top: 20px !important;
   font-weight: 500 !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
   font-size: 14px !important;
 }
 
@@ -972,7 +972,7 @@ input[type=number].mediumInputAmount {
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 120% !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .priceInfo--dark > .title {
@@ -1007,7 +1007,7 @@ input[type=number].mediumInputAmount {
 .backIcon {
   width: 19px !important;
   height: 19px !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .backIcon--dark {
@@ -1031,7 +1031,7 @@ input[type=number].mediumInputAmount {
   font-weight: 400 !important;
   font-size: 18px !important;
   line-height: 120% !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
   margin-right: 5px !important;
 }
 
@@ -1061,7 +1061,7 @@ input[type=number].mediumInputAmount {
   font-weight: 400;
   font-size: 14px;
   line-height: 120%;
-  color: #5688A5;
+  color: #bb4f4f;
 }
 
 .controlPopover--dark {
@@ -1457,28 +1457,28 @@ input[type=number].mediumInputAmount {
 
 .buttonOverride--light {
   background: #D2D0F2 !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--light::before {
-  border-color: #8F5AE8 transparent transparent transparent;
+  border-color: #e85a5a transparent transparent transparent;
 }
 
 .buttonOverride--light::after {
-  border-color: transparent transparent #8F5AE8 transparent;
+  border-color: transparent transparent #e85a5a transparent;
 }
 
 .buttonOverride--light:not(:disabled):hover {
   background: #C6BAF0 !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--light:not(:disabled):active {
   background: #B9A4EE !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--light:disabled {
@@ -1497,28 +1497,28 @@ input[type=number].mediumInputAmount {
 
 .buttonOverride--dark {
   background: #33284C !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--dark::before {
-  border-color: #8F5AE8 transparent transparent transparent;
+  border-color: #e85a5a transparent transparent transparent;
 }
 
 .buttonOverride--dark::after {
-  border-color: transparent transparent #8F5AE8 transparent;
+  border-color: transparent transparent #e85a5a transparent;
 }
 
 .buttonOverride--dark:not(:disabled):hover {
   background: #402E61 !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--dark:not(:disabled):active {
   background: #523880 !important;
-  border: 1px solid #8F5AE8 !important;
-  color: #8F5AE8 !important;
+  border: 1px solid #e85a5a !important;
+  color: #e85a5a !important;
 }
 
 .buttonOverride--dark:disabled {
@@ -1631,7 +1631,7 @@ input[type=number].mediumInputAmount {
   font-weight: 500;
   font-size: 14px;
   line-height: 120%;
-  color: #5688A5;
+  color: #bb4f4f;
 }
 
 .depositSwitcherLabel--dark {

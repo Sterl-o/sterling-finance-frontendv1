@@ -1664,7 +1664,7 @@ function Setup() {
 
                             {(isFetchingApprove || isFetchingSwap) && (
                                 <div className={classes.loader}>
-                                    <Loader color={appTheme === "dark" ? "#8F5AE8" : "#8F5AE8"} />
+                                    <Loader color={appTheme === "dark" ? "#e85a5a" : "#e85a5a"} />
                                 </div>
                             )}
 

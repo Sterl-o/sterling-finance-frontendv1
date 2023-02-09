@@ -2196,7 +2196,7 @@ export default function ssLiquidityManage() {
                           paddingRight: 10,
                           fontWeight: 400,
                           fontSize: 14,
-                          color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+                          color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
                         }}
                       >
                         Select veSTERLING
@@ -2256,7 +2256,7 @@ export default function ssLiquidityManage() {
                       style={{
                         fontWeight: 400,
                         fontSize: 10,
-                        color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+                        color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
                         textAlign: "right",
                       }}
                     >
@@ -2350,7 +2350,7 @@ export default function ssLiquidityManage() {
                         : "#7C838A"
                       : activeTab === "deposit"
                       ? "#0A2C40"
-                      : "#5688A5",
+                      : "#bb4f4f",
                 }}
               >
                 Deposit
@@ -2379,7 +2379,7 @@ export default function ssLiquidityManage() {
                         : "#7C838A"
                       : activeTab === "withdraw"
                       ? "#0A2C40"
-                      : "#5688A5",
+                      : "#bb4f4f",
                 }}
               >
                 Withdraw
@@ -2679,7 +2679,7 @@ export default function ssLiquidityManage() {
                       fontWeight: 500,
                       fontSize: 14,
                       marginBottom: 10,
-                      color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+                      color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
                     }}
                   >
                     Slippage Tolerance
@@ -2763,7 +2763,7 @@ export default function ssLiquidityManage() {
                       fontWeight: 500,
                       fontSize: 14,
                       marginBottom: 10,
-                      color: appTheme === "dark" ? '#7C838A' : '#5688A5',
+                      color: appTheme === "dark" ? '#7C838A' : '#bb4f4f',
                     }}>
                     Transaction Deadline
                   </div>
@@ -2790,7 +2790,7 @@ export default function ssLiquidityManage() {
                       endAdornment: <InputAdornment position="end">
                         <span
                           style={{
-                            color: appTheme === "dark" ? '#ffffff' : '#5688A5',
+                            color: appTheme === "dark" ? '#ffffff' : '#bb4f4f',
                           }}>
                           minutes
                         </span>
@@ -2854,7 +2854,7 @@ export default function ssLiquidityManage() {
                 Create LP & Deposit
               </span>
               {depositLoading && (
-                <Loader color={appTheme === "dark" ? "#8F5AE8" : "#8F5AE8"} />
+                <Loader color={appTheme === "dark" ? "#e85a5a" : "#e85a5a"} />
               )}
             </Button>
           )}
@@ -2879,7 +2879,7 @@ export default function ssLiquidityManage() {
             >
               <span className={classes.actionButtonText}>Add Liquidity</span>
               {depositLoading && (
-                <Loader color={appTheme === "dark" ? "#8F5AE8" : "#8F5AE8"} />
+                <Loader color={appTheme === "dark" ? "#e85a5a" : "#e85a5a"} />
               )}
             </Button>
           )}
@@ -2940,7 +2940,7 @@ export default function ssLiquidityManage() {
                 {(amount0 === "" || amount1 === "") && "Enter Amount"}
               </span>
               {depositLoading && (
-                <Loader color={appTheme === "dark" ? "#8F5AE8" : "#8F5AE8"} />
+                <Loader color={appTheme === "dark" ? "#e85a5a" : "#e85a5a"} />
               )}
             </Button>
           )}
@@ -2966,7 +2966,7 @@ export default function ssLiquidityManage() {
                 {amount0 === "" && "Enter Amount"}
               </span>
               {depositLoading && (
-                <Loader color={appTheme === "dark" ? "#8F5AE8" : "#8F5AE8"} />
+                <Loader color={appTheme === "dark" ? "#e85a5a" : "#e85a5a"} />
               )}
             </Button>
           )}
@@ -2994,7 +2994,7 @@ export default function ssLiquidityManage() {
               {withdrawAsset !== null ? withdrawActionButton() : "Choose the pair"}
             </span>
             {depositLoading && (
-              <Loader color={appTheme === "dark" ? "#8F5AE8" : "#8F5AE8"} />
+              <Loader color={appTheme === "dark" ? "#e85a5a" : "#e85a5a"} />
             )}
           </Button>
         </>

@@ -471,7 +471,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    background: '#8F5AE8',
+    background: '#e85a5a',
   },
   actionButtonText: {
     width: 215,
@@ -483,7 +483,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 16,
     lineHeight: '120%',
     background: '#D2D0F2',
-    color: '#8F5AE8',
+    color: '#e85a5a',
     transition: 'all ease 300ms',
   },
   'actionButtonText--light': {
@@ -779,7 +779,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                                   fontWeight: 400,
                                   fontSize: 14,
                                   lineHeight: '120%',
-                                  color: appTheme === 'dark' ? '#7C838A' : '#5688A5',
+                                  color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
                                 }}>
                                 NFT ID
                               </Typography>
@@ -812,7 +812,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                               fontWeight: 400,
                               fontSize: 14,
                               lineHeight: '120%',
-                              color: appTheme === 'dark' ? '#7C838A' : '#5688A5',
+                              color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
                             }}>
                             {govToken?.symbol}
                           </Typography>
@@ -843,7 +843,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                               fontWeight: 400,
                               fontSize: 14,
                               lineHeight: '120%',
-                              color: appTheme === 'dark' ? '#7C838A' : '#5688A5',
+                              color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
                             }}>
                             {veToken?.symbol}
                           </Typography>
@@ -874,7 +874,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                               fontWeight: 400,
                               fontSize: 14,
                               lineHeight: '120%',
-                              color: appTheme === 'dark' ? '#7C838A' : '#5688A5',
+                              color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
                             }}>
                             Expires {moment.unix(row.lockEnds).fromNow()}
                           </Typography>
@@ -893,13 +893,13 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                             color="primary"
                             style={{
                               padding: '7px 14px',
-                              border: '1px solid #5688A5',
-                              borderColor: appTheme === 'dark' ? '#C6CDD2' : '#5688A5',
+                              border: '1px solid #bb4f4f',
+                              borderColor: appTheme === 'dark' ? '#C6CDD2' : '#bb4f4f',
                               borderRadius: 100,
                               fontWeight: 500,
                               fontSize: 14,
                               lineHeight: '120%',
-                              color: appTheme === 'dark' ? '#C6CDD2' : '#5688A5',
+                              color: appTheme === 'dark' ? '#C6CDD2' : '#bb4f4f',
                             }}
                             onClick={() => {
                               onView(row);
@@ -927,7 +927,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
               border: '1px solid #86B9D6',
               borderColor: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
               borderRadius: 100,
-              color: appTheme === 'dark' ? '#7C838A' : '#5688A5',
+              color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
             }}
             rowsPerPageOptions={[5, 10, 25]}
             component="div"
@@ -1009,7 +1009,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                               fontWeight: 400,
                               fontSize: 14,
                               lineHeight: '120%',
-                              color: appTheme === 'dark' ? '#7C838A' : '#5688A5',
+                              color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
                             }}>
                             NFT ID
                           </Typography>
@@ -1048,13 +1048,13 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                               color="primary"
                               style={{
                                 padding: '7px 14px',
-                                border: `1px solid ${appTheme === 'dark' ? '#C6CDD2' : '#5688A5'}`,
-                                borderColor: appTheme === 'dark' ? '#C6CDD2' : '#5688A5',
+                                border: `1px solid ${appTheme === 'dark' ? '#C6CDD2' : '#bb4f4f'}`,
+                                borderColor: appTheme === 'dark' ? '#C6CDD2' : '#bb4f4f',
                                 borderRadius: 100,
                                 fontWeight: 500,
                                 fontSize: 14,
                                 lineHeight: '120%',
-                                color: appTheme === 'dark' ? '#C6CDD2' : '#5688A5',
+                                color: appTheme === 'dark' ? '#C6CDD2' : '#bb4f4f',
                               }}
                               onClick={(event) => {
                                 event.stopPropagation();
@@ -1111,7 +1111,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                                 fontWeight: 400,
                                 fontSize: 14,
                                 lineHeight: '120%',
-                                color: appTheme === 'dark' ? '#7C838A' : '#5688A5',
+                                color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
                               }}>
                               {veToken?.symbol}
                             </Typography>
@@ -1210,7 +1210,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                                   fontWeight: 400,
                                   fontSize: 14,
                                   lineHeight: '120%',
-                                  color: appTheme === 'dark' ? '#7C838A' : '#5688A5',
+                                  color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
                                 }}>
                                 {headCell.id === 'Locked Amount' && govToken?.symbol}
                                 {headCell.id === 'Lock Expires' && `Expires ${moment.unix(row.lockEnds).fromNow()}`}
@@ -1235,7 +1235,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
               border: '1px solid #86B9D6',
               borderColor: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
               borderRadius: 100,
-              color: appTheme === 'dark' ? '#7C838A' : '#5688A5',
+              color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
             }}
             component="div"
             count={vestNFTs.length}

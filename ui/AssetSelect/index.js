@@ -128,7 +128,7 @@ const AssetSelect = (
             variant="subtitle1"
             className={classes.assetSymbolName2}
             style={{
-              color: appTheme === "dark" ? '#7C838A' : '#5688A5',
+              color: appTheme === "dark" ? '#7C838A' : '#bb4f4f',
             }}>
             {asset ? asset.name : ''}
           </Typography>
@@ -231,7 +231,7 @@ const AssetSelect = (
             <div
               className={classes.assetSymbolName2}
               style={{
-                color: appTheme === "dark" ? '#7C838A' : '#5688A5',
+                color: appTheme === "dark" ? '#7C838A' : '#bb4f4f',
               }}>
               {asset ? asset.name : ''}
             </div>
@@ -240,7 +240,7 @@ const AssetSelect = (
               <div
                 className={classes.assetSelectBalanceText2}
                 style={{
-                  color: appTheme === "dark" ? '#7C838A' : '#5688A5',
+                  color: appTheme === "dark" ? '#7C838A' : '#bb4f4f',
                 }}>
                 {typeIcon === 'single' ? 'Balance' : ''}
               </div>

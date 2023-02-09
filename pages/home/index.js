@@ -145,7 +145,7 @@ const HomePage = () => {
                   fillRule="evenodd"
                   clipRule="evenodd"
                   d="M3 2.49983V0.5H2L2 2.49983H0V3.49983H2L2 5.5H3V3.49983H5V2.49983H3Z"
-                  fill="#5688A5"
+                  fill="#bb4f4f"
                 />
               </svg>
             </div>
@@ -177,7 +177,7 @@ const HomePage = () => {
                   fillRule="evenodd"
                   clipRule="evenodd"
                   d="M3 2.49983V0.5H2L2 2.49983H0V3.49983H2L2 5.5H3V3.49983H5V2.49983H3Z"
-                  fill="#5688A5"
+                  fill="#bb4f4f"
                 />
               </svg>
             </div>

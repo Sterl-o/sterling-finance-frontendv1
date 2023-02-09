@@ -418,7 +418,7 @@ input[type=number].massiveInputAmount {
   font-size: 16px !important;
   line-height: 120% !important;
   text-align: center !important;
-  color: #8F5AE8 !important;
+  color: #e85a5a !important;
   box-shadow: none !important;
   border-radius: 0 !important;
 }
@@ -790,7 +790,7 @@ input[type=number].massiveInputAmount {
 }
 
 .depositInfoHeading--light {
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .depositInfoHeading--dark {
@@ -902,7 +902,7 @@ input[type=number].massiveInputAmount {
 .backIcon {
   width: 19px !important;
   height: 19px !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .backIcon--dark {

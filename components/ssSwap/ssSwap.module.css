@@ -96,7 +96,7 @@ input[type=number].massiveInputAmount {
 }
 
 .inputBalanceSlippage--light {
-  color: #5688A5;
+  color: #bb4f4f;
 }
 
 .inputBalanceSlippage--dark {
@@ -356,7 +356,7 @@ input[type=number].massiveInputAmount {
   width: 100%;
   line-height: 120%;
   font-weight: 500 !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
   margin-top: 10px !important;
   margin-bottom: 6px !important;
   font-size: 14px !important;
@@ -419,7 +419,7 @@ input[type=number].massiveInputAmount {
 }
 
 .priceInfo--light > .text {
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .priceInfo--dark > .text {
@@ -443,7 +443,7 @@ input[type=number].massiveInputAmount {
 .actionButtonText {
   font-weight: 700 !important;
   font-size: 16px !important;
-  color: #8F5AE8 !important;
+  color: #e85a5a !important;
 }
 
 .actionButtonText--disabled {

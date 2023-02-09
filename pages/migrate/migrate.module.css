@@ -219,7 +219,7 @@
 }
 
 .inputBalanceSlippage--light {
-  color: #5688A5;
+  color: #bb4f4f;
 }
 
 .inputBalanceSlippage--dark {
@@ -277,7 +277,7 @@
   font-weight: 400 !important;
   font-size: 30px !important;
   line-height: 100% !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
   border: none !important;
   outline: none !important;
 }
@@ -634,7 +634,7 @@
 }
 
 .priceInfo--light>.text {
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .priceInfo--dark>.text {
@@ -655,7 +655,7 @@
   display: flex;
   align-items: center;
   text-align: center;
-  color: #8F5AE8 !important;
+  color: #e85a5a !important;
   box-shadow: none !important;
   animation: none !important;
   transition: none !important;
@@ -944,7 +944,7 @@
   font-weight: 700 !important;
   font-size: 16px !important;
   line-height: 120% !important;
-  color: #8F5AE8 !important;
+  color: #e85a5a !important;
   white-space: pre-line;
 }
 

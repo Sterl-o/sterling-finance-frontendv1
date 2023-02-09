@@ -17,7 +17,7 @@
 }
 
 .searchInputText::placeholder {
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .tokenHeader {
@@ -100,7 +100,7 @@
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 120% !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .tokenAddress--dark {
@@ -158,7 +158,7 @@
   font-weight: 400 !important;
   font-size: 14px !important;
   line-height: 120% !important;
-  color: #5688A5 !important;
+  color: #bb4f4f !important;
 }
 
 .listingFeeSymbol--dark {
@@ -169,34 +169,34 @@
   width: 106px;
   height: 33px;
   background: #D2D0F2;
-  border: 1px solid #8F5AE8;
+  border: 1px solid #e85a5a;
   border-radius: 100px;
   cursor: pointer;
 }
 
 .buttonOverride:hover {
   background: #C6BAF0;
-  border: 1px solid #8F5AE8;
+  border: 1px solid #e85a5a;
 }
 
 .buttonOverride:active {
   background: #B9A4EE;
-  border: 1px solid #8F5AE8;
+  border: 1px solid #e85a5a;
 }
 
 .buttonOverride--dark {
   background: #33284C;
-  border: 1px solid #8F5AE8;
+  border: 1px solid #e85a5a;
 }
 
 .buttonOverride--dark:hover {
   background: #402E61;
-  border: 1px solid #8F5AE8;
+  border: 1px solid #e85a5a;
 }
 
 .buttonOverride--dark:active {
   background: #523880;
-  border: 1px solid #8F5AE8;
+  border: 1px solid #e85a5a;
 }
 
 .buttonOverrideDisabled {
@@ -221,7 +221,7 @@
 .actionButtonText {
   font-size: 14px !important;
   line-height: 120% !important;
-  color: #8F5AE8 !important;
+  color: #e85a5a !important;
 }
 
 .loadingCircle {

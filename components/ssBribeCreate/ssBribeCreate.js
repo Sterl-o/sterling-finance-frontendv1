@@ -208,7 +208,7 @@ export default function ssBribeCreate() {
               variant="subtitle1"
               className={classes.assetSymbolName2}
               style={{
-                color: appTheme === "dark" ? '#7C838A' : '#5688A5',
+                color: appTheme === "dark" ? '#7C838A' : '#bb4f4f',
               }}>
               {gauge?.isStable ? "Stable Pool" : "Volatile Pool"}
             </Typography>
@@ -500,7 +500,7 @@ function AssetSelectManage({type, value, assetOptions, onSelect, manageLocalAsse
               fontWeight: 400,
               fontSize: 14,
               lineHeight: '120%',
-              color: appTheme === "dark" ? '#7C838A' : '#5688A5',
+              color: appTheme === "dark" ? '#7C838A' : '#bb4f4f',
             }}>
             {'Balance'}
           </Typography>
@@ -860,7 +860,7 @@ function AssetSelectPair({type, value, assetOptions, onSelect, manageLocalAssets
             variant="subtitle1"
             className={classes.assetSymbolName2}
             style={{
-              color: appTheme === "dark" ? '#7C838A' : '#5688A5',
+              color: appTheme === "dark" ? '#7C838A' : '#bb4f4f',
             }}>
             {asset.isStable ? "Stable Pool" : "Volatile Pool"}
           </Typography>
@@ -884,7 +884,7 @@ function AssetSelectPair({type, value, assetOptions, onSelect, manageLocalAssets
               fontWeight: 400,
               fontSize: 14,
               lineHeight: '120%',
-              color: appTheme === "dark" ? '#7C838A' : '#5688A5',
+              color: appTheme === "dark" ? '#7C838A' : '#bb4f4f',
             }}>
             {'Balance'}
           </Typography>

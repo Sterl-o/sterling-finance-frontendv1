@@ -828,7 +828,7 @@ const useStyles = makeStyles({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    background: "#8F5AE8",
+    background: "#e85a5a",
   },
   actionButtonText: {
     width: 200,
@@ -840,7 +840,7 @@ const useStyles = makeStyles({
     fontSize: 16,
     lineHeight: "120%",
     background: "#D2D0F2",
-    color: "#8F5AE8",
+    color: "#e85a5a",
     transition: "all ease 300ms",
     ["@media (max-width:530px)"]: {
       // eslint-disable-line no-useless-computed-key
@@ -1546,7 +1546,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                 fontWeight: 400,
                 fontSize: 14,
                 lineHeight: "120%",
-                color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+                color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
               }}
             >
               {symbol1}
@@ -1558,7 +1558,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                 fontWeight: 400,
                 fontSize: 14,
                 lineHeight: "120%",
-                color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+                color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
               }}
             >
               {symbol2}
@@ -1735,7 +1735,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                     color:
                                       appTheme === "dark"
                                         ? "#7C838A"
-                                        : "#5688A5",
+                                        : "#bb4f4f",
                                   }}
                                   noWrap
                                 >
@@ -1849,7 +1849,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                       color:
                                         appTheme === "dark"
                                           ? "#7C838A"
-                                          : "#5688A5",
+                                          : "#bb4f4f",
                                     }}
                                   >
                                     {formatSymbol(row.token0.symbol)}
@@ -1864,7 +1864,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                       color:
                                         appTheme === "dark"
                                           ? "#7C838A"
-                                          : "#5688A5",
+                                          : "#bb4f4f",
                                     }}
                                   >
                                     {formatSymbol(row.token1.symbol)}
@@ -2146,7 +2146,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                       color:
                                         appTheme === "dark"
                                           ? "#7C838A"
-                                          : "#5688A5",
+                                          : "#bb4f4f",
                                     }}
                                   >
                                     {row.token0.symbol}
@@ -2161,7 +2161,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                       color:
                                         appTheme === "dark"
                                           ? "#7C838A"
-                                          : "#5688A5",
+                                          : "#bb4f4f",
                                     }}
                                   >
                                     {row.token1.symbol}
@@ -2288,7 +2288,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                       color:
                                         appTheme === "dark"
                                           ? "#7C838A"
-                                          : "#5688A5",
+                                          : "#bb4f4f",
                                     }}
                                   >
                                     {formatSymbol(row.token0.symbol)}
@@ -2303,7 +2303,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                       color:
                                         appTheme === "dark"
                                           ? "#7C838A"
-                                          : "#5688A5",
+                                          : "#bb4f4f",
                                     }}
                                   >
                                     {formatSymbol(row.token1.symbol)}
@@ -2466,7 +2466,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                       color:
                                         appTheme === "dark"
                                           ? "#7C838A"
-                                          : "#5688A5",
+                                          : "#bb4f4f",
                                     }}
                                   >
                                     {formatSymbol(row.token0.symbol)}
@@ -2481,7 +2481,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                       color:
                                         appTheme === "dark"
                                           ? "#7C838A"
-                                          : "#5688A5",
+                                          : "#bb4f4f",
                                     }}
                                   >
                                     {formatSymbol(row.token1.symbol)}
@@ -2626,7 +2626,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               {/*            color:*/}
                               {/*              appTheme === "dark"*/}
                               {/*                ? "#7C838A"*/}
-                              {/*                : "#5688A5",*/}
+                              {/*                : "#bb4f4f",*/}
                               {/*          }}*/}
                               {/*        >*/}
                               {/*          {formatSymbol(row.token0.symbol)}*/}
@@ -2641,7 +2641,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               {/*            color:*/}
                               {/*              appTheme === "dark"*/}
                               {/*                ? "#7C838A"*/}
-                              {/*                : "#5688A5",*/}
+                              {/*                : "#bb4f4f",*/}
                               {/*          }}*/}
                               {/*        >*/}
                               {/*          {formatSymbol(row.token1.symbol)}*/}
@@ -2725,15 +2725,15 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               color="primary"
                               style={{
                                 padding: "7px 14px",
-                                border: "1px solid #5688A5",
+                                border: "1px solid #bb4f4f",
                                 borderColor:
-                                  appTheme === "dark" ? "#C6CDD2" : "#5688A5",
+                                  appTheme === "dark" ? "#C6CDD2" : "#bb4f4f",
                                 borderRadius: 100,
                                 fontWeight: 500,
                                 fontSize: 14,
                                 lineHeight: "120%",
                                 color:
-                                  appTheme === "dark" ? "#C6CDD2" : "#5688A5",
+                                  appTheme === "dark" ? "#C6CDD2" : "#bb4f4f",
                               }}
                               onClick={() => {
                                 onView(row);
@@ -2759,7 +2759,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                 border: "1px solid #86B9D6",
                 borderColor: appTheme === "dark" ? "#5F7285" : "#86B9D6",
                 borderRadius: 100,
-                color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+                color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
               }}
               rowsPerPageOptions={[5, 10, 25]}
               component="div"
@@ -2900,7 +2900,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               fontSize: 14,
                               lineHeight: "120%",
                               color:
-                                appTheme === "dark" ? "#7C838A" : "#5688A5",
+                                appTheme === "dark" ? "#7C838A" : "#bb4f4f",
                             }}
                             noWrap
                           >
@@ -2954,16 +2954,16 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               style={{
                                 padding: "7px 14px",
                                 border: `1px solid ${
-                                  appTheme === "dark" ? "#C6CDD2" : "#5688A5"
+                                  appTheme === "dark" ? "#C6CDD2" : "#bb4f4f"
                                 }`,
                                 borderColor:
-                                  appTheme === "dark" ? "#C6CDD2" : "#5688A5",
+                                  appTheme === "dark" ? "#C6CDD2" : "#bb4f4f",
                                 borderRadius: 100,
                                 fontWeight: 500,
                                 fontSize: 14,
                                 lineHeight: "120%",
                                 color:
-                                  appTheme === "dark" ? "#C6CDD2" : "#5688A5",
+                                  appTheme === "dark" ? "#C6CDD2" : "#bb4f4f",
                               }}
                               onClick={(event) => {
                                 event.stopPropagation();
@@ -3062,7 +3062,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                   fontSize: 14,
                                   lineHeight: "120%",
                                   color:
-                                    appTheme === "dark" ? "#7C838A" : "#5688A5",
+                                    appTheme === "dark" ? "#7C838A" : "#bb4f4f",
                                 }}
                               >
                                 {formatSymbol(row.token0.symbol)}
@@ -3075,7 +3075,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                   fontSize: 14,
                                   lineHeight: "120%",
                                   color:
-                                    appTheme === "dark" ? "#7C838A" : "#5688A5",
+                                    appTheme === "dark" ? "#7C838A" : "#bb4f4f",
                                 }}
                               >
                                 {formatSymbol(row.token1.symbol)}
@@ -3376,7 +3376,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                         color:
                                           appTheme === "dark"
                                             ? "#7C838A"
-                                            : "#5688A5",
+                                            : "#bb4f4f",
                                       }}
                                     >
                                       {formatSymbol(row.token0.symbol)}
@@ -3391,7 +3391,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                         color:
                                           appTheme === "dark"
                                             ? "#7C838A"
-                                            : "#5688A5",
+                                            : "#bb4f4f",
                                       }}
                                     >
                                       {formatSymbol(row.token1.symbol)}
@@ -3418,7 +3418,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
               border: "1px solid #86B9D6",
               borderColor: appTheme === "dark" ? "#5F7285" : "#86B9D6",
               borderRadius: 100,
-              color: appTheme === "dark" ? "#7C838A" : "#5688A5",
+              color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
             }}
             classes={{
               displayedRows: classes.displayedRows,

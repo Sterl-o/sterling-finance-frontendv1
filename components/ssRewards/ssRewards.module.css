@@ -151,7 +151,7 @@
 .addButtonIcon {
   width: 50px;
   height: 100%;
-  background: #8F5AE8;
+  background: #e85a5a;
 }
 
 .actionButtonText {
@@ -161,7 +161,7 @@
   font-size: 16px;
   line-height: 120%;
   background: #D2D0F2;
-  color: #8F5AE8;
+  color: #e85a5a;
   transition: all ease 300ms;
 }
 

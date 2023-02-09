@@ -93,10 +93,10 @@
   padding: 12px 20px !important;
   margin-left: 20px !important;
   background: #D2D0F2 !important;
-  outline: 1px solid #8F5AE8 !important;
+  outline: 1px solid #e85a5a !important;
   border-radius: 0 !important;
   border: none !important;
-  color: #8F5AE8 !important;
+  color: #e85a5a !important;
   box-shadow: none !important;
 }
 
@@ -218,7 +218,7 @@
 .addButtonIcon {
   width: 50px;
   height: 100%;
-  background: #8F5AE8;
+  background: #e85a5a;
 }
 
 .actionButtonText {
@@ -228,7 +228,7 @@
   font-size: 16px;
   line-height: 120%;
   background: #D2D0F2;
-  color: #8F5AE8;
+  color: #e85a5a;
   transition: all ease 300ms;
 }
 
