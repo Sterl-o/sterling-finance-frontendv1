@@ -15,7 +15,6 @@ const Logo = (props) => {
   return (
     <>
       <img
-        className={className}
         src='/images/logo.png'
         height='16.6px'
       />
