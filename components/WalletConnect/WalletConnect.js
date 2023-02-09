@@ -31,7 +31,7 @@ export const WalletConnect = (props) => {
         // border: 'rgb(134, 185, 214)', not working ):
       },
       cacheProvider: true,
-      network: "matic",
+      network: "arbitrum",
       providerOptions: {
         walletlink: {
           package: CoinbaseWalletSDK,
@@ -39,10 +39,10 @@ export const WalletConnect = (props) => {
             appName: 'Sterling app',
             infuraId: `${process.env.NEXT_PUBLIC_INFURA_KEY}`,
             rpc: {
-              42161: `https://polygon-rpc.com/`,
+              42161: `https://rpc.ankr.com/arbitrum`,
             },
             supportedChainIds: [42161],
-            network: "matic",
+            network: "arbitrum",
           },
         },
         walletconnect: {
@@ -50,9 +50,9 @@ export const WalletConnect = (props) => {
           options: {
             infuraId: `${process.env.NEXT_PUBLIC_INFURA_KEY}`,
             rpc: {
-              42161: `https://polygon-rpc.com/`,
+              42161: `https://rpc.ankr.com/arbitrum`,
             },
-            network: "matic",
+            network: "arbitrum",
             supportedChainIds: [42161],
           },
         },

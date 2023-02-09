@@ -203,11 +203,11 @@ const HomePage = () => {
                         )}
                     </div>
                     <div className={classes.layoutDescriptionText}>
-                        <p>Sterling officially launched in April 2022 with a collective goal of <b>fair and balanced access to DeFi</b>.</p>
-                        <p>Sterling is a decentralized exchange that has launched on the Polygon network with low fees, near 0 slippage on correlated assets and a strong focus on secondary markets for tokenized locks as NFT’s (veToken = lpNFTs).</p>
+                        <p>Sterling officially launched with a collective goal of <b>fair and balanced access to DeFi</b>.</p>
+                        <p>Sterling is a decentralized exchange that has launched on Arbitrum with low fees, near 0 slippage on correlated assets and a strong focus on secondary markets for tokenized locks as NFT’s (veToken = veSVR).</p>
                     </div>
                     <div className={classes.layoutDescriptionSmallText}>
-                        <p>One segment of the cryptocurrency landscape that has shown incredible potential is the swapping of stablecoins and volatile assets. Sterling Swap offers users quick, seamless and cheap transactions while utilizing strategies to maximize their yield.</p>
+                        <p>One segment of the cryptocurrency landscape that has shown incredible potential is the swapping of stablecoins and volatile assets. Sterling offers users quick, seamless and cheap transactions.</p>
                     </div>
                     <div className={classes.layoutDescriptionButton}>
                         <div
