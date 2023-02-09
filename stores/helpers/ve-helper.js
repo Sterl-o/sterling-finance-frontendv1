@@ -45,7 +45,7 @@ export const loadNfts = async (account, web3, tokenID) => {
       })
     )).filter((nft) => !!nft);
   } catch (ex) {
-    console.log("Error load veNFTs", ex);
+    console.log("Error load veSTERLINGs", ex);
     throw ex;
   }
 };

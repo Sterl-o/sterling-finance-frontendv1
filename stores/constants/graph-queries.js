@@ -156,7 +156,7 @@ export const veDistQuery = `
 
 export const veQuery = `
 query ve($id: ID!) {
-  veNFTEntity(id: $id) {
+  veSTERLINGEntity(id: $id) {
     gauges {
       gauge {
         id
