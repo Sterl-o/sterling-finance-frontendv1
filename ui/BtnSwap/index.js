@@ -33,7 +33,7 @@ const BtnSwap = (props) => {
     setBorderColorLight("#C6BAF0");
 
     setBgColorDark("#e85a5a");
-    setBorderColorDark("#402E61");
+    setBorderColorDark("#612e2e");
   };
 
   const mouseOut = () => {

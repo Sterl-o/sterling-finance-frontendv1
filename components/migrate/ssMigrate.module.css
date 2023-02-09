@@ -425,7 +425,7 @@
 }
 
 .buttonOverride--dark:not(:disabled):hover {
-  background: #402E61 !important;
+  background: #612e2e !important;
   border: 1px solid #e85a5a !important;
   color: #e85a5a !important;
 }
@@ -1055,12 +1055,12 @@
 
 .assetSelectMenu--dark {
   background: #24292D !important;
-  box-shadow: 0 1px 0 rgba(76, 173, 229, 0);
+  box-shadow: 0 1px 0 rgba(229, 76, 76, 0);
 }
 
 .assetSelectMenu--dark:hover {
   background: #2D3741 !important;
-  box-shadow: 0 1px 0 rgba(76, 173, 229, 0.5);
+  box-shadow: 0 1px 0 rgba(229, 76, 76, 0.5);
 }
 
 .assetSymbolName {
@@ -1090,7 +1090,7 @@
 }
 
 .assetOptionIcon--dark {
-  background: #304E61;
+  background: #613030;
   border: 1px solid #5F7285;
 }
 

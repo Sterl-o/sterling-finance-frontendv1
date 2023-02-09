@@ -74,7 +74,7 @@ function Rewards({ changeTheme }) {
   const getBtnColor = () => {
     switch (appTheme) {
       case 'dark':
-        return isClickState ? '#523880' : (isHoverState ? '#402E61' : '#4c2828');
+        return isClickState ? '#523880' : (isHoverState ? '#612e2e' : '#4c2828');
 
       case 'light':
       default:

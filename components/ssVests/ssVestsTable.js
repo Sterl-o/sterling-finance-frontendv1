@@ -459,7 +459,7 @@ const useStyles = makeStyles((theme) => ({
   },
   'addButton--dark': {
     '&:hover > p': {
-      background: '#402E61',
+      background: '#612e2e',
     },
     '&:active > p': {
       background: '#523880',

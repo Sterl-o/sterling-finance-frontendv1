@@ -69,7 +69,7 @@ function Swap({ changeTheme }) {
   const getBtnColor = () => {
     switch (appTheme) {
       case 'dark':
-        return isClickState ? '#523880' : (isHoverState ? '#402E61' : '#4c2828');
+        return isClickState ? '#523880' : (isHoverState ? '#612e2e' : '#4c2828');
       case 'light':
       default:
         return isClickState ? '#B9A4EE' : (isHoverState ? '#C6BAF0' : '#D2D0F2');

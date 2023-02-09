@@ -762,7 +762,7 @@
 }
 
 .routeIcon--dark {
-  background: #304E61;
+  background: #613030;
   border: 1px solid #5F7285;
 }
 
@@ -916,15 +916,15 @@
 
 .mainDescBg--dark {
   background: rgba(21, 23, 24, 0.8);
-  border-color: #304E61;
+  border-color: #613030;
 }
 
 .mainDescBg--dark::before {
-  border-color: #304E61 transparent transparent transparent;
+  border-color: #613030 transparent transparent transparent;
 }
 
 .mainDescBg--dark::after {
-  border-color: transparent transparent #304E61 transparent;
+  border-color: transparent transparent #613030 transparent;
 }
 
 .mainDescNC--dark {
