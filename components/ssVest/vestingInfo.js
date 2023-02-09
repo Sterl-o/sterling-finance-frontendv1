@@ -22,7 +22,7 @@ export default function VestingInfo({
           <div
             style={{
               marginTop: 20,
-              // border: appTheme === 'dark' ? '1px solid #5F7285' : '1px solid #86B9D6',
+              // border: appTheme === 'dark' ? '1px solid #855f5f' : '1px solid #86B9D6',
             }}
             className={[
               classes.vestInfo,
@@ -111,7 +111,7 @@ export default function VestingInfo({
           <div
             style={{
               marginTop: 20,
-              // border: appTheme === 'dark' ? '1px solid #5F7285' : '1px solid #86B9D6',
+              // border: appTheme === 'dark' ? '1px solid #855f5f' : '1px solid #86B9D6',
             }}
             className={[
               classes.vestInfo,

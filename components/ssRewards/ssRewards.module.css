@@ -364,7 +364,7 @@
   }
 
   .priceInfos--dark {
-    border: 1px solid #5F7285;
+    border: 1px solid #855f5f;
   }
 
   .priceInfo {
@@ -376,7 +376,7 @@
   }
 
   .priceInfos--dark .priceInfo:not(:last-of-type) {
-    border-right: 1px solid #5F7285;
+    border-right: 1px solid #855f5f;
   }
 
   .routeLinesLeft,
@@ -495,7 +495,7 @@
 
   .vestInfoTextTop--dark {
     border-right: none;
-    border-bottom: 1px solid #5F7285;
+    border-bottom: 1px solid #855f5f;
   }
 
   .amount {

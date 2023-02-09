@@ -524,7 +524,7 @@ function AssetSelectManage({type, value, assetOptions, onSelect, manageLocalAsse
               style: {
                 background: 'transparent',
                 border: '1px solid',
-                borderColor: appTheme === "dark" ? '#5F7285' : '#86B9D6',
+                borderColor: appTheme === "dark" ? '#855f5f' : '#86B9D6',
                 borderRadius: 0,
               },
               classes: {
@@ -662,7 +662,7 @@ function AssetSelectManage({type, value, assetOptions, onSelect, manageLocalAsse
           width: 460,
           height: 710,
           background: appTheme === "dark" ? '#151718' : '#DBE6EC',
-          border: appTheme === "dark" ? '1px solid #5F7285' : '1px solid #86B9D6',
+          border: appTheme === "dark" ? '1px solid #855f5f' : '1px solid #86B9D6',
           borderRadius: 0,
         }}>
           <DialogTitle style={{
@@ -910,7 +910,7 @@ function AssetSelectPair({type, value, assetOptions, onSelect, manageLocalAssets
               style: {
                 background: 'transparent',
                 border: '1px solid',
-                borderColor: appTheme === "dark" ? '#5F7285' : '#86B9D6',
+                borderColor: appTheme === "dark" ? '#855f5f' : '#86B9D6',
                 borderRadius: 0,
               },
               classes: {
@@ -1070,7 +1070,7 @@ function AssetSelectPair({type, value, assetOptions, onSelect, manageLocalAssets
             width: 460,
             height: 710,
             background: appTheme === "dark" ? '#151718' : '#DBE6EC',
-            border: appTheme === "dark" ? '1px solid #5F7285' : '1px solid #86B9D6',
+            border: appTheme === "dark" ? '1px solid #855f5f' : '1px solid #86B9D6',
             borderRadius: 0,
           }}>
           <DialogTitle

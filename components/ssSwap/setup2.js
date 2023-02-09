@@ -1090,7 +1090,7 @@ function Setup() {
     };
 
     const swapIconClick = () => {
-        setSwapIconBgColor(appTheme === "dark" ? "#5F7285" : "#86B9D6");
+        setSwapIconBgColor(appTheme === "dark" ? "#855f5f" : "#86B9D6");
         setSwapIconBorderColor(appTheme === "dark" ? "#e64c4c" : "#0B5E8E");
         setSwapIconArrowColor(appTheme === "dark" ? "#e64c4c" : "#0B5E8E");
     };
@@ -1363,7 +1363,7 @@ function Setup() {
                                             cy="40"
                                             r="39.5"
                                             fill={appTheme === "dark" ? "#151718" : "#DBE6EC"}
-                                            stroke={appTheme === "dark" ? "#5F7285" : "#86B9D6"}
+                                            stroke={appTheme === "dark" ? "#855f5f" : "#86B9D6"}
                                         />
 
                                         <rect
@@ -1390,7 +1390,7 @@ function Setup() {
                                             }
                                             stroke={
                                                 swapIconBorderColor ||
-                                                (appTheme === "dark" ? "#5F7285" : "#86B9D6")
+                                                (appTheme === "dark" ? "#855f5f" : "#86B9D6")
                                             }
                                         />
 
@@ -1417,7 +1417,7 @@ function Setup() {
                                             cy="25"
                                             r="24.5"
                                             fill={appTheme === "dark" ? "#151718" : "#DBE6EC"}
-                                            stroke={appTheme === "dark" ? "#5F7285" : "#86B9D6"}
+                                            stroke={appTheme === "dark" ? "#855f5f" : "#86B9D6"}
                                         />
 
                                         <rect
@@ -1444,7 +1444,7 @@ function Setup() {
                                             }
                                             stroke={
                                                 swapIconBorderColor ||
-                                                (appTheme === "dark" ? "#5F7285" : "#86B9D6")
+                                                (appTheme === "dark" ? "#855f5f" : "#86B9D6")
                                             }
                                         />
 

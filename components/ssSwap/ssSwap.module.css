@@ -148,7 +148,7 @@ input[type=number].massiveInputAmount {
 .inputBalanceSlippageText--dark {
   color: #FFFFFF !important;
   -webkit-text-fill-color: #FFFFFF !important;
-  border-bottom: 1px solid #5F7285 !important;
+  border-bottom: 1px solid #855f5f !important;
 }
 
 .inputBalanceSlippageText--dark:hover {
@@ -423,7 +423,7 @@ input[type=number].massiveInputAmount {
 }
 
 .priceInfo--dark > .text {
-  color: #5F7285 !important;
+  color: #855f5f !important;
 }
 
 .btnSwap {
@@ -466,7 +466,7 @@ input[type=number].massiveInputAmount {
 }
 
 .route--dark {
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .stabIndicatorContainer {
@@ -563,7 +563,7 @@ input[type=number].massiveInputAmount {
 
 .routeIcon--dark {
   background: #613030;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .quoteLoaderDivider,
@@ -718,7 +718,7 @@ input[type=number].massiveInputAmount {
   background: var(--background-light);
 }
 .routeMainIcon--dark {
-  border-color: #5F7285;
+  border-color: #855f5f;
   background: var(--background-dark);
 }
 
@@ -782,7 +782,7 @@ input[type=number].massiveInputAmount {
   height: 1px;
   width: calc(100% - 1px);
   flex-basis: calc(100% - 1px);
-  background-color: #5F7285;
+  background-color: #855f5f;
   margin-bottom: 3px;
   margin-top: 16px;
   position: relative;
@@ -796,7 +796,7 @@ input[type=number].massiveInputAmount {
   width: 0;
   height: 0;
   border-top: 3px solid transparent;
-  border-left: 6px solid #5F7285;
+  border-left: 6px solid #855f5f;
   border-bottom: 3px solid transparent;
 }
 
@@ -986,7 +986,7 @@ input[type=number].massiveInputAmount {
   }
 
   .priceInfos--dark {
-    border: 1px solid #5F7285;
+    border: 1px solid #855f5f;
   }
 
   .priceInfo {
@@ -998,7 +998,7 @@ input[type=number].massiveInputAmount {
   }
 
   .priceInfos--dark .priceInfo:not(:last-of-type) {
-    border-right: 1px solid #5F7285;
+    border-right: 1px solid #855f5f;
   }
 
   .routeLinesLeft,

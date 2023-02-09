@@ -163,7 +163,7 @@ const sortIcon = (sortDirection) => {
         xmlns="http://www.w3.org/2000/svg">
         <path
           d="M5.83325 8.33337L9.99992 12.5L14.1666 8.33337H5.83325Z"
-          fill={appTheme === 'dark' ? '#5F7285' : '#9BC9E4'}/>
+          fill={appTheme === 'dark' ? '#855f5f' : '#9BC9E4'}/>
       </svg>
     </>
   );
@@ -181,7 +181,7 @@ function EnhancedTableHead(props) {
       <TableRow
         style={{
           border: '1px solid #9BC9E4',
-          borderColor: appTheme === 'dark' ? '#5F7285' : '#9BC9E4',
+          borderColor: appTheme === 'dark' ? '#855f5f' : '#9BC9E4',
           whiteSpace: 'nowrap',
         }}>
         {headCells.map((headCell) => (
@@ -925,7 +925,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
               padding: '0 30px',
               background: appTheme === 'dark' ? '#24292D' : '#dbe6ec',
               border: '1px solid #86B9D6',
-              borderColor: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
+              borderColor: appTheme === 'dark' ? '#855f5f' : '#86B9D6',
               borderRadius: 100,
               color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
             }}
@@ -1233,7 +1233,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
               padding: '0 30px',
               background: appTheme === 'dark' ? '#24292D' : '#dbe6ec',
               border: '1px solid #86B9D6',
-              borderColor: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
+              borderColor: appTheme === 'dark' ? '#855f5f' : '#86B9D6',
               borderRadius: 100,
               color: appTheme === 'dark' ? '#7C838A' : '#bb4f4f',
             }}

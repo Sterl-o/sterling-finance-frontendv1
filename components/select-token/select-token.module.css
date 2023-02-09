@@ -11,12 +11,12 @@
 
 .tokenSelect--dark {
   background: #151718 !important;
-  border: 1px solid #5F7285 !important;
+  border: 1px solid #855f5f !important;
 }
 
 .tokenSelect > svg,
 .tokenSelect--dark > svg {
-  color: #5F7285 !important;
+  color: #855f5f !important;
 }
 
 .tokenSelect > fieldset,

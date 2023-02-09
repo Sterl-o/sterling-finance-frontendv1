@@ -638,7 +638,7 @@
 }
 
 .priceInfo--dark>.text {
-  color: #5F7285 !important;
+  color: #855f5f !important;
 }
 
 .buttonOverride {
@@ -699,7 +699,7 @@
 }
 
 .route--dark {
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .stabIndicatorContainer {
@@ -763,7 +763,7 @@
 
 .routeIcon--dark {
   background: #613030;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .quoteLoaderDivider,

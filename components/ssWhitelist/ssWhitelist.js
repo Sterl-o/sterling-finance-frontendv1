@@ -646,7 +646,7 @@ export default function ssWhitelist() {
             style: {
               background: appTheme === "dark" ? "#151718" : "#DBE6EC",
               border: "1px solid",
-              borderColor: appTheme === "dark" ? "#5F7285" : "#86B9D6",
+              borderColor: appTheme === "dark" ? "#855f5f" : "#86B9D6",
               borderRadius: 0,
               maxWidth: 700,
               height: 50,

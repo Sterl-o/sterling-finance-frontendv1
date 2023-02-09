@@ -354,7 +354,7 @@ function MyComponent(props) {
                   <Typography
                     style={{
                       paddingTop: '10px',
-                      borderTop: appTheme === "dark" ? '1px solid #5F7285' : '1px solid #86B9D6',
+                      borderTop: appTheme === "dark" ? '1px solid #855f5f' : '1px solid #86B9D6',
                       textAlign: 'left',
                       fontSize: windowWidth > 530 ? 18 : 14,
                       color: appTheme === "dark" ? '#C6CDD2' : '#325569',
@@ -614,7 +614,7 @@ function MyComponent(props) {
 //                   <Typography
 //                     style={{
 //                       paddingTop: '10px',
-//                       borderTop: appTheme === "dark" ? '1px solid #5F7285' : '1px solid #86B9D6',
+//                       borderTop: appTheme === "dark" ? '1px solid #855f5f' : '1px solid #86B9D6',
 //                       textAlign: 'left',
 //                       fontSize: windowWidth > 530 ? 18 : 14,
 //                       color: appTheme === "dark" ? '#C6CDD2' : '#325569',

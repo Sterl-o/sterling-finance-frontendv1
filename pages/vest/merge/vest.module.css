@@ -18,7 +18,7 @@
   
 .titleSection--dark {
     background: #151718;
-    border: 1px solid #5F7285;
+    border: 1px solid #855f5f;
 }
 
 .backIcon {
@@ -155,7 +155,7 @@
 }
 
 .tokenSelect > svg {
-    color: #5F7285 !important;
+    color: #855f5f !important;
 }
   
 .tokenSelect > fieldset {
@@ -173,7 +173,7 @@
   .tokenSelectInput--dark {
     padding: 0px !important;
     /* padding: 4.5px !important; */
-    /* border: 1px solid #5F7285 !important; */
+    /* border: 1px solid #855f5f !important; */
     border-right: none !important;
     border-radius: 0 !important;
     color: #e64c4c !important;
@@ -262,12 +262,12 @@
   
   .slippageIconContainer--dark {
     background: transparent;
-    border: 1px solid #5F7285;
+    border: 1px solid #855f5f;
   }
   
   .slippageIconContainer--dark.slippageIconContainer--active {
-    background: #5F7285;
-    border: 1px solid #5F7285;
+    background: #855f5f;
+    border: 1px solid #855f5f;
   }
 
 @media (max-width:660px) {

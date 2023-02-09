@@ -43,7 +43,7 @@ export default function ffWarning({close, title, subTitle, icon, description, bt
                 transform: 'rotate(360deg)',
                 borderStyle: 'solid',
                 borderWidth: '0px 0px 30px 30px',
-                borderColor: `transparent transparent ${appTheme === "dark" ? '#5F7285' : '#86B9D6'}`,
+                borderColor: `transparent transparent ${appTheme === "dark" ? '#855f5f' : '#86B9D6'}`,
               }}>
               <div
                 style={{
@@ -64,8 +64,8 @@ export default function ffWarning({close, title, subTitle, icon, description, bt
                 background: appTheme === "dark" ? '#151718' : '#DBE6EC',
                 width: 'calc(100% - 28px)',
                 height: 30,
-                borderTop: `1px solid ${appTheme === "dark" ? '#5F7285' : '#DBE6EC'}`,
-                borderRight: `1px solid ${appTheme === "dark" ? '#5F7285' : '#DBE6EC'}`,
+                borderTop: `1px solid ${appTheme === "dark" ? '#855f5f' : '#DBE6EC'}`,
+                borderRight: `1px solid ${appTheme === "dark" ? '#855f5f' : '#DBE6EC'}`,
                 marginLeft: 0,
                 zIndex: 2,
                 position: 'absolute',

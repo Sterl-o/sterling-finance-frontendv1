@@ -198,7 +198,7 @@ const merge = () => {
                       paddingRight: 30,
                       fontWeight: 500,
                       fontSize: 18,
-                      color: appTheme === 'dark' ? '#5F7285' : '#0B5E8E',
+                      color: appTheme === 'dark' ? '#855f5f' : '#0B5E8E',
                     }}>
                     {"First Nft to Merge"}
                   </div>
@@ -277,7 +277,7 @@ const merge = () => {
                       paddingRight: 30,
                       fontWeight: 500,
                       fontSize: 18,
-                      color: appTheme === 'dark' ? '#5F7285' : '#0B5E8E',
+                      color: appTheme === 'dark' ? '#855f5f' : '#0B5E8E',
                     }}>
                     {"Second Nft to Merge"}
                   </div>

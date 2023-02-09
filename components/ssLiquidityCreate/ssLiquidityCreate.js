@@ -350,7 +350,7 @@ export default function SSLiquidityCreate() {
         <div
           style={{
             width: '100%',
-            border: `1px solid ${appTheme === 'dark' ? '#5F7285' : '#86B9D6'}`,
+            border: `1px solid ${appTheme === 'dark' ? '#855f5f' : '#86B9D6'}`,
           }}
           className={['g-flex'].join(' ')}>
           <div className={[classes.priceInfo, classes[`priceInfo--${appTheme}`]].join(' ')}>

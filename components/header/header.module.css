@@ -190,7 +190,7 @@
 }
 
 .accountButton--dark:hover .accountButtonAddress {
-  background: #5F7285 !important;
+  background: #855f5f !important;
 }
 
 .accountButton--dark:active .accountButtonAddress {
@@ -215,7 +215,7 @@
 }
 
 .accountButtonConnect--dark:hover {
-  background: #5F7285 !important;
+  background: #855f5f !important;
 }
 
 .accountButtonAddress {
@@ -522,7 +522,7 @@
   }
 
   .headerContainer--dark {
-    outline: 1px solid #5F7285;
+    outline: 1px solid #855f5f;
   }
 }
 

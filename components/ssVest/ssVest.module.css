@@ -166,7 +166,7 @@
 
 .reAddPadding3--dark {
   background: #151718 !important;
-  border: 1px solid #5F7285 !important;
+  border: 1px solid #855f5f !important;
   border-top: none !important;
 }
 
@@ -635,7 +635,7 @@ input[type=number].massiveInputAmount {
 }
 
 .displayDualIconContainer--dark:active {
-  fill: #5F7285;
+  fill: #855f5f;
 }
 
 .displayDualIconContainerSmall {
@@ -661,7 +661,7 @@ input[type=number].massiveInputAmount {
 
 .assetOptionIcon--dark {
   background: #613030;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .displayAssetIcon {
@@ -752,7 +752,7 @@ input[type=number].massiveInputAmount {
 
 .titleSection--dark {
   background: #151718;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .backButton {
@@ -840,7 +840,7 @@ input[type=number].massiveInputAmount {
 
 .vestPeriodToggle--dark {
   background: #24292D;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .vestPeriodLabel {
@@ -980,12 +980,12 @@ input[type=number].massiveInputAmount {
 }
 
 .priceInfo--dark:first-child {
-  /* border-right: 1px solid #5F7285; */
-  border: 1px solid #5F7285;
+  /* border-right: 1px solid #855f5f; */
+  border: 1px solid #855f5f;
 }
 .priceInfo--dark:last-child {
-  /* border-right: 1px solid #5F7285; */
-  border: 1px solid #5F7285;
+  /* border-right: 1px solid #855f5f; */
+  border: 1px solid #855f5f;
 }
 
 @media (max-width:660px) {
@@ -1135,7 +1135,7 @@ input[type=number].massiveInputAmount {
   }
 
   .priceInfos--dark {
-    border: 1px solid #5F7285;
+    border: 1px solid #855f5f;
   }
 
   .priceInfo {
@@ -1148,7 +1148,7 @@ input[type=number].massiveInputAmount {
   }
 
   .priceInfos--dark .priceInfo:not(:last-of-type) {
-    border-right: 1px solid #5F7285;
+    border-right: 1px solid #855f5f;
   }
 
   .routeLinesLeft,
@@ -1267,7 +1267,7 @@ input[type=number].massiveInputAmount {
 
   .vestInfoTextTop--dark {
     border-right: none;
-    border-bottom: 1px solid #5F7285;
+    border-bottom: 1px solid #855f5f;
   }
 
   .amount {

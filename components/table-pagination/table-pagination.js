@@ -45,8 +45,8 @@ function TablePaginationActions(props) {
           width: windowWidth > 660 ? 30 : 25,
           height: windowWidth > 660 ? 30 : 25,
           border: '1px solid #86B9D6',
-          borderColor: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
-          color: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
+          borderColor: appTheme === 'dark' ? '#855f5f' : '#86B9D6',
+          color: appTheme === 'dark' ? '#855f5f' : '#86B9D6',
         }}>
         {theme.direction === 'rtl'
           ? <KeyboardDoubleArrowRight style={{transform: windowWidth > 660 ? 'none' : 'scale(0.7)'}}/>
@@ -62,8 +62,8 @@ function TablePaginationActions(props) {
           height: windowWidth > 660 ? 30 : 25,
           marginLeft: 10,
           border: '1px solid #86B9D6',
-          borderColor: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
-          color: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
+          borderColor: appTheme === 'dark' ? '#855f5f' : '#86B9D6',
+          color: appTheme === 'dark' ? '#855f5f' : '#86B9D6',
         }}>
         {theme.direction === 'rtl'
           ? <KeyboardArrowRight style={{transform: windowWidth > 660 ? 'none' : 'scale(0.7)'}}/>
@@ -79,8 +79,8 @@ function TablePaginationActions(props) {
           height: windowWidth > 660 ? 30 : 25,
           marginLeft: 10,
           border: '1px solid #86B9D6',
-          borderColor: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
-          color: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
+          borderColor: appTheme === 'dark' ? '#855f5f' : '#86B9D6',
+          color: appTheme === 'dark' ? '#855f5f' : '#86B9D6',
         }}>
         {theme.direction === 'rtl'
           ? <KeyboardArrowLeft style={{transform: windowWidth > 660 ? 'none' : 'scale(0.7)'}}/>
@@ -96,8 +96,8 @@ function TablePaginationActions(props) {
           height: windowWidth > 660 ? 30 : 25,
           marginLeft: 10,
           border: '1px solid #86B9D6',
-          borderColor: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
-          color: appTheme === 'dark' ? '#5F7285' : '#86B9D6',
+          borderColor: appTheme === 'dark' ? '#855f5f' : '#86B9D6',
+          color: appTheme === 'dark' ? '#855f5f' : '#86B9D6',
         }}>
         {theme.direction === 'rtl'
           ? <KeyboardDoubleArrowLeft style={{transform: windowWidth > 660 ? 'none' : 'scale(0.7)'}}/>

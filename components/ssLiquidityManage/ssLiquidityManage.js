@@ -1223,7 +1223,7 @@ export default function ssLiquidityManage() {
             style={{
               width: "100%",
               border: `1px solid ${
-                appTheme === "dark" ? "#5F7285" : "#86B9D6"
+                appTheme === "dark" ? "#855f5f" : "#86B9D6"
               }`,
             }}
             className={["g-flex"].join(" ")}

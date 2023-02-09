@@ -453,7 +453,7 @@ const AssetSelect = (
             width: 460,
             height: 710,
             background: appTheme === "dark" ? '#151718' : '#DBE6EC',
-            border: appTheme === "dark" ? '1px solid #5F7285' : '1px solid #86B9D6',
+            border: appTheme === "dark" ? '1px solid #855f5f' : '1px solid #86B9D6',
             borderRadius: 0,
             overflow: 'hidden',
           }}>

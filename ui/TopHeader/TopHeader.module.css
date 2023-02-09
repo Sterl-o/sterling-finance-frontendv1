@@ -15,8 +15,8 @@
 .top-header--dark {
   background: var(--background-dark);
   color: var(--menu-links-dark);
-  border-top: 1px solid #5f7285;
-  border-bottom: 1px solid #5f7285;
+  border-top: 1px solid #855f5f;
+  border-bottom: 1px solid #855f5f;
 }
 
 @media (max-width: 1550px) {

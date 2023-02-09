@@ -60,7 +60,7 @@
 }
 
 .results--dark {
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .tokenBodyCell {
@@ -235,7 +235,7 @@
 }
 
 .adaptiveContainer--dark {
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
   background: #151718;
 }
 
@@ -246,7 +246,7 @@
 
 .adaptiveHeader--dark {
   color: #C6CDD2;
-  border-bottom: 1px solid #5F7285;
+  border-bottom: 1px solid #855f5f;
 }
 
 .adaptiveActionContainer {
@@ -264,7 +264,7 @@
 }
 
 .adaptive:last-child .adaptiveActionItem--dark {
-  border-left: 1px solid #5F7285;
+  border-left: 1px solid #855f5f;
   padding: 23px 20px;
 }
 
@@ -276,7 +276,7 @@
 
 .adaptiveActionHeader--dark {
   background: #24292D;
-  border-bottom: 1px solid #5F7285;
+  border-bottom: 1px solid #855f5f;
 }
 
 .adaptiveActionLabel {
@@ -300,7 +300,7 @@
 }
 
 .adaptive:last-child .adaptiveActionLabel--dark {
-  border-left: 1px solid #5F7285;
+  border-left: 1px solid #855f5f;
 }
 
 .adaptiveActionLabel--dark {
@@ -392,7 +392,7 @@
   }
 
   .adaptiveActionLabel--dark {
-    border-bottom: 1px solid #5F7285;
+    border-bottom: 1px solid #855f5f;
   }
 
   .adaptive:last-child .adaptiveActionLabel {
@@ -402,7 +402,7 @@
 
   .adaptive:last-child .adaptiveActionLabel--dark {
     justify-content: flex-start;
-    border-top: 1px solid #5F7285;
+    border-top: 1px solid #855f5f;
   }
 
   .adaptive:last-child .adaptiveActionItem {

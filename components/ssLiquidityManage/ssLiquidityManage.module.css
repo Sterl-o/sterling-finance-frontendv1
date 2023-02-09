@@ -267,8 +267,8 @@ input[type=number].mediumInputAmount {
 
 .bottomLeftButton--dark {
   background: transparent url("/images/ui/liquidity-tab-right--dark.svg") !important;
-  border-bottom: 1px solid #5F7285 !important;
-  border-left: 1px solid #5F7285 !important;
+  border-bottom: 1px solid #855f5f !important;
+  border-left: 1px solid #855f5f !important;
 }
 
 .bottomLeftButton--dark.buttonActive {
@@ -288,8 +288,8 @@ input[type=number].mediumInputAmount {
 
 .topLeftButton--dark {
   background: transparent url("/images/ui/liquidity-tab-left--dark.svg") !important;
-  border-bottom: 1px solid #5F7285 !important;
-  border-right: 1px solid #5F7285 !important;
+  border-bottom: 1px solid #855f5f !important;
+  border-right: 1px solid #855f5f !important;
 }
 
 .topLeftButton--dark.buttonActive {
@@ -317,12 +317,12 @@ input[type=number].mediumInputAmount {
 
 .slippageIconContainer--dark {
   background: transparent;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .slippageIconContainer--dark.slippageIconContainer--active {
-  background: #5F7285;
-  border: 1px solid #5F7285;
+  background: #855f5f;
+  border: 1px solid #855f5f;
 }
 
 .slippageTextContainer {
@@ -332,7 +332,7 @@ input[type=number].mediumInputAmount {
 }
 
 .slippageTextContainer--dark {
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
   border-right: none;
 }
 
@@ -363,7 +363,7 @@ input[type=number].mediumInputAmount {
 
 .popoverPaper--dark {
   background: #151718 !important;
-  border: 1px solid #5F7285 !important;
+  border: 1px solid #855f5f !important;
 }
 
 .textField {
@@ -580,7 +580,7 @@ input[type=number].mediumInputAmount {
 
 .swapIconContainer--dark {
   background: #151718;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .swapIconContainerInside {
@@ -602,7 +602,7 @@ input[type=number].mediumInputAmount {
 
 .swapIconContainer--dark .swapIconContainerInside {
   background: #24292D;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .swapIconContainer--dark::before {
@@ -619,7 +619,7 @@ input[type=number].mediumInputAmount {
 }
 
 .swapIconContainer--dark:active .swapIconContainerInside {
-  background: #5F7285;
+  background: #855f5f;
   border: 1px solid #e64c4c;
 }
 
@@ -676,7 +676,7 @@ input[type=number].mediumInputAmount {
 
 .assetOptionIcon--dark {
   background: #613030;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .displayDualIconContainer {
@@ -707,7 +707,7 @@ input[type=number].mediumInputAmount {
 }
 
 .displayDualIconContainer--dark:active {
-  fill: #5F7285;
+  fill: #855f5f;
 }
 
 .amountAndPercent {
@@ -833,7 +833,7 @@ input[type=number].mediumInputAmount {
 
 .mediumInputContainer--dark {
   background: #24292D;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .mediumInputAssetSelect {
@@ -936,7 +936,7 @@ input[type=number].mediumInputAmount {
 }
 
 .priceInfos--dark {
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .priceInfo {
@@ -957,7 +957,7 @@ input[type=number].mediumInputAmount {
 }
 
 .priceInfo--dark:first-child {
-  border-right: 1px solid #5F7285;
+  border-right: 1px solid #855f5f;
 }
 
 .priceInfo > .title {
@@ -980,7 +980,7 @@ input[type=number].mediumInputAmount {
 }
 
 .priceInfo--dark > .text {
-  color: #5F7285 !important;
+  color: #855f5f !important;
 }
 
 .titleSection {
@@ -997,7 +997,7 @@ input[type=number].mediumInputAmount {
 
 .titleSection--dark {
   background: #151718;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .buttonDeposit {
@@ -1103,12 +1103,12 @@ input[type=number].mediumInputAmount {
 }
 
 .toggleOption--dark {
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .toggleOption--dark.active {
-  border: 1px solid #5F7285;
-  background: #5F7285 !important;
+  border: 1px solid #855f5f;
+  background: #855f5f !important;
 }
 
 .toggleOptionText {
@@ -1140,7 +1140,7 @@ input[type=number].mediumInputAmount {
 }
 
 .tokenSelect > svg {
-  color: #5F7285 !important;
+  color: #855f5f !important;
 }
 
 .tokenSelect > fieldset {
@@ -1156,7 +1156,7 @@ input[type=number].mediumInputAmount {
 
 .tokenSelectInput--dark {
   padding: 4.5px !important;
-  border: 1px solid #5F7285 !important;
+  border: 1px solid #855f5f !important;
   border-right: none !important;
   border-radius: 0 !important;
   color: #e64c4c !important;
@@ -1238,7 +1238,7 @@ input[type=number].mediumInputAmount {
 }
 
 .slippageRoot--dark {
-  border-color: #5F7285 !important;
+  border-color: #855f5f !important;
 }
 
 .slippageDivider {
@@ -1247,7 +1247,7 @@ input[type=number].mediumInputAmount {
 }
 
 .slippageDivider--dark {
-  border-color: #5F7285;
+  border-color: #855f5f;
 }
 
 .inputBalanceSlippageText--light,
@@ -1305,7 +1305,7 @@ input[type=number].mediumInputAmount {
 
 .assetSearchResults--dark {
   background: #2D3741;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 
@@ -1549,7 +1549,7 @@ input[type=number].mediumInputAmount {
 
 .liqHeader--dark {
   background: #2D3741;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .walletIcon {
@@ -1581,7 +1581,7 @@ input[type=number].mediumInputAmount {
 
 .liqBody--dark {
   background: #24292D;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
   border-top: none;
 }
 
@@ -1667,7 +1667,7 @@ input[type=number].mediumInputAmount {
 }
 
 .dividerLine--dark {
-  background: #5F7285;
+  background: #855f5f;
 }
 
 .dividerLine--dark::before,
@@ -1822,7 +1822,7 @@ input[type=number].mediumInputAmount {
 
   .mediumInputContainer--dark.mediumInputContainer--withdrawAmount0,
   .mediumInputContainer--dark.mediumInputContainer--withdrawAmount1 {
-    border-right: 1px solid #5F7285;
+    border-right: 1px solid #855f5f;
   }
 
   .swapInputs {
@@ -1877,7 +1877,7 @@ input[type=number].mediumInputAmount {
   }
 
   .priceInfos--dark {
-    border: 1px solid #5F7285;
+    border: 1px solid #855f5f;
   }
 
   .priceInfo {
@@ -1889,7 +1889,7 @@ input[type=number].mediumInputAmount {
   }
 
   .priceInfos--dark .priceInfo:not(:last-of-type) {
-    border-right: 1px solid #5F7285;
+    border-right: 1px solid #855f5f;
   }
 
   .routeLinesLeft,
@@ -1985,7 +1985,7 @@ input[type=number].mediumInputAmount {
 
   .vestInfoTextTop--dark {
     border-right: none;
-    border-bottom: 1px solid #5F7285;
+    border-bottom: 1px solid #855f5f;
   }
 
   .amount {

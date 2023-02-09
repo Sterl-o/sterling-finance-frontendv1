@@ -39,12 +39,12 @@
 }
 
 .switch:hover .toggle--dark {
-  background: #5F7285;
+  background: #855f5f;
 }
 
 .switch:hover .track--dark {
   background: #24292D;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .switch--active .toggle,

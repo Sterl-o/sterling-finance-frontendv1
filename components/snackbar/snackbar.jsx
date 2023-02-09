@@ -186,7 +186,7 @@ export default function MySnackbar(props) {
               style={{
                 width: 80,
                 paddingRight: 10,
-                borderRight: `1px solid ${appTheme === 'dark' ? '#5F7285' : '#86B9D6'}`,
+                borderRight: `1px solid ${appTheme === 'dark' ? '#855f5f' : '#86B9D6'}`,
               }}>
               <div
                 style={{
@@ -211,7 +211,7 @@ export default function MySnackbar(props) {
               <div
                 style={{
                   width: '100%',
-                  borderBottom: `1px solid ${appTheme === 'dark' ? '#5F7285' : '#86B9D6'}`,
+                  borderBottom: `1px solid ${appTheme === 'dark' ? '#855f5f' : '#86B9D6'}`,
                   paddingBottom: 10,
                 }}
                 className={['g-flex', 'g-flex--align-center', 'g-flex--space-between'].join(' ')}>

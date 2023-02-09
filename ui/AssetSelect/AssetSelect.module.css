@@ -59,7 +59,7 @@
 }
 
 .displayDualIconContainer--dark:active {
-  fill: #5F7285;
+  fill: #855f5f;
 }
 
 .displayDualIconContainerConfirm {
@@ -139,7 +139,7 @@
 
 .assetOptionIcon--dark {
   background: #613030;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .assetSymbolName {
@@ -213,12 +213,12 @@
 
 .searchInput--dark {
   background: #151718 !important;
-  border: 1px solid #5F7285 !important;
+  border: 1px solid #855f5f !important;
 }
 
 .searchInput--dark:hover {
   background: #24292D !important;
-  border: 1px solid #5F7285 !important;
+  border: 1px solid #855f5f !important;
 }
 
 .searchInput--dark:active {
@@ -264,7 +264,7 @@
 
 .assetSearchResults--dark {
   background: #2D3741;
-  border: 1px solid #5F7285;
+  border: 1px solid #855f5f;
 }
 
 .manageLocalContainer {

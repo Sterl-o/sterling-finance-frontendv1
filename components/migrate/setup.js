@@ -634,7 +634,7 @@ export default function Setup() {
               height: 710,
               background: appTheme === "dark" ? "#151718" : "#DBE6EC",
               border:
-                appTheme === "dark" ? "1px solid #5F7285" : "1px solid #86B9D6",
+                appTheme === "dark" ? "1px solid #855f5f" : "1px solid #86B9D6",
               borderRadius: 0,
               overflow: "hidden",
             }}
@@ -1327,7 +1327,7 @@ export default function Setup() {
                           height="33"
                           rx="16.5"
                           fill={appTheme === "dark" ? "#151718" : "#dbe6ec"}
-                          stroke={appTheme === "dark" ? "#5F7285" : "#86B9D6"}
+                          stroke={appTheme === "dark" ? "#855f5f" : "#86B9D6"}
                         />
                         <path
                           d="M16.9998 18.1717L21.9498 13.2217L23.3638 14.6357L16.9998 20.9997L10.6358 14.6357L12.0498 13.2217L16.9998 18.1717Z"

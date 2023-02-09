@@ -290,7 +290,7 @@ const sortIcon = (sortDirection) => {
       >
         <path
           d="M5.83325 8.33337L9.99992 12.5L14.1666 8.33337H5.83325Z"
-          fill={appTheme === "dark" ? "#5F7285" : "#9BC9E4"}
+          fill={appTheme === "dark" ? "#855f5f" : "#9BC9E4"}
         />
       </svg>
     </>
@@ -310,7 +310,7 @@ function EnhancedTableHead(props) {
       <TableRow
         style={{
           border: "1px solid #9BC9E4",
-          borderColor: appTheme === "dark" ? "#5F7285" : "#9BC9E4",
+          borderColor: appTheme === "dark" ? "#855f5f" : "#9BC9E4",
           whiteSpace: "nowrap",
         }}
       >
@@ -326,7 +326,7 @@ function EnhancedTableHead(props) {
                 style={{
                   background: appTheme === "dark" ? "#24292D" : "#CFE5F2",
                   borderBottom: `1px solid ${
-                    appTheme === "dark" ? "#5F7285" : "#9BC9E4"
+                    appTheme === "dark" ? "#855f5f" : "#9BC9E4"
                   }`,
                   zIndex: 10,
                 }}
@@ -363,7 +363,7 @@ function EnhancedTableHead(props) {
                 style={{
                   background: appTheme === "dark" ? "#24292D" : "#CFE5F2",
                   borderBottom: `1px solid ${
-                    appTheme === "dark" ? "#5F7285" : "#9BC9E4"
+                    appTheme === "dark" ? "#855f5f" : "#9BC9E4"
                   }`,
                   color: appTheme === "dark" ? "#C6CDD2" : "#325569",
                 }}
@@ -632,7 +632,7 @@ const useStyles = makeStyles({
   },
   "myDeposits--dark": {
     background: "#151718",
-    border: "1px solid #5F7285",
+    border: "1px solid #855f5f",
   },
   toolbar: {
     marginBottom: 30,
@@ -663,10 +663,10 @@ const useStyles = makeStyles({
     background: "#e64c4c",
     color: "#0A2C40",
     "&:hover": {
-      background: "#5F7285",
+      background: "#855f5f",
     },
     "&:active": {
-      background: "#5F7285",
+      background: "#855f5f",
       border: "1px solid #e64c4c",
     },
   },
@@ -691,10 +691,10 @@ const useStyles = makeStyles({
     background: "#e64c4c",
     color: "#0A2C40",
     "&:hover": {
-      background: "#5F7285",
+      background: "#855f5f",
     },
     "&:active": {
-      background: "#5F7285",
+      background: "#855f5f",
       border: "1px solid #e64c4c",
     },
   },
@@ -747,7 +747,7 @@ const useStyles = makeStyles({
     },
   },
   "filterItem--dark": {
-    borderColor: "#5F7285",
+    borderColor: "#855f5f",
     "&:not(:last-child)::before": {
       backgroundColor: "#e64c4c",
     },
@@ -1091,7 +1091,7 @@ const EnhancedTableToolbar = (props) => {
               style: {
                 background: appTheme === "dark" ? "#151718" : "#DBE6EC",
                 border: "1px solid",
-                borderColor: appTheme === "dark" ? "#5F7285" : "#86B9D6",
+                borderColor: appTheme === "dark" ? "#855f5f" : "#86B9D6",
                 borderRadius: 0,
               },
               classes: {
@@ -1139,7 +1139,7 @@ const EnhancedTableToolbar = (props) => {
               style={{
                 fontSize: "inherit",
                 fontWeight: 500,
-                color: appTheme === "dark" ? "#5F7285" : "#86B9D6",
+                color: appTheme === "dark" ? "#855f5f" : "#86B9D6",
                 paddingRight: 4,
               }}
             >
@@ -2757,7 +2757,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                 padding: "0 30px",
                 background: appTheme === "dark" ? "#24292D" : "#dbe6ec",
                 border: "1px solid #86B9D6",
-                borderColor: appTheme === "dark" ? "#5F7285" : "#86B9D6",
+                borderColor: appTheme === "dark" ? "#855f5f" : "#86B9D6",
                 borderRadius: 100,
                 color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
               }}
@@ -3416,7 +3416,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
               padding: "0 30px",
               background: appTheme === "dark" ? "#24292D" : "#dbe6ec",
               border: "1px solid #86B9D6",
-              borderColor: appTheme === "dark" ? "#5F7285" : "#86B9D6",
+              borderColor: appTheme === "dark" ? "#855f5f" : "#86B9D6",
               borderRadius: 100,
               color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
             }}

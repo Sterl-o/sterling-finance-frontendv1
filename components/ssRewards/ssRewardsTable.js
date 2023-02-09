@@ -175,7 +175,7 @@ function EnhancedTableHead(props) {
       <TableRow
         style={{
           border: "1px solid #9BC9E4",
-          borderColor: appTheme === "dark" ? "#5F7285" : "#9BC9E4",
+          borderColor: appTheme === "dark" ? "#855f5f" : "#9BC9E4",
           whiteSpace: "nowrap",
         }}
       >
@@ -191,7 +191,7 @@ function EnhancedTableHead(props) {
                 style={{
                   background: appTheme === "dark" ? "#24292D" : "#CFE5F2",
                   borderBottom: "1px solid #9BC9E4",
-                  borderColor: appTheme === "dark" ? "#5F7285" : "#9BC9E4",
+                  borderColor: appTheme === "dark" ? "#855f5f" : "#9BC9E4",
                   zIndex: 10,
                 }}
               >
@@ -223,7 +223,7 @@ function EnhancedTableHead(props) {
                 style={{
                   background: appTheme === "dark" ? "#24292D" : "#CFE5F2",
                   borderBottom: "1px solid #9BC9E4",
-                  borderColor: appTheme === "dark" ? "#5F7285" : "#9BC9E4",
+                  borderColor: appTheme === "dark" ? "#855f5f" : "#9BC9E4",
                   color: appTheme === "dark" ? "#C6CDD2" : "#325569",
                 }}
                 key={headCell.id}
@@ -1117,7 +1117,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
               padding: "0 30px",
               background: appTheme === "dark" ? "#24292D" : "#dbe6ec",
               border: "1px solid #86B9D6",
-              borderColor: appTheme === "dark" ? "#5F7285" : "#86B9D6",
+              borderColor: appTheme === "dark" ? "#855f5f" : "#86B9D6",
               borderRadius: 100,
               color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
             }}
@@ -1743,7 +1743,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
               padding: "0 30px",
               background: appTheme === "dark" ? "#24292D" : "#dbe6ec",
               border: "1px solid #86B9D6",
-              borderColor: appTheme === "dark" ? "#5F7285" : "#86B9D6",
+              borderColor: appTheme === "dark" ? "#855f5f" : "#86B9D6",
               borderRadius: 100,
               color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
             }}
