@@ -130,7 +130,7 @@
 }
 
 .assetSearchResults--dark {
-  background: #2D3741;
+  background: #412d2d;
   border: 1px solid #855f5f;
 }
 
@@ -481,7 +481,7 @@
 }
 
 .pairTitle--dark {
-  background: #2D3741;
+  background: #412d2d;
   border-bottom: 1px solid #855f5f;
   color: #ffffff;
 }
@@ -611,7 +611,7 @@
 }
 
 .liqHeader--dark {
-  background: #2D3741;
+  background: #412d2d;
   border: 1px solid #855f5f;
 }
 
@@ -668,7 +668,7 @@
 }
 
 .liqBodyIconContainer--dark {
-  border: 1px solid #2D3741;
+  border: 1px solid #412d2d;
   background: #24292D;
 }
 
@@ -733,7 +733,7 @@
 }
 
 .pairContainer--dark {
-  background: #2D3741;
+  background: #412d2d;
   border: 1px solid #855f5f;
 }
 
@@ -747,7 +747,7 @@
 }
 
 .pairIconContainer--dark {
-  border: 1px solid #2D3741;
+  border: 1px solid #412d2d;
   background: #24292D;
 }
 
@@ -1059,7 +1059,7 @@
 }
 
 .assetSelectMenu--dark:hover {
-  background: #2D3741 !important;
+  background: #412d2d !important;
   box-shadow: 0 1px 0 rgba(229, 76, 76, 0.5);
 }
 
@@ -1588,5 +1588,5 @@
 }
 
 .pairDetails--dark:hover {
-  background: #2D3741;
+  background: #412d2d;
 }

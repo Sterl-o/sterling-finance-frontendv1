@@ -6,7 +6,7 @@ import classes from "./ThemeSwitcher.module.css";
 const LightButton = (props) => {
   const { width = "14", height = "14" } = props;
   const { appTheme, setAppTheme } = useAppThemeContext();
-  const fillColor = appTheme === "light" ? "white" : "#2D3741";
+  const fillColor = appTheme === "light" ? "white" : "#412d2d";
   const className = [
     classes["theme-button"],
     classes["theme-button--sun"],

@@ -51,7 +51,7 @@
 }
 
 .displayDualIconContainer--dark {
-  fill: #2D3741;
+  fill: #412d2d;
 }
 
 .displayDualIconContainer--dark:hover {
@@ -119,7 +119,7 @@
 }
 
 .assetSelectMenu--dark:hover {
-  background: #2D3741 !important;
+  background: #412d2d !important;
   box-shadow: 0 1px 0 rgba(229, 76, 76, 0.5);
 }
 
@@ -263,7 +263,7 @@
 }
 
 .assetSearchResults--dark {
-  background: #2D3741;
+  background: #412d2d;
   border: 1px solid #855f5f;
 }
 
@@ -301,7 +301,7 @@
 }
 
 .displayAssetIconSecond--dark {
-  border: 2px solid #2D3741;
+  border: 2px solid #412d2d;
   background: #24292D;
 }
 

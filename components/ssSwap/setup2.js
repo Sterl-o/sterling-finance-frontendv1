@@ -1084,7 +1084,7 @@ function Setup() {
     const [swapIconArrowColor, setSwapIconArrowColor] = useState(null);
 
     const swapIconHover = () => {
-        setSwapIconBgColor(appTheme === "dark" ? "#2D3741" : "#9BC9E4");
+        setSwapIconBgColor(appTheme === "dark" ? "#412d2d" : "#9BC9E4");
         setSwapIconBorderColor(appTheme === "dark" ? "#e64c4c" : "#8e0b0b");
         setSwapIconArrowColor(appTheme === "dark" ? "#e64c4c" : "#8e0b0b");
     };

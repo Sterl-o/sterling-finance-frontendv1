@@ -190,7 +190,7 @@ export default function Transaction({ transaction }) {
               width: 40,
               height: 40,
               margin: "10px",
-              background: appTheme === "dark" ? "#2D3741" : "#CFE5F2",
+              background: appTheme === "dark" ? "#412d2d" : "#CFE5F2",
               borderRadius: "100px",
             }}
           >

@@ -196,7 +196,7 @@ function EnhancedTableHead(props) {
                   sortDirection={orderBy === headCell.id ? order : false}
                   style={{
                     background: appTheme === 'dark' ? '#24292D' : '#CFE5F2',
-                    borderBottom: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#CFE5F2'}`,
+                    borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#CFE5F2'}`,
                     zIndex: 10,
                   }}>
                   <TableSortLabel
@@ -225,7 +225,7 @@ function EnhancedTableHead(props) {
                 : <StyledTableCell
                   style={{
                     background: appTheme === 'dark' ? '#24292D' : '#CFE5F2',
-                    borderBottom: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#CFE5F2'}`,
+                    borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#CFE5F2'}`,
                     color: appTheme === 'dark' ? '#C6CDD2' : '#325569',
                   }}
                   key={headCell.id}
@@ -693,7 +693,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
     style={{
       background: appTheme === 'dark' ? '#151718' : '#DBE6EC',
       border: '1px dashed #CFE5F2',
-      borderColor: appTheme === 'dark' ? '#2D3741' : '#CFE5F2',
+      borderColor: appTheme === 'dark' ? '#412d2d' : '#CFE5F2',
       color: appTheme === 'dark' ? '#C6CDD2' : '#325569'
     }}
     className={css.tableEmptyMessage}
@@ -744,7 +744,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                         <StickyTableCell
                           style={{
                             background: appTheme === 'dark' ? '#151718' : '#DBE6EC',
-                            borderBottom: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#CFE5F2'}`,
+                            borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#CFE5F2'}`,
                           }}
                           className={classes.cell}>
                           <div className={classes.inline}>
@@ -792,7 +792,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                           align="right"
                           style={{
                             background: appTheme === 'dark' ? '#151718' : '#DBE6EC',
-                            borderBottom: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#CFE5F2'}`,
+                            borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#CFE5F2'}`,
                             overflow: 'hidden',
                           }}>
                           <Typography
@@ -823,7 +823,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                           align="right"
                           style={{
                             background: appTheme === 'dark' ? '#151718' : '#DBE6EC',
-                            borderBottom: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#CFE5F2'}`,
+                            borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#CFE5F2'}`,
                             overflow: 'hidden',
                           }}>
                           <Typography
@@ -854,7 +854,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                           align="right"
                           style={{
                             background: appTheme === 'dark' ? '#151718' : '#DBE6EC',
-                            borderBottom: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#CFE5F2'}`,
+                            borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#CFE5F2'}`,
                             overflow: 'hidden',
                           }}>
                           <Typography
@@ -885,7 +885,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                           align="right"
                           style={{
                             background: appTheme === 'dark' ? '#151718' : '#DBE6EC',
-                            borderBottom: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#CFE5F2'}`,
+                            borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#CFE5F2'}`,
                             overflow: 'hidden',
                           }}>
                           <Button
@@ -962,7 +962,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                     margin: 0,
                     marginBottom: 20,
                     background: appTheme === 'dark' ? '#24292D' : '#DBE6EC',
-                    border: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#9BC9E4'}`,
+                    border: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
                   }}
                   disableGutters={true}
                   expanded={expanded === labelId}
@@ -1018,14 +1018,14 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
 
                       <div
                         style={{
-                          borderTop: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#9BC9E4'}`,
-                          borderBottom: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#CFE5F2'}`,
+                          borderTop: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
+                          borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#CFE5F2'}`,
                         }}
                         className={['g-flex', 'g-flex--align-center'].join(' ')}>
                         <div
                           style={{
                             width: '50%',
-                            borderRight: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#9BC9E4'}`,
+                            borderRight: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
                           }}>
                           <Typography
                             className={classes.cellHeadPaddings}
@@ -1034,7 +1034,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                               fontWeight: 500,
                               fontSize: 12,
                               lineHeight: '120%',
-                              borderBottom: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#CFE5F2'}`,
+                              borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#CFE5F2'}`,
                               color: appTheme === 'dark' ? '#C6CDD2' : '#325569',
                             }}
                             noWrap>
@@ -1078,7 +1078,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                               fontWeight: 500,
                               fontSize: 12,
                               lineHeight: '120%',
-                              borderBottom: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#9BC9E4'}`,
+                              borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
                               color: appTheme === 'dark' ? '#C6CDD2' : '#325569',
                               textAlign: 'right',
                             }}
@@ -1163,7 +1163,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                           <div
                             style={{
                               height: 56,
-                              borderTop: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#9BC9E4'}`,
+                              borderTop: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
                             }}
                             className={['g-flex', 'g-flex--align-center'].join(' ')}>
                             <Typography
@@ -1177,7 +1177,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                                 fontSize: 12,
                                 lineHeight: '120%',
                                 color: appTheme === 'dark' ? '#C6CDD2' : '#325569',
-                                borderRight: `1px solid ${appTheme === 'dark' ? '#2D3741' : '#9BC9E4'}`,
+                                borderRight: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
                               }}
                               noWrap>
                               {headCell.label}

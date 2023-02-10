@@ -786,7 +786,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                   appTheme === "dark" ? "#151718" : "#DBE6EC",
                                 border: "1px dashed #CFE5F2",
                                 borderColor:
-                                  appTheme === "dark" ? "#2D3741" : "#CFE5F2",
+                                  appTheme === "dark" ? "#412d2d" : "#CFE5F2",
                               }}
                               className={classes.cell}
                             >
@@ -927,7 +927,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                   appTheme === "dark" ? "#151718" : "#DBE6EC",
                                 border: "1px dashed #CFE5F2",
                                 borderColor:
-                                  appTheme === "dark" ? "#2D3741" : "#CFE5F2",
+                                  appTheme === "dark" ? "#412d2d" : "#CFE5F2",
                                 overflow: "hidden",
                               }}
                             >
@@ -1008,7 +1008,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                   appTheme === "dark" ? "#151718" : "#DBE6EC",
                                 border: "1px dashed #CFE5F2",
                                 borderColor:
-                                  appTheme === "dark" ? "#2D3741" : "#CFE5F2",
+                                  appTheme === "dark" ? "#412d2d" : "#CFE5F2",
                                 overflow: "hidden",
                               }}
                             >
@@ -1075,7 +1075,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                   appTheme === "dark" ? "#151718" : "#DBE6EC",
                                 border: "1px dashed #CFE5F2",
                                 borderColor:
-                                  appTheme === "dark" ? "#2D3741" : "#CFE5F2",
+                                  appTheme === "dark" ? "#412d2d" : "#CFE5F2",
                                 overflow: "hidden",
                               }}
                             >
@@ -1156,7 +1156,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                           background:
                             appTheme === "dark" ? "#24292D" : "#DBE6EC",
                           border: `1px solid ${
-                            appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                            appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                           }`,
                         }}
                         disableGutters={true}
@@ -1318,10 +1318,10 @@ export default function EnhancedTable({ rewards, tokenID }) {
                             <div
                               style={{
                                 borderTop: `1px solid ${
-                                  appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                                  appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                                 }`,
                                 borderBottom: `1px solid ${
-                                  appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                                  appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                                 }`,
                               }}
                               className={["g-flex"].join(" ")}
@@ -1330,7 +1330,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                 style={{
                                   width: "50%",
                                   borderRight: `1px solid ${
-                                    appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                                    appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                                   }`,
                                 }}
                               >
@@ -1346,7 +1346,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                     lineHeight: "120%",
                                     borderBottom: `1px solid ${
                                       appTheme === "dark"
-                                        ? "#2D3741"
+                                        ? "#412d2d"
                                         : "#9BC9E4"
                                     }`,
                                     color:
@@ -1412,7 +1412,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                     lineHeight: "120%",
                                     borderBottom: `1px solid ${
                                       appTheme === "dark"
-                                        ? "#2D3741"
+                                        ? "#412d2d"
                                         : "#9BC9E4"
                                     }`,
                                     color:
@@ -1593,7 +1593,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                     height: 56,
                                     borderTop: `1px solid ${
                                       appTheme === "dark"
-                                        ? "#2D3741"
+                                        ? "#412d2d"
                                         : "#9BC9E4"
                                     }`,
                                   }}
@@ -1618,7 +1618,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                           : "#325569",
                                       borderRight: `1px solid ${
                                         appTheme === "dark"
-                                          ? "#2D3741"
+                                          ? "#412d2d"
                                           : "#9BC9E4"
                                       }`,
                                     }}

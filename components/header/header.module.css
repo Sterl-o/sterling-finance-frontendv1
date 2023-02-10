@@ -194,7 +194,7 @@
 }
 
 .accountButton--dark:active .accountButtonAddress {
-  background: #2D3741 !important;
+  background: #412d2d !important;
 }
 
 .accountButton--dark:active .headBalanceTxt {
@@ -210,7 +210,7 @@
 }
 
 .accountButtonConnect--dark {
-  background: #2D3741 !important;
+  background: #412d2d !important;
   border: 1px solid #e64c4c !important;
 }
 
@@ -231,7 +231,7 @@
 }
 
 .accountButtonAddress--dark {
-  background-color: #2D3741 !important;
+  background-color: #412d2d !important;
   outline-color: #e64c4c !important;
 }
 

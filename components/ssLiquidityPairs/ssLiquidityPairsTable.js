@@ -1656,7 +1656,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               background:
                                 appTheme === "dark" ? "#151718" : "#DBE6EC",
                               borderBottom: `1px solid ${
-                                appTheme === "dark" ? "#2D3741" : "#CFE5F2"
+                                appTheme === "dark" ? "#412d2d" : "#CFE5F2"
                               }`,
                             }}
                             className={classes.cell}
@@ -1756,7 +1756,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               background:
                                 appTheme === "dark" ? "#151718" : "#DBE6EC",
                               borderBottom: `1px solid ${
-                                appTheme === "dark" ? "#2D3741" : "#CFE5F2"
+                                appTheme === "dark" ? "#412d2d" : "#CFE5F2"
                               }`,
                               overflow: "hidden",
                             }}
@@ -1903,7 +1903,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               background:
                                 appTheme === "dark" ? "#151718" : "#DBE6EC",
                               borderBottom: `1px solid ${
-                                appTheme === "dark" ? "#2D3741" : "#CFE5F2"
+                                appTheme === "dark" ? "#412d2d" : "#CFE5F2"
                               }`,
                             }}
                             align="right"
@@ -2022,7 +2022,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               background:
                                 appTheme === "dark" ? "#151718" : "#DBE6EC",
                               borderBottom: `1px solid ${
-                                appTheme === "dark" ? "#2D3741" : "#CFE5F2"
+                                appTheme === "dark" ? "#412d2d" : "#CFE5F2"
                               }`,
                             }}
                             align="right"
@@ -2069,7 +2069,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               background:
                                 appTheme === "dark" ? "#151718" : "#DBE6EC",
                               borderBottom: `1px solid ${
-                                appTheme === "dark" ? "#2D3741" : "#CFE5F2"
+                                appTheme === "dark" ? "#412d2d" : "#CFE5F2"
                               }`,
                             }}
                             align="right"
@@ -2202,7 +2202,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                 background:
                                   appTheme === "dark" ? "#151718" : "#DBE6EC",
                                 borderBottom: `1px solid ${
-                                  appTheme === "dark" ? "#2D3741" : "#CFE5F2"
+                                  appTheme === "dark" ? "#412d2d" : "#CFE5F2"
                                 }`,
                               }}
                               align="right"
@@ -2343,7 +2343,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                 background:
                                   appTheme === "dark" ? "#151718" : "#DBE6EC",
                                 borderBottom: `1px solid ${
-                                  appTheme === "dark" ? "#2D3741" : "#CFE5F2"
+                                  appTheme === "dark" ? "#412d2d" : "#CFE5F2"
                                 }`,
                               }}
                               align="right"
@@ -2373,7 +2373,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               background:
                                 appTheme === "dark" ? "#151718" : "#DBE6EC",
                               borderBottom: `1px solid ${
-                                appTheme === "dark" ? "#2D3741" : "#CFE5F2"
+                                appTheme === "dark" ? "#412d2d" : "#CFE5F2"
                               }`,
                             }}
                             align="right"
@@ -2522,7 +2522,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                           {/*      background:*/}
                           {/*        appTheme === "dark" ? "#151718" : "#DBE6EC",*/}
                           {/*      borderBottom: `1px solid ${*/}
-                          {/*        appTheme === "dark" ? "#2D3741" : "#CFE5F2"*/}
+                          {/*        appTheme === "dark" ? "#412d2d" : "#CFE5F2"*/}
                           {/*      }`,*/}
                           {/*    }}*/}
                           {/*    align="right"*/}
@@ -2688,7 +2688,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                           {/*      background:*/}
                           {/*        appTheme === "dark" ? "#151718" : "#DBE6EC",*/}
                           {/*      borderBottom: `1px solid ${*/}
-                          {/*        appTheme === "dark" ? "#2D3741" : "#CFE5F2"*/}
+                          {/*        appTheme === "dark" ? "#412d2d" : "#CFE5F2"*/}
                           {/*      }`,*/}
                           {/*    }}*/}
                           {/*    align="right"*/}
@@ -2715,7 +2715,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               background:
                                 appTheme === "dark" ? "#151718" : "#DBE6EC",
                               borderBottom: `1px solid ${
-                                appTheme === "dark" ? "#2D3741" : "#CFE5F2"
+                                appTheme === "dark" ? "#412d2d" : "#CFE5F2"
                               }`,
                             }}
                             align="right"
@@ -2801,7 +2801,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                     marginBottom: 20,
                     background: appTheme === "dark" ? "#24292D" : "#DBE6EC",
                     border: `1px solid ${
-                      appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                      appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                     }`,
                     borderRadius: 0,
                   }}
@@ -2912,10 +2912,10 @@ export default function EnhancedTable({ pairs, isLoading }) {
                       <div
                         style={{
                           borderTop: `1px solid ${
-                            appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                            appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                           }`,
                           borderBottom: `1px solid ${
-                            appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                            appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                           }`,
                         }}
                         className={["g-flex", "g-flex--align-center"].join(" ")}
@@ -2924,7 +2924,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                           style={{
                             width: "50%",
                             borderRight: `1px solid ${
-                              appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                              appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                             }`,
                           }}
                         >
@@ -2937,7 +2937,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               fontSize: 12,
                               lineHeight: "120%",
                               borderBottom: `1px solid ${
-                                appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                                appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                               }`,
                               color:
                                 appTheme === "dark" ? "#C6CDD2" : "#325569",
@@ -2991,7 +2991,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                               fontSize: 12,
                               lineHeight: "120%",
                               borderBottom: `1px solid ${
-                                appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                                appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                               }`,
                               color:
                                 appTheme === "dark" ? "#C6CDD2" : "#325569",
@@ -3142,7 +3142,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                             style={{
                               height: 56,
                               borderTop: `1px solid ${
-                                appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                                appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                               }`,
                             }}
                             className={["g-flex", "g-flex--align-center"].join(
@@ -3162,7 +3162,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                 color:
                                   appTheme === "dark" ? "#C6CDD2" : "#325569",
                                 borderRight: `1px solid ${
-                                  appTheme === "dark" ? "#2D3741" : "#9BC9E4"
+                                  appTheme === "dark" ? "#412d2d" : "#9BC9E4"
                                 }`,
                               }}
                               noWrap
