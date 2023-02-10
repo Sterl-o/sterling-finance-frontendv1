@@ -47,7 +47,7 @@ export default function Transaction({ transaction }) {
           >
             <path
               d="M15 27.5C8.09625 27.5 2.5 21.9037 2.5 15C2.5 8.09625 8.09625 2.5 15 2.5C21.9037 2.5 27.5 8.09625 27.5 15C27.5 21.9037 21.9037 27.5 15 27.5ZM16.25 15V8.75H13.75V17.5H21.25V15H16.25Z"
-              fill="#0B5E8E"
+              fill="#8e0b0b"
             />
           </svg>
         );
@@ -62,7 +62,7 @@ export default function Transaction({ transaction }) {
           >
             <path
               d="M15 27.5C8.09625 27.5 2.5 21.9037 2.5 15C2.5 8.09625 8.09625 2.5 15 2.5C21.9037 2.5 27.5 8.09625 27.5 15C27.5 21.9037 21.9037 27.5 15 27.5ZM16.25 15V8.75H13.75V17.5H21.25V15H16.25Z"
-              fill="#0B5E8E"
+              fill="#8e0b0b"
             />
           </svg>
         );
@@ -238,7 +238,7 @@ export default function Transaction({ transaction }) {
                 fontWeight: 500,
                 fontSize: 12,
                 lineHeight: "120%",
-                color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                color: appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                 cursor: "pointer",
               }}
               onClick={onViewTX}

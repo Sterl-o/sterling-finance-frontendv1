@@ -358,7 +358,7 @@ export default function ssVotes() {
                       style={{
                         width: 20,
                         height: 20,
-                        color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                        color: appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                       }}
                     />
                   </InputAdornment>

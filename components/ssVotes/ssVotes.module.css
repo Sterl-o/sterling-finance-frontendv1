@@ -248,7 +248,7 @@
 }
 
 .searchButton--light {
-  background: #0B5E8E !important;
+  background: #8e0b0b !important;
   color: #fff !important;
 }
 
@@ -258,7 +258,7 @@
 
 .searchButton--light:active {
   background: #86B9D6 !important;
-  border: 1px solid #0B5E8E !important;
+  border: 1px solid #8e0b0b !important;
 }
 
 .searchButton--dark {

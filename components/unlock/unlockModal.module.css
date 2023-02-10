@@ -36,7 +36,7 @@
 }
 
 .networkButton:active {
-  border: 1px solid #0B5E8E !important;
+  border: 1px solid #8e0b0b !important;
 }
 
 .networkButton--dark:active {
@@ -50,7 +50,7 @@
   position: absolute;
   width: 4px;
   height: 4px;
-  border: 1px solid #0B5E8E;
+  border: 1px solid #8e0b0b;
 }
 
 .networkButtonCornerLT--dark,

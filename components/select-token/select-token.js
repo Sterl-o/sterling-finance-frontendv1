@@ -54,7 +54,7 @@ function TokenSelect(props) {
                   paddingRight: 30,
                   fontWeight: 500,
                   fontSize: 18,
-                  color: appTheme === 'dark' ? '#855f5f' : '#0B5E8E',
+                  color: appTheme === 'dark' ? '#855f5f' : '#8e0b0b',
                 }}>
                 {placeholder}
               </div>
@@ -78,7 +78,7 @@ function TokenSelect(props) {
                 style={{
                   fontWeight: 500,
                   fontSize: 24,
-                  color: appTheme === 'dark' ? '#ffffff' : '#0B5E8E',
+                  color: appTheme === 'dark' ? '#ffffff' : '#8e0b0b',
                 }}>
                 #{option.id}
               </Typography>
@@ -88,7 +88,7 @@ function TokenSelect(props) {
                   style={{
                     fontWeight: 500,
                     fontSize: 12,
-                    color: appTheme === 'dark' ? '#ffffff' : '#0B5E8E',
+                    color: appTheme === 'dark' ? '#ffffff' : '#8e0b0b',
                     textAlign: 'right',
                   }}>
                   {formatCurrency(option.lockValue)}

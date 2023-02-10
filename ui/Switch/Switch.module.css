@@ -50,13 +50,13 @@
 .switch--active .toggle,
 .switch--active:hover .toggle {
   transform: translateX(24px);
-  background: #0B5E8E;
+  background: #8e0b0b;
 }
 
 .switch--active .track,
 .switch--active:hover .track {
   background: #B9DFF5;
-  border: 1px solid #0B5E8E;
+  border: 1px solid #8e0b0b;
 }
 
 .switch--active .toggle--dark,

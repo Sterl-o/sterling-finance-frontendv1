@@ -305,13 +305,13 @@ input[type=number].mediumInputAmount {
 }
 
 .slippageIconContainer--active {
-  background: #0b5e8e;
-  border: 1px solid #0b5e8e;
+  background: #8e0b0b;
+  border: 1px solid #8e0b0b;
 }
 
 .selectTokenIconContainer--active {
-  background: #0b5e8e;
-  border: 1px solid #0b5e8e;
+  background: #8e0b0b;
+  border: 1px solid #8e0b0b;
   transform: rotate(180deg);
 }
 
@@ -339,7 +339,7 @@ input[type=number].mediumInputAmount {
 .slippageIcon {
   width: 20px;
   height: 20px;
-  fill: #0B5E8E;
+  fill: #8e0b0b;
 }
 
 .slippageIcon--active {
@@ -355,7 +355,7 @@ input[type=number].mediumInputAmount {
   height: 190px !important;
   padding: 30px !important;
   background: #DBE6EC !important;
-  border: 1px solid #0B5E8E !important;
+  border: 1px solid #8e0b0b !important;
   box-shadow: 5px 5px 20px rgba(14, 44, 79, 0.25) !important;
   border-radius: 0 !important;
   overflow: hidden !important;
@@ -570,12 +570,12 @@ input[type=number].mediumInputAmount {
 
 .swapIconContainer:hover .swapIconContainerInside {
   background: #9BC9E4;
-  border: 1px solid #0B5E8E;
+  border: 1px solid #8e0b0b;
 }
 
 .swapIconContainer:active .swapIconContainerInside {
   background: #86B9D6;
-  border: 1px solid #0B5E8E;
+  border: 1px solid #8e0b0b;
 }
 
 .swapIconContainer--dark {
@@ -593,7 +593,7 @@ input[type=number].mediumInputAmount {
 }
 
 .swapIconContainerIcon {
-  fill: #0B5E8E;
+  fill: #8e0b0b;
 }
 
 .swapIconContainerIcon--dark {
@@ -691,7 +691,7 @@ input[type=number].mediumInputAmount {
 }
 
 .displayDualIconContainer:hover {
-  fill: #0B5E8E;
+  fill: #8e0b0b;
 }
 
 .displayDualIconContainer:active {
@@ -1120,7 +1120,7 @@ input[type=number].mediumInputAmount {
 }
 
 .toggleOption .toggleOptionText {
-  color: #0B5E8E;
+  color: #8e0b0b;
 }
 
 .toggleOption.active .toggleOptionText {
@@ -1192,7 +1192,7 @@ input[type=number].mediumInputAmount {
 .list--dark > li > .menuOption {
   width: 100%;
   padding: 10px !important;
-  border: 1px solid #0B5E8E !important;
+  border: 1px solid #8e0b0b !important;
 }
 
 .list > li:not(:last-of-type) > .menuOption,
@@ -1562,7 +1562,7 @@ input[type=number].mediumInputAmount {
   font-weight: 500;
   font-size: 14px;
   line-height: 120%;
-  color: #0B5E8E;
+  color: #8e0b0b;
   cursor: pointer;
 }
 
@@ -1653,7 +1653,7 @@ input[type=number].mediumInputAmount {
   height: 1px;
   bottom: 0;
   left: 0;
-  background: #0B5E8E;
+  background: #8e0b0b;
 }
 
 .dividerLine::after {
@@ -1663,7 +1663,7 @@ input[type=number].mediumInputAmount {
   height: 1px;
   bottom: 0;
   right: 0;
-  background: #0B5E8E;
+  background: #8e0b0b;
 }
 
 .dividerLine--dark {

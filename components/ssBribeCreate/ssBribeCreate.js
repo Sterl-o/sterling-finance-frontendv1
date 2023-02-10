@@ -532,7 +532,7 @@ function AssetSelectManage({type, value, assetOptions, onSelect, manageLocalAsse
               },
               startAdornment: <InputAdornment position="start">
                 <Search style={{
-                  color: appTheme === "dark" ? '#e64c4c' : '#0B5E8E',
+                  color: appTheme === "dark" ? '#e64c4c' : '#8e0b0b',
                 }}/>
               </InputAdornment>,
             }}
@@ -590,7 +590,7 @@ function AssetSelectManage({type, value, assetOptions, onSelect, manageLocalAsse
               },
               startAdornment: <InputAdornment position="start">
                 <Search style={{
-                  color: appTheme === "dark" ? '#e64c4c' : '#0B5E8E',
+                  color: appTheme === "dark" ? '#e64c4c' : '#8e0b0b',
                 }}/>
               </InputAdornment>,
             }}
@@ -918,7 +918,7 @@ function AssetSelectPair({type, value, assetOptions, onSelect, manageLocalAssets
               },
               startAdornment: <InputAdornment position="start">
                 <Search style={{
-                  color: appTheme === "dark" ? '#e64c4c' : '#0B5E8E',
+                  color: appTheme === "dark" ? '#e64c4c' : '#8e0b0b',
                 }}/>
               </InputAdornment>,
             }}
@@ -975,7 +975,7 @@ function AssetSelectPair({type, value, assetOptions, onSelect, manageLocalAssets
               },
               startAdornment: <InputAdornment position="start">
                 <Search style={{
-                  color: appTheme === "dark" ? '#e64c4c' : '#0B5E8E',
+                  color: appTheme === "dark" ? '#e64c4c' : '#8e0b0b',
                 }}/>
               </InputAdornment>,
             }}

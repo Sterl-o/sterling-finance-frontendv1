@@ -69,7 +69,7 @@
 
 .searchInput:active {
   background: #B9DFF5 !important;
-  border: 1px solid #0B5E8E !important;
+  border: 1px solid #8e0b0b !important;
 }
 
 .searchInput:focus {
@@ -301,7 +301,7 @@
   height: 1px;
   bottom: 0;
   left: 0;
-  background: #0B5E8E;
+  background: #8e0b0b;
 }
 
 .dividerLine::after {
@@ -311,7 +311,7 @@
   height: 1px;
   bottom: 0;
   right: 0;
-  background: #0B5E8E;
+  background: #8e0b0b;
 }
 
 .dividerLine--dark {
@@ -625,7 +625,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 120%;
-  color: #0B5E8E;
+  color: #8e0b0b;
   cursor: pointer;
 }
 
@@ -922,7 +922,7 @@
 }
 
 .toggleOption .toggleOptionText {
-  color: #0B5E8E;
+  color: #8e0b0b;
 }
 
 .toggleOption.active .toggleOptionText {
@@ -1514,7 +1514,7 @@
   font-weight: 500 !important;
   font-size: 14px !important;
   line-height: 120% !important;
-  color: #0B5E8E !important;
+  color: #8e0b0b !important;
 }
 
 .manageLocalBtn--dark {
@@ -1545,7 +1545,7 @@
 }
 
 .selecticonIcon--light {
-  color: #0B5E8E !important;
+  color: #8e0b0b !important;
   border-left: 1px solid #86B9D6;
 }
 

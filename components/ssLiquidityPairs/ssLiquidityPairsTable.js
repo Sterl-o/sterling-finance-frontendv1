@@ -649,14 +649,14 @@ const useStyles = makeStyles({
     borderRadius: 100,
   },
   "filterButton--light": {
-    background: "#0B5E8E",
+    background: "#8e0b0b",
     color: "#fff",
     "&:hover": {
       background: "#86B9D6",
     },
     "&:active": {
       background: "#86B9D6",
-      border: "1px solid #0B5E8E",
+      border: "1px solid #8e0b0b",
     },
   },
   "filterButton--dark": {
@@ -677,14 +677,14 @@ const useStyles = makeStyles({
     borderRadius: 100,
   },
   "searchButton--light": {
-    background: "#0B5E8E",
+    background: "#8e0b0b",
     color: "#fff",
     "&:hover": {
       background: "#86B9D6",
     },
     "&:active": {
       background: "#86B9D6",
-      border: "1px solid #0B5E8E",
+      border: "1px solid #8e0b0b",
     },
   },
   "searchButton--dark": {
@@ -707,7 +707,7 @@ const useStyles = makeStyles({
   },
   "filterContainer--light": {
     background: "#DBE6EC",
-    border: "1px solid #0B5E8E",
+    border: "1px solid #8e0b0b",
   },
   "filterContainer--dark": {
     background: "#151718",
@@ -734,7 +734,7 @@ const useStyles = makeStyles({
       height: 1,
       bottom: -1,
       left: 0,
-      background: "#0B5E8E",
+      background: "#8e0b0b",
     },
     "&:not(:last-child)::after": {
       content: `''`,
@@ -743,7 +743,7 @@ const useStyles = makeStyles({
       height: 1,
       bottom: -1,
       right: 0,
-      background: "#0B5E8E",
+      background: "#8e0b0b",
     },
   },
   "filterItem--dark": {
@@ -905,7 +905,7 @@ const getLocalToggles = () => {
   };
   // get locally saved toggles
   try {
-    const localToggleString = localStorage.getItem("solidly-pairsToggle-v1");
+    const localToggleString = localStorage.getItem("sterling-pairsToggle-v1");
     if (localToggleString && localToggleString.length > 0) {
       localToggles = JSON.parse(localToggleString);
     }
@@ -994,7 +994,7 @@ const EnhancedTableToolbar = (props) => {
     // set locally saved toggles
     try {
       localStorage.setItem(
-        "solidly-pairsToggle-v1",
+        "sterling-pairsToggle-v1",
         JSON.stringify(localToggles)
       );
     } catch (ex) {
@@ -1103,7 +1103,7 @@ const EnhancedTableToolbar = (props) => {
                     style={{
                       width: 20,
                       height: 20,
-                      color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                      color: appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                     }}
                   />
                 </InputAdornment>
@@ -1151,7 +1151,7 @@ const EnhancedTableToolbar = (props) => {
               style={{
                 fontSize: "inherit",
                 fontWeight: 500,
-                color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                color: appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                 whiteSpace: "nowrap",
                 paddingRight: 4,
               }}
@@ -3102,7 +3102,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                             fontWeight: 500,
                             fontSize: 12,
                             lineHeight: "120%",
-                            color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                            color: appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                           }}
                           noWrap
                         >
@@ -3113,7 +3113,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                           <ExpandMore
                             style={{
                               color:
-                                appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                                appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                             }}
                           />
                         )}
@@ -3122,7 +3122,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                           <ExpandLess
                             style={{
                               color:
-                                appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                                appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                             }}
                           />
                         )}

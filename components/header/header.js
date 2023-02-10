@@ -112,7 +112,7 @@ const StyledMenu = styled(Menu)(({ theme, appTheme }) => ({
     border: "1px solid rgba(126,153,176,0.2)",
     marginTop: "10px",
     minWidth: "230px",
-    background: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+    background: appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
   },
 }));
 
@@ -370,7 +370,7 @@ function Header(props) {
                                   marginLeft: 5,
                                   marginRight: 5,
                                   color:
-                                    appTheme === "dark" ? "#ffffff" : "#0B5E8E",
+                                    appTheme === "dark" ? "#ffffff" : "#8e0b0b",
                                 }}
                               >
                                 •
@@ -498,7 +498,7 @@ function Header(props) {
                 <path
                   style={{marginRight: 5}}
                   d="M1.3335 8.66667H5.3335V14H1.3335V8.66667ZM6.00016 2H10.0002V14H6.00016V2ZM10.6668 5.33333H14.6668V14H10.6668V5.33333Z"
-                  fill={appTheme === 'dark' ? '#e64c4c' : '#0B5E8E'}/>
+                  fill={appTheme === 'dark' ? '#e64c4c' : '#8e0b0b'}/>
               </svg>
 
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -531,7 +531,7 @@ function Header(props) {
                   style={{
                     width: 20,
                     height: 20,
-                    color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                    color: appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                   }}
                 />
               </StyledBadge>

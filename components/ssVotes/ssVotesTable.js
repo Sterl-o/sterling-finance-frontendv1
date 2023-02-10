@@ -87,13 +87,13 @@ const CustomSlider = styled(Slider)(({ theme, appTheme, disabled }) => {
       fontSize: 10,
       fontWeight: 400,
       top: -6,
-      border: "1px solid #0B5E8E",
+      border: "1px solid #8e0b0b",
       background: "#B9DFF5",
       padding: 5,
       borderRadius: 0,
       "&:before": {
-        borderBottom: "1px solid #0B5E8E",
-        borderRight: "1px solid #0B5E8E",
+        borderBottom: "1px solid #8e0b0b",
+        borderRight: "1px solid #8e0b0b",
       },
       "& *": {
         color: "#325569",
@@ -1673,7 +1673,7 @@ export default function EnhancedTable({
                                 fontSize: 12,
                                 lineHeight: "120%",
                                 color:
-                                  appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                                  appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                               }}
                               noWrap
                             >
@@ -1684,7 +1684,7 @@ export default function EnhancedTable({
                               <ExpandMore
                                 style={{
                                   color:
-                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                                    appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                                 }}
                               />
                             )}
@@ -1693,7 +1693,7 @@ export default function EnhancedTable({
                               <ExpandLess
                                 style={{
                                   color:
-                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                                    appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                                 }}
                               />
                             )}

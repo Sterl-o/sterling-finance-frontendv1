@@ -73,7 +73,7 @@
 .walletPoint {
   width: 2px;
   height: 2px;
-  background: #0B5E8E;
+  background: #8e0b0b;
   border-radius: 2px;
 }
 
@@ -169,7 +169,7 @@
   position: fixed;
   z-index: 10030 !important;
   border-radius: 40px !important;
-  border: 1px solid #0B5E8E !important;
+  border: 1px solid #8e0b0b !important;
   background: none !important;
 }
 
@@ -182,7 +182,7 @@
 }
 
 .accountButton:active .headBalanceTxt {
-  color: #0B5E8E !important;
+  color: #8e0b0b !important;
 }
 
 .accountButton--dark {
@@ -221,7 +221,7 @@
 .accountButtonAddress {
   height: 28px;
   border-radius: 40px !important;
-  outline: 1px solid #0B5E8E !important;
+  outline: 1px solid #8e0b0b !important;
   color: #ffffff !important;
   padding-left: 10px !important;
   padding-right: 10px !important;
@@ -257,7 +257,7 @@
   top: 0;
   height: 68px;
   width: 100%;
-  background: #0B5E8E;
+  background: #8e0b0b;
   border-radius: 16px;
   padding-left: 12.5px;
   padding-top: 30px;
@@ -473,7 +473,7 @@
   font-size: 14px !important;
   line-height: 120%;
   background: #9BC9E4 !important;
-  border: 1px solid #0B5E8E !important;
+  border: 1px solid #8e0b0b !important;
   border-radius: 40px !important;
   padding: 3px 10px !important;
   color: #ffffff;
@@ -490,14 +490,14 @@
 .menuBody--light {
   border-radius: 0;
   border: 1px solid rgba(126, 153, 176, 0.2);
-  background: #0B5E8E;
+  background: #8e0b0b;
 }
 
 .statButton {
   padding: 5px;
   margin-left: 10px;
   background: #DBE6EC;
-  border: 1px solid #0B5E8E;
+  border: 1px solid #8e0b0b;
   border-radius: 100px;
   cursor: pointer;
   transition: all 0.32s ease;

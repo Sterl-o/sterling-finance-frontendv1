@@ -290,7 +290,7 @@ input[type=number].massiveInputAmount {
   position: absolute;
   width: 4px;
   height: 4px;
-  border: 1px solid #0B5E8E;
+  border: 1px solid #8e0b0b;
   z-index: 9;
 }
 
@@ -494,7 +494,7 @@ input[type=number].massiveInputAmount {
 }
 
 .routeArrow--light {
-  color: #0B5E8E !important;
+  color: #8e0b0b !important;
 }
 
 .routeArrow--dark {
@@ -509,7 +509,7 @@ input[type=number].massiveInputAmount {
   background: var(--background-light);
   font-weight: 500;
   font-size: 12px;
-  color: #0B5E8E;
+  color: #8e0b0b;
 }
 
 .routeLinesRightText {

@@ -392,14 +392,14 @@ a.linkz {
 
 .nav-button:hover {
   background: #B9DFF5 !important;
-  color: #0B5E8E !important;
+  color: #8e0b0b !important;
   border: 1px solid var(--main-secondary-light) !important;
   z-index: 9;
 }
 
 .nav-button:active {
   background: #9BC9E4 !important;
-  color: #0B5E8E !important;
+  color: #8e0b0b !important;
   border: 1px solid var(--main-secondary-light) !important;
   z-index: 9;
 }

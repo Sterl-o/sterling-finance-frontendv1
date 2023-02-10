@@ -269,7 +269,7 @@ const AssetSelect = (
               },
               startAdornment: <InputAdornment position="start">
                 <Search style={{
-                  color: appTheme === "dark" ? '#e64c4c' : '#0B5E8E',
+                  color: appTheme === "dark" ? '#e64c4c' : '#8e0b0b',
                 }} />
               </InputAdornment>,
             }}
@@ -317,7 +317,7 @@ const AssetSelect = (
               },
               startAdornment: <InputAdornment position="start">
                 <Search style={{
-                  color: appTheme === "dark" ? '#e64c4c' : '#0B5E8E',
+                  color: appTheme === "dark" ? '#e64c4c' : '#8e0b0b',
                 }} />
               </InputAdornment>,
             }}

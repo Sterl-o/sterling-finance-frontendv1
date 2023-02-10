@@ -619,7 +619,7 @@ input[type=number].massiveInputAmount {
 }
 
 .displayDualIconContainer:hover {
-  fill: #0B5E8E;
+  fill: #8e0b0b;
 }
 
 .displayDualIconContainer:active {
@@ -667,7 +667,7 @@ input[type=number].massiveInputAmount {
 .displayAssetIcon {
   width: 60px;
   height: 60px;
-  background: #0B5E8E;
+  background: #8e0b0b;
   border-radius: 100px;
 }
 
@@ -862,8 +862,8 @@ input[type=number].massiveInputAmount {
 }
 
 .vestPeriodLabel--checked {
-  background: #0B5E8E;
-  outline: 1px solid #0B5E8E;
+  background: #8e0b0b;
+  outline: 1px solid #8e0b0b;
   box-sizing: border-box;
   border-radius: 100px;
   color: #FFFFFF;

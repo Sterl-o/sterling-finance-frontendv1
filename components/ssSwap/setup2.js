@@ -1028,7 +1028,7 @@ function Setup() {
                                     fontWeight: 500,
                                     fontSize: 14,
                                     lineHeight: "120%",
-                                    color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                                    color: appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                                 }}
                                 onClick={() => setBalance100()}
                             >
@@ -1085,14 +1085,14 @@ function Setup() {
 
     const swapIconHover = () => {
         setSwapIconBgColor(appTheme === "dark" ? "#2D3741" : "#9BC9E4");
-        setSwapIconBorderColor(appTheme === "dark" ? "#e64c4c" : "#0B5E8E");
-        setSwapIconArrowColor(appTheme === "dark" ? "#e64c4c" : "#0B5E8E");
+        setSwapIconBorderColor(appTheme === "dark" ? "#e64c4c" : "#8e0b0b");
+        setSwapIconArrowColor(appTheme === "dark" ? "#e64c4c" : "#8e0b0b");
     };
 
     const swapIconClick = () => {
         setSwapIconBgColor(appTheme === "dark" ? "#855f5f" : "#86B9D6");
-        setSwapIconBorderColor(appTheme === "dark" ? "#e64c4c" : "#0B5E8E");
-        setSwapIconArrowColor(appTheme === "dark" ? "#e64c4c" : "#0B5E8E");
+        setSwapIconBorderColor(appTheme === "dark" ? "#e64c4c" : "#8e0b0b");
+        setSwapIconArrowColor(appTheme === "dark" ? "#e64c4c" : "#8e0b0b");
     };
 
     const swapIconDefault = () => {
@@ -1398,7 +1398,7 @@ function Setup() {
                                             d="M41.0002 44.172L46.3642 38.808L47.7782 40.222L40.0002 48L32.2222 40.222L33.6362 38.808L39.0002 44.172V32H41.0002V44.172Z"
                                             fill={
                                                 swapIconArrowColor ||
-                                                (appTheme === "dark" ? "#e64c4c" : "#0B5E8E")
+                                                (appTheme === "dark" ? "#e64c4c" : "#8e0b0b")
                                             }
                                         />
                                     </svg>

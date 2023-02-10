@@ -1548,7 +1548,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                   fontSize: 12,
                                   lineHeight: "120%",
                                   color:
-                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                                    appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                                 }}
                                 noWrap
                               >
@@ -1561,7 +1561,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                     color:
                                       appTheme === "dark"
                                         ? "#e64c4c"
-                                        : "#0B5E8E",
+                                        : "#8e0b0b",
                                   }}
                                 />
                               )}
@@ -1572,7 +1572,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                     color:
                                       appTheme === "dark"
                                         ? "#e64c4c"
-                                        : "#0B5E8E",
+                                        : "#8e0b0b",
                                   }}
                                 />
                               )}

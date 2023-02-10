@@ -1130,7 +1130,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                             fontWeight: 500,
                             fontSize: 12,
                             lineHeight: '120%',
-                            color: appTheme === 'dark' ? '#e64c4c' : '#0B5E8E',
+                            color: appTheme === 'dark' ? '#e64c4c' : '#8e0b0b',
                           }}
                           noWrap>
                           {expanded !== labelId ? 'Show' : 'Hide'} Details
@@ -1139,14 +1139,14 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                         {expanded !== labelId &&
                           <ExpandMore
                             style={{
-                              color: appTheme === 'dark' ? '#e64c4c' : '#0B5E8E',
+                              color: appTheme === 'dark' ? '#e64c4c' : '#8e0b0b',
                             }}/>
                         }
 
                         {expanded === labelId &&
                           <ExpandLess
                             style={{
-                              color: appTheme === 'dark' ? '#e64c4c' : '#0B5E8E',
+                              color: appTheme === 'dark' ? '#e64c4c' : '#8e0b0b',
                             }}/>
                         }
                       </div>

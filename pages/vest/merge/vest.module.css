@@ -209,7 +209,7 @@
   .list--dark > li > .menuOption {
     width: 100%;
     padding: 10px !important;
-    border: 1px solid #0B5E8E !important;
+    border: 1px solid #8e0b0b !important;
   }
   
   .list > li:not(:last-of-type) > .menuOption,
@@ -225,7 +225,7 @@
   .slippageIcon {
     width: 20px;
     height: 20px;
-    fill: #0B5E8E;
+    fill: #8e0b0b;
   }
   
   .slippageIcon--active {
@@ -250,13 +250,13 @@
   }
   
   .slippageIconContainer--active {
-    background: #0b5e8e;
-    border: 1px solid #0b5e8e;
+    background: #8e0b0b;
+    border: 1px solid #8e0b0b;
   }
   
   .selectTokenIconContainer--active {
-    background: #0b5e8e;
-    border: 1px solid #0b5e8e;
+    background: #8e0b0b;
+    border: 1px solid #8e0b0b;
     transform: rotate(180deg);
   }
   

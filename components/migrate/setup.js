@@ -498,7 +498,7 @@ export default function Setup() {
       >
         <path
           d="M9.99962 10.9773L14.1246 6.85232L15.303 8.03065L9.99962 13.334L4.69629 8.03065L5.87462 6.85232L9.99962 10.9773Z"
-          fill={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
+          fill={appTheme === "dark" ? "#e64c4c" : "#8e0b0b"}
         />
       </svg>
     );
@@ -704,7 +704,7 @@ export default function Setup() {
                     <InputAdornment position="start">
                       <Search
                         style={{
-                          color: appTheme === "dark" ? "#e64c4c" : "#0B5E8E",
+                          color: appTheme === "dark" ? "#e64c4c" : "#8e0b0b",
                         }}
                       />
                     </InputAdornment>
@@ -1331,7 +1331,7 @@ export default function Setup() {
                         />
                         <path
                           d="M16.9998 18.1717L21.9498 13.2217L23.3638 14.6357L16.9998 20.9997L10.6358 14.6357L12.0498 13.2217L16.9998 18.1717Z"
-                          fill={appTheme === "dark" ? "#e64c4c" : "#0B5E8E"}
+                          fill={appTheme === "dark" ? "#e64c4c" : "#8e0b0b"}
                         />
                       </svg>
                     </div>
@@ -1525,7 +1525,7 @@ export default function Setup() {
                                     appTheme === "dark" ? "#151718" : "#DBE6EC"
                                   }
                                   stroke={
-                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E"
+                                    appTheme === "dark" ? "#e64c4c" : "#8e0b0b"
                                   }
                                 />
                               </svg>
@@ -1545,13 +1545,13 @@ export default function Setup() {
                                     appTheme === "dark" ? "#151718" : "#DBE6EC"
                                   }
                                   stroke={
-                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E"
+                                    appTheme === "dark" ? "#e64c4c" : "#8e0b0b"
                                   }
                                 />
                                 <path
                                   d="M5 10C5 7.23858 7.23858 5 10 5C12.7614 5 15 7.23858 15 10C15 12.7614 12.7614 15 10 15C7.23858 15 5 12.7614 5 10Z"
                                   fill={
-                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E"
+                                    appTheme === "dark" ? "#e64c4c" : "#8e0b0b"
                                   }
                                 />
                               </svg>
@@ -1591,7 +1591,7 @@ export default function Setup() {
                                     appTheme === "dark" ? "#151718" : "#DBE6EC"
                                   }
                                   stroke={
-                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E"
+                                    appTheme === "dark" ? "#e64c4c" : "#8e0b0b"
                                   }
                                 />
                               </svg>
@@ -1611,13 +1611,13 @@ export default function Setup() {
                                     appTheme === "dark" ? "#151718" : "#DBE6EC"
                                   }
                                   stroke={
-                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E"
+                                    appTheme === "dark" ? "#e64c4c" : "#8e0b0b"
                                   }
                                 />
                                 <path
                                   d="M5 10C5 7.23858 7.23858 5 10 5C12.7614 5 15 7.23858 15 10C15 12.7614 12.7614 15 10 15C7.23858 15 5 12.7614 5 10Z"
                                   fill={
-                                    appTheme === "dark" ? "#e64c4c" : "#0B5E8E"
+                                    appTheme === "dark" ? "#e64c4c" : "#8e0b0b"
                                   }
                                 />
                               </svg>
