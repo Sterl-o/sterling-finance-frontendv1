@@ -105,7 +105,7 @@ export default function MyApp({ Component, pageProps }) {
             </Layout>
           )}
 
-          {!validateConfigured() && (
+          {/* {!validateConfigured() && (
             <div>
               <img
                 src={
@@ -123,7 +123,7 @@ export default function MyApp({ Component, pageProps }) {
                 }}
               />
             </div>
-          )}
+          )} */}
         </AppThemeProvider>
       </React.Fragment>
     </ThemeProvider>
