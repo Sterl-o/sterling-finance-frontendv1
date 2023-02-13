@@ -190,7 +190,7 @@ export default function ssWhitelist() {
               >
                 <Hint
                   hintText={
-                    "Listing fee either needs to be locked in your veSTERLING NFT or be paid and burnt on the list."
+                    "Listing fee either needs to be locked in your veSTR NFT or be paid and burnt on the list."
                   }
                   open={openFeeHint}
                   anchor={feeHintAnchor}
@@ -367,7 +367,7 @@ export default function ssWhitelist() {
                     {!token.isWhitelisted && (
                       <Hint
                         hintText={
-                          "Vest Value < Fee means you cannot proceed with the whitelisting as there is not enough funds locked in the chosen veSTERLING."
+                          "Vest Value < Fee means you cannot proceed with the whitelisting as there is not enough funds locked in the chosen veSTR."
                         }
                         open={openActionHint}
                         anchor={actionHintAnchor}
@@ -536,7 +536,7 @@ export default function ssWhitelist() {
                       {!token.isWhitelisted && (
                         <Hint
                           hintText={
-                            "Vest Value < Fee means you cannot proceed with the whitelisting as there is not enough funds locked in the chosen veSTERLING."
+                            "Vest Value < Fee means you cannot proceed with the whitelisting as there is not enough funds locked in the chosen veSTR."
                           }
                           open={openActionHint}
                           anchor={actionHintAnchor}
@@ -574,7 +574,7 @@ export default function ssWhitelist() {
                 >
                   <Hint
                     hintText={
-                      "Listing fee either needs to be locked in your veSTERLING NFT or be paid and burnt on the list."
+                      "Listing fee either needs to be locked in your veSTR NFT or be paid and burnt on the list."
                     }
                     open={openFeeHint}
                     anchor={feeHintAnchor}
@@ -685,7 +685,7 @@ export default function ssWhitelist() {
             options: nfts,
             symbol: veToken?.symbol,
             handleChange,
-            placeholder: "Click to select veSTERLING",
+            placeholder: "Click to select veSTR",
           })}
         </div>
       </div>

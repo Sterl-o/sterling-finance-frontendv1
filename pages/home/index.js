@@ -88,7 +88,7 @@ const HomePage = () => {
           <div className={classes.layoutPromoTitle}>
             Enter the era of crypto
           </div>
-          <div className={classes.layoutPromoSubTitle}>STERLING</div>
+          <div className={classes.layoutPromoSubTitle}>STR</div>
           <div className={classes.layoutPromoDescription}>
             <div className={classes.layoutPromoDescriptionItem}>0.05% FEE</div>
             <div className={classes.layoutPromoDescriptionItem}>

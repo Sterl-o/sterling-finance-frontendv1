@@ -285,7 +285,7 @@ export default function ssLock({govToken, veToken}) {
 
   const {appTheme} = useAppThemeContext();
 
-  let buttonText = 'Lock Tokens & Get veSTERLING';
+  let buttonText = 'Lock Tokens & Get veSTR';
   if (lockLoading) {
     buttonText = 'Locking'
   } else if (amount === '' || Number(amount) === 0) {

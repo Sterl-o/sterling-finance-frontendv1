@@ -197,7 +197,7 @@ export default function ssRewards() {
           </div>
 
           {/*todo after initialization, the selected ve shows as empty field, need figuring out*/}
-          {TokenSelect({value: token, options: vestNFTs, symbol: veToken?.symbol, handleChange, placeholder: 'Choose veSTERLING'})}
+          {TokenSelect({value: token, options: vestNFTs, symbol: veToken?.symbol, handleChange, placeholder: 'Choose veSTR'})}
         </div>
       </div>
 

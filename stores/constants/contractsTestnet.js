@@ -1,15 +1,15 @@
 import abis from "../abis";
 
 export const GOV_TOKEN_ADDRESS = '0x6E511b6fAce2c5094163A1F420135a4D70a5ecd7'
-export const GOV_TOKEN_NAME = 'STERLING'
-export const GOV_TOKEN_SYMBOL = 'STERLING'
+export const GOV_TOKEN_NAME = 'Sterling'
+export const GOV_TOKEN_SYMBOL = 'STR'
 export const GOV_TOKEN_DECIMALS = 18
 export const GOV_TOKEN_LOGO = 'https://sterling-swap-seven.vercel.app/logo.svg'
 export const GOV_TOKEN_ABI = abis.tokenABI
 
 export const VE_TOKEN_ADDRESS = '0x043074eaAf5DCca960601b7B464FCd2bEC34df1D'
-export const VE_TOKEN_NAME = 'veSTERLING'
-export const VE_TOKEN_SYMBOL = 'veSTERLING'
+export const VE_TOKEN_NAME = 'veSTR'
+export const VE_TOKEN_SYMBOL = 'veSTR'
 export const VE_TOKEN_DECIMALS = 18
 export const VE_TOKEN_LOGO = 'https://sterling-swap-seven.vercel.app/logo.svg'
 export const VE_TOKEN_ABI = abis.veTokenABI

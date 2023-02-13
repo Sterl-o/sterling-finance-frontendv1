@@ -384,7 +384,7 @@ export default function ssVotes() {
               options: vestNFTs,
               symbol: veToken?.symbol,
               handleChange,
-              placeholder: "Click to select veSTERLING",
+              placeholder: "Click to select veSTR",
             })}
           </div>
 

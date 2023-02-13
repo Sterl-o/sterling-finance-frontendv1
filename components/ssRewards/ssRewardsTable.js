@@ -1514,7 +1514,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                     tableCellContent(
                                       formatCurrency(row.gauge.rewardsEarned),
                                       null,
-                                      "STERLING",
+                                      "STR",
                                       null
                                     )}
 

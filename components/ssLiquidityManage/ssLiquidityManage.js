@@ -2199,7 +2199,7 @@ export default function ssLiquidityManage() {
                           color: appTheme === "dark" ? "#7C838A" : "#bb4f4f",
                         }}
                       >
-                        Select veSTERLING
+                        Select veSTR
                       </div>
                     );
                   }

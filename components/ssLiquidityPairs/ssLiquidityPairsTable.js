@@ -1921,7 +1921,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                 title={
                                   <React.Fragment>
                                     {
-                                      "APR based on current prices of tokens, token boosted APR and your locked STERLING amount."
+                                      "APR based on current prices of tokens, token boosted APR and your locked STR amount."
                                     }
                                     <br />
                                     <br />
@@ -3215,7 +3215,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                         title={
                                           <React.Fragment>
                                             {
-                                              "APR based on current prices of tokens, token boosted APR and your locked STERLING amount."
+                                              "APR based on current prices of tokens, token boosted APR and your locked STR amount."
                                             }
                                             <br />
                                             <br />
