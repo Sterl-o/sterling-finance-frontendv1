@@ -20,6 +20,7 @@ import {
   ACTIONS,
 } from '../../stores/constants';
 import { useAppThemeContext } from '../../ui/AppThemeProvider';
+import { EIGHT_WEEKS } from './existingLock';
 
 export default function ffLockDuration({nft, updateLockDuration}) {
 
@@ -139,7 +140,7 @@ export default function ffLockDuration({nft, updateLockDuration}) {
             inputProps={{
               className: [classes.largeInput, classes[`largeInput--${appTheme}`]].join(" "),
               min: moment().add(7, 'days').format('YYYY-MM-DD'),
-              max: moment().add(1460, 'days').format('YYYY-MM-DD'),
+              max: moment().add(EIGHT_WEEKS, 'days').format('YYYY-MM-DD'),
             }}
             InputProps={{
               disableUnderline: true,

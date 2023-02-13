@@ -21,6 +21,7 @@ import stores from '../../stores';
 import {
   ACTIONS,
 } from '../../stores/constants';
+import { EIGHT_WEEKS } from './existingLock';
 
 import { ArrowBack, ArrowBackIosNew } from '@mui/icons-material';
 import VestingInfo from "./vestingInfo";
@@ -175,7 +176,7 @@ export default function ssLock({govToken, veToken}) {
             inputProps={{
               className: [classes.largeInput, classes[`largeInput--${appTheme}`]].join(" "),
               min: moment().add(7, 'days').format('YYYY-MM-DD'),
-              max: moment().add(1460, 'days').format('YYYY-MM-DD'),
+              max: moment().add(EIGHT_WEEKS, 'days').format('YYYY-MM-DD'),
             }}
             InputProps={{
               disableUnderline: true,
@@ -272,7 +273,7 @@ export default function ssLock({govToken, veToken}) {
 
     const tmpNFT = {
       lockAmount: amount,
-      lockValue: BigNumber(amount).times(parseInt(dayToExpire) + 1).div(1460).toFixed(18),
+      lockValue: BigNumber(amount).times(parseInt(dayToExpire) + 1).div(EIGHT_WEEKS).toFixed(18),
       lockEnds: expiry.unix(),
     };
 

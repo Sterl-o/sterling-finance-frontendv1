@@ -14,6 +14,8 @@ import {
 } from '../../stores/constants';
 import SwapIconBg from '../../ui/SwapIconBg';
 
+export const EIGHT_WEEKS = 56 // 8 weeks is 56 days
+
 export default function existingLock({nft, govToken, veToken}) {
   const unixWeek = 604800
 
@@ -92,7 +94,7 @@ export default function existingLock({nft, govToken, veToken}) {
     const dayToExpire = expiry.diff(now, 'days');
 
     tmpNFT.lockAmount = BigNumber(nft.lockAmount).plus(amount).toFixed(18);
-    tmpNFT.lockValue = BigNumber(tmpNFT.lockAmount).times(parseInt(dayToExpire) + 1).div(1460).toFixed(18);
+    tmpNFT.lockValue = BigNumber(tmpNFT.lockAmount).times(parseInt(dayToExpire) + 1).div(EIGHT_WEEKS).toFixed(18);
 
     setFutureNFT(tmpNFT);
   };
@@ -109,7 +111,7 @@ export default function existingLock({nft, govToken, veToken}) {
     const dayToExpire = expiry.diff(now, 'days');
 
     tmpNFT.lockEnds = expiry.unix();
-    tmpNFT.lockValue = BigNumber(tmpNFT.lockAmount).times(parseInt(dayToExpire)).div(1460).toFixed(18);
+    tmpNFT.lockValue = BigNumber(tmpNFT.lockAmount).times(parseInt(dayToExpire)).div(EIGHT_WEEKS).toFixed(18);
 
     setFutureNFT(tmpNFT);
   };
@@ -286,7 +288,7 @@ export default function existingLock({nft, govToken, veToken}) {
               inputProps={{
                 className: [classes.largeInput, classes[`largeInput--${appTheme}`]].join(" "),
                 min: moment().add(7, 'days').format('YYYY-MM-DD'),
-                max: moment().add(1460, 'days').format('YYYY-MM-DD'),
+                max: moment().add(EIGHT_WEEKS, 'days').format('YYYY-MM-DD'),
               }}
               InputProps={{
                 disableUnderline: true,
