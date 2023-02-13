@@ -338,7 +338,7 @@ class MultiSwapStore {
     get isMultiswapInclude() {
         // Sterling Desactivate Multiswaps
         // return !(MULTISWAP_INCLUDE.includes(this.tokenIn?.toLowerCase()) || MULTISWAP_INCLUDE.includes(this.tokenOut?.toLowerCase()))
-        return false
+        return true
     }
 
     async _swapQuery() {
@@ -438,7 +438,8 @@ class MultiSwapStore {
         if (this.provider && this.isDirectRoute !== undefined) {
             this.isFetchingAllowance = true
             const tokenIn = await this._getToken(this.tokenIn)
-            const response = await allowance(this.tokenIn, this.provider, this.swapAmount, tokenIn.decimals, this.isDirectRoute || this.isMultiswapInclude ? ROUTER_ADDRESS : multiSwapAddress)
+            const response = await allowance(this.tokenIn, this.provider, this.swapAmount, tokenIn.decimals, this.isDirectRoute || this.isMultiswapInclude ? ROUTER_ADDRESS : ROUTER_ADDRESS)
+            // const response = await allowance(this.tokenIn, this.provider, this.swapAmount, tokenIn.decimals, this.isDirectRoute || this.isMultiswapInclude ? ROUTER_ADDRESS : multiSwapAddress)
             this.allowed = response
             this.isFetchingAllowance = false
             return response
