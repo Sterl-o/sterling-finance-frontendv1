@@ -29,8 +29,8 @@ export const callContractWait = async (
     .estimateGas({from: account, value: sendValue ?? 0})
     .then(async (gasAmount) => {
 
-      let sendGasAmount = BigNumber(gasAmount).times(1.5).toFixed(2);
-      let sendGasPrice = BigNumber(gasPrice).times(GAS_MULTIPLIER).toFixed(2);
+      let sendGasAmount = BigNumber(gasAmount).times(1.5).toFixed(0);
+      let sendGasPrice = BigNumber(gasPrice).times(GAS_MULTIPLIER).toFixed(0);
 
       console.log('callContractWait', method, params, account, sendGasPrice, sendValue);
 
