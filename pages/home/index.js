@@ -73,12 +73,6 @@ const HomePage = () => {
       <div className={classes.container}>
         <div
           className={[
-            classes.homePageLeftImage,
-            classes[`homePageLeftImage--${appTheme}`],
-          ].join(" ")}
-        ></div>
-        <div
-          className={[
             classes.homePageRightImage,
             classes[`homePageRightImage--${appTheme}`],
           ].join(" ")}

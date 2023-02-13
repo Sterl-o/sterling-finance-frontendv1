@@ -71,14 +71,6 @@
     background-size: cover;
 }
 
-.homePageLeftImage--light {
-    background-image: url('../../images/main-page/left-illustration-light.png');
-}
-
-.homePageLeftImage--dark {
-    background-image: url('../../images/main-page/left-illustration-dark.png');
-}
-
 .homePageRightImage {
     position: absolute;
     top: -80px;
@@ -90,11 +82,11 @@
 }
 
 .homePageRightImage--light {
-    background-image: url('../../images/main-page/right-illustration-light.png');
+    background-image: url('../../images/main-page/sterling-pepe.png');
 }
 
 .homePageRightImage--dark {
-    background-image: url('../../images/main-page/right-illustration-dark.png');
+    background-image: url('../../images/main-page/sterling-pepe.png');
 }
 
 
