@@ -75,18 +75,6 @@ class Store {
           case ACTIONS.CONFIGURE_SS:
             this.configure(payload);
             break;
-
-          /*case ACTIONS.GET_BALANCES:
-            this.getBalances(payload);
-            break;
-          case ACTIONS.SEARCH_ASSET:
-            this.searchBaseAsset(payload);
-            break;*/
-
-          // LIQUIDITY
-          /*case ACTIONS.CREATE_PAIR_AND_STAKE:
-            this.createPairStake(payload);
-            break;*/
           case ACTIONS.CREATE_PAIR_AND_DEPOSIT:
             this.createPairDeposit(payload);
             break;
@@ -96,21 +84,12 @@ class Store {
           case ACTIONS.STAKE_LIQUIDITY:
             this.stakeLiquidity(payload);
             break;
-          /*case ACTIONS.ADD_LIQUIDITY_AND_STAKE:
-            this.addLiquidityAndStake(payload);
-            break;*/
           case ACTIONS.QUOTE_ADD_LIQUIDITY:
             this.quoteAddLiquidity(payload);
             break;
-          /*case ACTIONS.GET_LIQUIDITY_BALANCES:
-            this.getLiquidityBalances(payload);
-            break;*/
           case ACTIONS.REMOVE_LIQUIDITY:
             this.removeLiquidity(payload);
             break;
-          /*case ACTIONS.UNSTAKE_AND_REMOVE_LIQUIDITY:
-            this.unstakeAndRemoveLiquidity(payload);
-            break;*/
           case ACTIONS.QUOTE_REMOVE_LIQUIDITY:
             this.quoteRemoveLiquidity(payload);
             break;
