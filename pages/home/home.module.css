@@ -96,7 +96,7 @@
 
 .layoutPromoTitle {
     text-align: center;
-    font-family: 'PPNeueMachina', serif !important;
+    font-family: 'Sansation', serif !important;
     font-weight: 800 !important;
     font-size: 40px !important;
     line-height: 100% !important;
@@ -107,7 +107,7 @@
 
 .layoutPromoSubTitle {
     text-align: center;
-    font-family: 'PPNeueMachina', serif !important;
+    font-family: 'Sansation', serif !important;
     font-weight: 800 !important;
     font-size: 72px !important;
     line-height: 100% !important;
@@ -116,7 +116,7 @@
 }
 
 .layoutPromoDescription {
-    font-family: 'Roboto Mono';
+    font-family: 'Sansation';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -233,7 +233,7 @@
 }
 
 .layoutDescriptionText {
-    font-family: 'Roboto Mono';
+    font-family: 'Sansation';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -244,7 +244,7 @@
 }
 
 .layoutDescriptionSmallText {
-    font-family: 'Roboto Mono';
+    font-family: 'Sansation';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;

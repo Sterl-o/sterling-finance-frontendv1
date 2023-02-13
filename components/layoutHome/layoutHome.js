@@ -49,6 +49,43 @@ export default function Layout({
           as="font"
           crossOrigin=""
         />
+
+        <link
+          rel="preload"
+          href="/fonts/Sansation/SansationBoldItalic.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Sansation/SansationItalic.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Sansation/SansationBold.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Sansation/SansationLight.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Sansation/SansationRegular.ttf"
+          as="font"
+          crossOrigin=""
+        />
+        <link
+          rel="preload"
+          href="/fonts/Sansation/SansationLightItalic.ttf"
+          as="font"
+          crossOrigin=""
+        />
         <meta name="description" content="Sterling allows low cost, near 0 slippage trades on uncorrelated or tightly correlated assets built on Arbitrum." />
         <meta name="og:title" content="Sterling" />
         <meta name="twitter:card" content="summary_large_image" />

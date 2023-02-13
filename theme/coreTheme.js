@@ -119,7 +119,7 @@ const coreTheme = {
       }
     },
     body: {
-      fontFamily: "Roboto Mono",
+      fontFamily: "Sansation",
     }
   },
   palette: {
@@ -235,7 +235,7 @@ const coreTheme = {
       }
     },
     Mui: {
-      fontFamily: "Roboto Mono",
+      fontFamily: "Sansation",
       '&$disabled': {
         '&:before': {
           borderBottom: 'none'

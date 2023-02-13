@@ -79,10 +79,11 @@ const HomePage = () => {
         ></div>
 
         <div className={classes.layoutPromo}>
-          <div className={classes.layoutPromoTitle}>
+          {/* <div className={classes.layoutPromoTitle}>
             Enter the era of crypto
-          </div>
-          <div className={classes.layoutPromoSubTitle}>STERLING</div>
+          </div> */}
+          <div className={classes.layoutPromoTitle}>STERLING FINANCE</div>
+          {/* <div className={classes.layoutPromoSubTitle}>STERLING FINANCE</div> */}
           <div className={classes.layoutPromoDescription}>
             <div className={classes.layoutPromoDescriptionItem}>0.02% FEE</div>
             <div className={classes.layoutPromoDescriptionItem}>

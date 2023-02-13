@@ -28,7 +28,7 @@
 }
 
 .contentFloatText {
-  font-family: 'PPNeueMachina', serif !important;
+  font-family: 'Sansation', serif !important;
   font-weight: 700 !important;
   font-size: 72px !important;
   color: #ffffff !important;
@@ -67,7 +67,7 @@
   text-align: left !important;
   color: rgb(104,108,122);
   font-size: 18px !important;
-  font-family: 'Roboto Mono', sans-serif !important;
+  font-family: 'Sansation', sans-serif !important;
   font-weight: 300 !important;
   width: calc(100% - 180px) !important;
 }
@@ -75,7 +75,7 @@
 .mainHeadingNC {
   text-align: center !important;
   font-size: 30px !important;
-  font-family: 'Monument', serif !important;
+  font-family: 'Sansation', serif !important;
   font-weight: 100 !important;
   color: #FFFFFF;
 }
