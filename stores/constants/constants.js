@@ -54,8 +54,8 @@ export const BASE_ASSETS_WHITELIST = [ // Done
     symbol: "USDC",
   },
   {
-    id: "0xfA157458912D54492df38448c613375C772F2b08",
-    address: "0xfA157458912D54492df38448c613375C772F2b08",
+    id: "0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc",
+    address: "0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc",
     chainId: "42161",
     symbol: "STR",
   },
@@ -118,7 +118,7 @@ export const DIRECT_SWAP_ROUTES = {
   // SPHERE -> USD+
   // ["0x62f594339830b90ae4c084ae7d223ffafd9658a7".toLowerCase()]: "0x236eec6359fb44cce8f97e99387aa7f8cd5cde1f".toLowerCase(),
   // penSTR -> STR
-  // ["0x5b0522391d0a5a37fd117fe4c43e8876fb4e91e6".toLowerCase()]: "0xfA157458912D54492df38448c613375C772F2b08".toLowerCase(),
+  // ["0x5b0522391d0a5a37fd117fe4c43e8876fb4e91e6".toLowerCase()]: "0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc".toLowerCase(),
 }
 
 export const MULTISWAP_INCLUDE = [
@@ -131,6 +131,6 @@ export const ALLOWED_DUPLICATE_SYMBOLS = [
 ]
 
 export const DEFAULT_ASSET_FROM = "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1" // DONE
-export const DEFAULT_ASSET_TO = "0xfA157458912D54492df38448c613375C772F2b08" // DONE
+export const DEFAULT_ASSET_TO = "0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc" // DONE
 
 export const GAS_MULTIPLIER = 1.3

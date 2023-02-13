@@ -1,13 +1,13 @@
 import abis from "../abis";
 
-export const GOV_TOKEN_ADDRESS = '0xfA157458912D54492df38448c613375C772F2b08' // DONE
+export const GOV_TOKEN_ADDRESS = '0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc' // DONE
 export const GOV_TOKEN_NAME = 'Sterling'
 export const GOV_TOKEN_SYMBOL = 'STR'
 export const GOV_TOKEN_DECIMALS = 18
 export const GOV_TOKEN_LOGO = 'https://sterling-swap-seven.vercel.app/logo.svg'
 export const GOV_TOKEN_ABI = abis.tokenABI
 
-export const VE_TOKEN_ADDRESS = '0xE0FDf6770Ed596327e5E34eE94a6815B04C55024' // DONE
+export const VE_TOKEN_ADDRESS = '0x78c1a83BE9D01C1D2af35544567eA92DBA9E89db' // DONE
 export const VE_TOKEN_NAME = 'veSTR'
 export const VE_TOKEN_SYMBOL = 'veSTR'
 export const VE_TOKEN_DECIMALS = 18
@@ -27,21 +27,21 @@ export const FTM_SYMBOL = 'ETH'
 export const FTM_DECIMALS = 18
 export const FTM_LOGO = 'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0/logo.png'
 
-export const FACTORY_ADDRESS = '0xEa3Ae0305b4E3ed7BF9E762Ba2C5e35aD6E1acFc' // DONE
+export const FACTORY_ADDRESS = '0xf7736500339d2a26B8D945F63E06d8a3E2F0B5cF' // DONE
 export const FACTORY_ABI = abis.factoryABI
 
-export const ROUTER_ADDRESS = '0x0B4B7C9a795047a0631459f08bC7133b23612a9E' // DONE
+export const ROUTER_ADDRESS = '0xc3ECfB024648F8239a55045D468A5A6fBff57B8f' // DONE
 export const ROUTER_ABI = abis.routerABI
 
 export const VE_DIST_ADDRESS = '0x3EfB1b284a3EBa3955c53b728a2Cc4182a07e92F' // NOT USED
 export const VE_DIST_ABI = abis.veDistABI
 
-export const VOTER_ADDRESS = '0x80F97C0D59C2743D44a9d1949aBB6F0AdCEefC69' // DONE
+export const VOTER_ADDRESS = '0x8FdF45f73f1Ce0acb228d51885e0Cdd1dCB68A73' // DONE
 export const VOTER_ABI = abis.voterABI
 
-export const REWARD_ADDRESS = '0xfA157458912D54492df38448c613375C772F2b08' // DONE
+export const REWARD_ADDRESS = '0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc' // DONE
 
-export const LIBRARY_ADDRESS = '0xf0a3eBdea872a195AE81519BccEB3226A6eb32bc' // DONE
+export const LIBRARY_ADDRESS = '0xf0a3eBdea872a195AE81519BccEB3226A6eb32bc' // MISSING
 export const LIBRARY_ABI = abis.sterlingLibraryABI
 
 export const ERC20_ABI = abis.erc20ABI
