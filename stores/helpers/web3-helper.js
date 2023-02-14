@@ -40,10 +40,10 @@ export const callContractWait = async (
         .send({
           from: account,
           gasPrice: web3.utils.toWei(sendGasPrice, "gwei"),
-          gas: sendGasAmount,
+          // gas: sendGasAmount,
           value: sendValue ?? 0,
-          // maxFeePerGas: web3.utils.toWei(gasPrice, "gwei"),
-          // maxPriorityFeePerGas: web3.utils.toWei("2", "gwei"),
+          maxFeePerGas: web3.utils.toWei(gasPrice, "gwei"),
+          maxPriorityFeePerGas: web3.utils.toWei("2", "gwei"),
         })
         .on("transactionHash", async function (txHash) {
           emitNotificationSubmitted(emitter, uuid, txHash)
