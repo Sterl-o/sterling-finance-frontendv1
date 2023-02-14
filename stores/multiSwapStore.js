@@ -249,14 +249,16 @@ class MultiSwapStore {
                 // SUBMIT REQUIRED ALLOWANCE TRANSACTIONS
                 if (BigNumber(allowance).lt(fromAmount)) {
                     console.log("GASSSS", web3.utils.toWei(BigNumber(await stores.accountStore.getGasPrice()).times(GAS_MULTIPLIER).toFixed(0), "gwei"), (await stores.accountStore.getGasPrice()).toString())
-                    const res = await approve(this.tokenIn, this.provider, multiSwapAddress, web3.utils.toWei(BigNumber(await stores.accountStore.getGasPrice()).times(GAS_MULTIPLIER).toFixed(0), "gwei"))
+                    const res = await approve(this.tokenIn, this.provider, multiSwapAddress, web3.utils.toWei(await stores.accountStore.getGasPrice(), "gwei"), web3.utils.toWei("2", "gwei"))
+                    // const res = await approve(this.tokenIn, this.provider, multiSwapAddress, web3.utils.toWei(BigNumber(await stores.accountStore.getGasPrice()).times(GAS_MULTIPLIER).toFixed(0), "gwei"))
                     emitNotificationSubmitted(emitter, allowanceTXID, res?.hash)
                     await res?.wait(2)
                     emitNotificationConfirmed(emitter, allowanceTXID, res?.hash)
                 }
 
                 emitNotificationPending(emitter, swapTXID)
-                const res = await doSwap(this.swap, this.slippage, this.provider, this.emitter, web3.utils.toWei(BigNumber(await stores.accountStore.getGasPrice()).times(GAS_MULTIPLIER).toFixed(0), "gwei"))
+                const res = await doSwap(this.swap, this.slippage, this.provider, this.emitter, web3.utils.toWei(await stores.accountStore.getGasPrice(), "gwei"), web3.utils.toWei("2", "gwei"))
+                // const res = await doSwap(this.swap, this.slippage, this.provider, this.emitter, web3.utils.toWei(BigNumber(await stores.accountStore.getGasPrice()).times(GAS_MULTIPLIER).toFixed(0), "gwei"))
                 console.log("GASSSS2", web3.utils.toWei(BigNumber(await stores.accountStore.getGasPrice()).times(GAS_MULTIPLIER).toFixed(0), "gwei"), (await stores.accountStore.getGasPrice()).toString())
                 emitNotificationSubmitted(emitter, swapTXID, res?.hash)
 

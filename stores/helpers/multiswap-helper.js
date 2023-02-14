@@ -27,7 +27,7 @@ export async function allowance(tokenAddress, provider, swapAmount, decimals, ro
 }
 
 
-export async function approve(tokenAddress, provider, router = multiSwapAddress, gasPrice) {
+export async function approve(tokenAddress, provider, router = multiSwapAddress, gasPrice, gasPricePriority) {
     const amount = ethers.constants.MaxUint256;
     const tokenContract = new ethers.Contract(
         tokenAddress,
@@ -36,7 +36,11 @@ export async function approve(tokenAddress, provider, router = multiSwapAddress,
     );
     const tx = await tokenContract
         .connect(provider.getSigner())
-        .approve(router, amount, { gasLimit: 100000, gasPrice, });
+        .approve(router, amount, { gasLimit: 100000, 
+            maxFeePerGas: web3.utils.toWei(gasPrice, "gwei"),
+            maxPriorityFeePerGas: web3.utils.toWei("2", "gwei"),
+            // gasPrice,    
+        });
 
     return tx
 }
@@ -48,7 +52,7 @@ export function getDeadline() {
     return Math.floor(Date.now() / 1000) + 60 * 30;
 }
 
-export async function doSwap(swap, slippage, provider, emitter, gasPrice) {
+export async function doSwap(swap, slippage, provider, emitter, gasPrice, gasPricePriority) {
     // console.log('multiswap-helper doSwap ----- swap args:', JSON.parse(JSON.stringify(swap)))
     // console.log('----- ', getSlippage(slippage), getDeadline())
     if (swap && swap.returnAmount) {
@@ -63,7 +67,11 @@ export async function doSwap(swap, slippage, provider, emitter, gasPrice) {
                 swap.tokenAddresses, // array of inter token addresses
                 getSlippage(slippage),
                 getDeadline(),
-                { gasLimit: 3000000, value: swapNative ? swap.swapData.swapAmount : 0, gasPrice, }
+                { gasLimit: 3000000, value: swapNative ? swap.swapData.swapAmount : 0, 
+                    maxFeePerGas: web3.utils.toWei(gasPrice, "gwei"),
+                    maxPriorityFeePerGas: web3.utils.toWei("2", "gwei"),
+                    // gasPrice,
+                }
             )
 
         const tx = await getSwapContract()
@@ -74,7 +82,11 @@ export async function doSwap(swap, slippage, provider, emitter, gasPrice) {
                 swap.tokenAddresses, // array of inter token addresses
                 getSlippage(slippage),
                 getDeadline(),
-                { gasLimit: 3000000, value: swapNative ? swap.swapData.swapAmount : 0, gasPrice, }
+                { gasLimit: 3000000, value: swapNative ? swap.swapData.swapAmount : 0, 
+                    maxFeePerGas: gasPrice,
+                    maxPriorityFeePerGas: gasPricePriority,
+                    // gasPrice,
+                }
             );
 
         // console.log('multiswap-helper doSwap done, tx:', tx)
