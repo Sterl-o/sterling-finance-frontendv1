@@ -4,14 +4,14 @@ export const GOV_TOKEN_ADDRESS = '0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc' //
 export const GOV_TOKEN_NAME = 'Sterling'
 export const GOV_TOKEN_SYMBOL = 'STR'
 export const GOV_TOKEN_DECIMALS = 18
-export const GOV_TOKEN_LOGO = 'https://sterling-swap-seven.vercel.app/logo.svg'
+export const GOV_TOKEN_LOGO = 'https://i.ibb.co/SPqY38r/logo.png'
 export const GOV_TOKEN_ABI = abis.tokenABI
 
 export const VE_TOKEN_ADDRESS = '0x78c1a83BE9D01C1D2af35544567eA92DBA9E89db' // DONE
 export const VE_TOKEN_NAME = 'veSTR'
 export const VE_TOKEN_SYMBOL = 'veSTR'
 export const VE_TOKEN_DECIMALS = 18
-export const VE_TOKEN_LOGO = 'https://sterling-swap-seven.vercel.app/logo.svg'
+export const VE_TOKEN_LOGO = 'https://i.ibb.co/SPqY38r/logo.png'
 export const VE_TOKEN_ABI = abis.veTokenABI
 
 export const WFTM_ADDRESS = '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1' // DONE

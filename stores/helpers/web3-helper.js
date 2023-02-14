@@ -29,7 +29,7 @@ export const callContractWait = async (
     .estimateGas({from: account, value: sendValue ?? 0})
     .then(async (gasAmount) => {
 
-      console.log("Web3Helper", gasPrice, gasAmount)
+      console.log("Web3Helper", gasPrice, gasAmount, BigNumber(gasPrice).times(GAS_MULTIPLIER).toFixed(0), BigNumber(gasAmount).times(1.5).toFixed(0))
 
       let sendGasAmount = BigNumber(gasAmount).times(1.5).toFixed(0);
       let sendGasPrice = BigNumber(gasPrice).times(GAS_MULTIPLIER).toFixed(0);
