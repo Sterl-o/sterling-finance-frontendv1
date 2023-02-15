@@ -103,14 +103,6 @@ export const ROUTE_ASSETS = [
       "https://raw.githubusercontent.com/sushiswap/icons/master/token/dai.jpg",
     name: "Dai Stablecoin",
     symbol: "DAI",
-  },
-  {
-    address: "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1", // Done
-    decimals: 18,
-    logoURI:
-      "https://raw.githubusercontent.com/sushiswap/icons/master/token/eth.jpg",
-    name: "Wrapped Ether",
-    symbol: "WETH",
   }
 ];
 
