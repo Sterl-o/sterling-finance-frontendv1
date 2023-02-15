@@ -18,14 +18,14 @@ export const WFTM_ADDRESS = '0xe02f20BB33F8Bfb48eB907523435CA886e139A08'
 export const WFTM_NAME = 'Wrapped ETH'
 export const WFTM_SYMBOL = 'WETH'
 export const WFTM_DECIMALS = 18
-export const WFTM_LOGO = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/eth.jpg'
+export const WFTM_LOGO = 'https://i.ibb.co/DfkQ3C7/eth.png'
 export const WFTM_ABI = abis.wftmABI
 
 export const FTM_ADDRESS = 'ETH'
 export const FTM_NAME = 'ETH'
 export const FTM_SYMBOL = 'ETH'
 export const FTM_DECIMALS = 18
-export const FTM_LOGO = 'https://raw.githubusercontent.com/sushiswap/icons/master/token/eth.jpg'
+export const FTM_LOGO = 'https://i.ibb.co/DfkQ3C7/eth.png'
 
 export const FACTORY_ADDRESS = '0xD0692d6C30cd7a383f227Ba1cB28EeCE2F050926'
 export const FACTORY_ABI = abis.factoryABI
