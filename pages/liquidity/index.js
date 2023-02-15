@@ -56,7 +56,7 @@ function Liquidity({ changeTheme }) {
 
   const [isHoverState, setIsHoverState] = useState(false);
   const [isClickState, setIsClickState] = useState(false);
-  const [btnColor, setBtnColor] = useState(appTheme === 'dark' ? '#4c2828' : '#D2D0F2');
+  const [btnColor, setBtnColor] = useState(appTheme === 'dark' ? '#4c2828' : '#f2d0d0');
 
   const btnDefaultColor = () => {
     setIsHoverState(false);
@@ -74,11 +74,11 @@ function Liquidity({ changeTheme }) {
   const getBtnColor = () => {
     switch (appTheme) {
       case 'dark':
-        return isClickState ? '#523880' : (isHoverState ? '#612e2e' : '#4c2828');
+        return isClickState ? '#803838' : (isHoverState ? '#612e2e' : '#4c2828');
 
       case 'light':
       default:
-        return isClickState ? '#B9A4EE' : (isHoverState ? '#C6BAF0' : '#D2D0F2');
+        return isClickState ? '#eea4a4' : (isHoverState ? '#f0baba' : '#f2d0d0');
     }
   };
 

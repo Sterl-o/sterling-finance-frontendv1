@@ -133,11 +133,11 @@
 }
 
 .addButton--light:hover > p {
-  background: #C6BAF0;
+  background: #f0baba;
 }
 
 .addButton--light:active > p {
-  background: #B9A4EE;
+  background: #eea4a4;
 }
 
 .addButton--dark:hover > p {
@@ -145,7 +145,7 @@
 }
 
 .addButton--dark:active > p {
-  background: #523880;
+  background: #803838;
 }
 
 .addButtonIcon {
@@ -160,13 +160,13 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 120%;
-  background: #D2D0F2;
+  background: #f2d0d0;
   color: #e85a5a;
   transition: all ease 300ms;
 }
 
 .actionButtonText--light {
-  background: #D2D0F2;
+  background: #f2d0d0;
 }
 
 .actionButtonText--dark {

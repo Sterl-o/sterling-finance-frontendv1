@@ -14,7 +14,7 @@ const BtnSwap = (props) => {
     isDisabled ? "#7F828B" : "#e85a5a",
   );
   const [borderColorLight, setBorderColorLight] = useState(
-    isDisabled ? "#D4D5DB" : "#D2D0F2",
+    isDisabled ? "#D4D5DB" : "#f2d0d0",
   );
   const [borderColorDark, setBorderColorDark] = useState(
     isDisabled ? "#494B51" : "#4c2828",
@@ -30,7 +30,7 @@ const BtnSwap = (props) => {
     }
 
     setBgColorLight("#e85a5a");
-    setBorderColorLight("#C6BAF0");
+    setBorderColorLight("#f0baba");
 
     setBgColorDark("#e85a5a");
     setBorderColorDark("#612e2e");
@@ -42,7 +42,7 @@ const BtnSwap = (props) => {
     }
 
     setBgColorLight("#e85a5a");
-    setBorderColorLight("#D2D0F2");
+    setBorderColorLight("#f2d0d0");
 
     setBgColorDark("#e85a5a");
     setBorderColorDark("#4c2828");
@@ -54,10 +54,10 @@ const BtnSwap = (props) => {
     }
 
     setBgColorLight("#e85a5a");
-    setBorderColorLight("#B9A4EE");
+    setBorderColorLight("#eea4a4");
 
     setBgColorDark("#e85a5a");
-    setBorderColorDark("#523880");
+    setBorderColorDark("#803838");
   };
 
   const updateState = () => {
@@ -65,7 +65,7 @@ const BtnSwap = (props) => {
       setDisabledState(isDisabled);
 
       setBgColorLight(isDisabled ? "#A3A9BA" : "#e85a5a");
-      setBorderColorLight(isDisabled ? "#D4D5DB" : "#D2D0F2");
+      setBorderColorLight(isDisabled ? "#D4D5DB" : "#f2d0d0");
 
       setBgColorDark(isDisabled ? "#7F828B" : "#e85a5a");
       setBorderColorDark(isDisabled ? "#494B51" : "#4c2828");

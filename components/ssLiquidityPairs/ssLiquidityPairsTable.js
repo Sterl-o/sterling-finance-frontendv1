@@ -808,10 +808,10 @@ const useStyles = makeStyles({
   },
   "addButton--light": {
     "&:hover > p": {
-      background: "#C6BAF0",
+      background: "#f0baba",
     },
     "&:active > p": {
-      background: "#B9A4EE",
+      background: "#eea4a4",
     },
   },
   "addButton--dark": {
@@ -819,7 +819,7 @@ const useStyles = makeStyles({
       background: "#612e2e",
     },
     "&:active > p": {
-      background: "#523880",
+      background: "#803838",
     },
   },
   addButtonIcon: {
@@ -839,7 +839,7 @@ const useStyles = makeStyles({
     fontWeight: 700,
     fontSize: 16,
     lineHeight: "120%",
-    background: "#D2D0F2",
+    background: "#f2d0d0",
     color: "#e85a5a",
     transition: "all ease 300ms",
     ["@media (max-width:530px)"]: {
@@ -850,7 +850,7 @@ const useStyles = makeStyles({
     },
   },
   "actionButtonText--light": {
-    background: "#D2D0F2",
+    background: "#f2d0d0",
   },
   "actionButtonText--dark": {
     background: "#4c2828",
