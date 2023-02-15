@@ -32,6 +32,7 @@ export const RENAME_ASSETS = {
 
 export const BLACK_LIST_TOKENS = [
   // '0x104592a158490a9228070e0a8e5343b499e125d0'.toLowerCase(), // wrong FRAX
+  '0xfa157458912d54492df38448c613375c772f2b08'.toLowerCase(), // OLD DEPLOY STERLING TOKEN
 ]
 
 export const BASE_ASSETS_WHITELIST = [ // Done
