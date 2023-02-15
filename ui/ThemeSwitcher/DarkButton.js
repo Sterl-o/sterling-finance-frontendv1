@@ -6,7 +6,7 @@ import classes from "./ThemeSwitcher.module.css";
 const DarkButton = (props) => {
   const { width = "14", height = "14" } = props;
   const { appTheme, setAppTheme } = useAppThemeContext();
-  const fillColor = appTheme === "dark" ? "white" : "#9BC9E4";
+  const fillColor = appTheme === "dark" ? "white" : "#e49b9b";
   const className = [
     classes["theme-button"],
     classes["theme-button--moon"],

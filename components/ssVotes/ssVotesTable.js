@@ -50,7 +50,7 @@ const CustomSlider = styled(Slider)(({ theme, appTheme, disabled }) => {
   };
 
   const MuiSliderTrack = {
-    backgroundColor: "#9BC9E4",
+    backgroundColor: "#e49b9b",
   };
 
   const MuiSliderRail = {
@@ -106,7 +106,7 @@ const CustomSlider = styled(Slider)(({ theme, appTheme, disabled }) => {
     },
     "& .MuiSlider-rail": {
       opacity: 1,
-      // backgroundColor: '#9BC9E4',
+      // backgroundColor: '#e49b9b',
       background: MuiSliderRail.background,
     },
     "& .MuiSlider-mark": {
@@ -346,7 +346,7 @@ const sortIcon = (sortDirection) => {
       >
         <path
           d="M5.83325 8.33337L9.99992 12.5L14.1666 8.33337H5.83325Z"
-          fill={appTheme === "dark" ? "#855f5f" : "#9BC9E4"}
+          fill={appTheme === "dark" ? "#855f5f" : "#e49b9b"}
         />
       </svg>
     </>
@@ -365,8 +365,8 @@ function EnhancedTableHead(props) {
     <TableHead>
       <TableRow
         style={{
-          border: "1px solid #9BC9E4",
-          borderColor: appTheme === "dark" ? "#855f5f" : "#9BC9E4",
+          border: "1px solid #e49b9b",
+          borderColor: appTheme === "dark" ? "#855f5f" : "#e49b9b",
           whiteSpace: "nowrap",
         }}
       >
@@ -381,8 +381,8 @@ function EnhancedTableHead(props) {
                 sortDirection={orderBy === headCell.id ? order : false}
                 style={{
                   background: appTheme === "dark" ? "#24292D" : "#CFE5F2",
-                  borderBottom: "1px solid #9BC9E4",
-                  borderColor: appTheme === "dark" ? "#855f5f" : "#9BC9E4",
+                  borderBottom: "1px solid #e49b9b",
+                  borderColor: appTheme === "dark" ? "#855f5f" : "#e49b9b",
                   zIndex: 10,
                 }}
               >
@@ -417,8 +417,8 @@ function EnhancedTableHead(props) {
               <StyledTableCell
                 style={{
                   background: appTheme === "dark" ? "#24292D" : "#CFE5F2",
-                  borderBottom: "1px solid #9BC9E4",
-                  borderColor: appTheme === "dark" ? "#855f5f" : "#9BC9E4",
+                  borderBottom: "1px solid #e49b9b",
+                  borderColor: appTheme === "dark" ? "#855f5f" : "#e49b9b",
                   color: appTheme === "dark" ? "#C6CDD2" : "#325569",
                 }}
                 key={headCell.id}
@@ -1389,7 +1389,7 @@ export default function EnhancedTable({
                         marginBottom: 20,
                         background: appTheme === "dark" ? "#24292D" : "#DBE6EC",
                         border: `1px solid ${
-                          appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                          appTheme === "dark" ? "#412d2d" : "#e49b9b"
                         }`,
                       }}
                       disableGutters={true}
@@ -1493,10 +1493,10 @@ export default function EnhancedTable({
                           <div
                             style={{
                               borderTop: `1px solid ${
-                                appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                                appTheme === "dark" ? "#412d2d" : "#e49b9b"
                               }`,
                               borderBottom: `1px solid ${
-                                appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                                appTheme === "dark" ? "#412d2d" : "#e49b9b"
                               }`,
                             }}
                             className={["g-flex", "g-flex--align-center"].join(
@@ -1507,7 +1507,7 @@ export default function EnhancedTable({
                               style={{
                                 width: "50%",
                                 borderRight: `1px solid ${
-                                  appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                                  appTheme === "dark" ? "#412d2d" : "#e49b9b"
                                 }`,
                               }}
                             >
@@ -1520,7 +1520,7 @@ export default function EnhancedTable({
                                   fontSize: 12,
                                   lineHeight: "120%",
                                   borderBottom: `1px solid ${
-                                    appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                                    appTheme === "dark" ? "#412d2d" : "#e49b9b"
                                   }`,
                                   color:
                                     appTheme === "dark" ? "#C6CDD2" : "#325569",
@@ -1593,7 +1593,7 @@ export default function EnhancedTable({
                                   fontSize: 12,
                                   lineHeight: "120%",
                                   borderBottom: `1px solid ${
-                                    appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                                    appTheme === "dark" ? "#412d2d" : "#e49b9b"
                                   }`,
                                   color:
                                     appTheme === "dark" ? "#C6CDD2" : "#325569",
@@ -1659,7 +1659,7 @@ export default function EnhancedTable({
                             style={{
                               padding: "6px 20px",
                               background:
-                                appTheme === "dark" ? "#151718" : "#9BC9E4",
+                                appTheme === "dark" ? "#151718" : "#e49b9b",
                             }}
                             className={[
                               "g-flex",
@@ -1713,7 +1713,7 @@ export default function EnhancedTable({
                                 style={{
                                   height: 56,
                                   borderTop: `1px solid ${
-                                    appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                                    appTheme === "dark" ? "#412d2d" : "#e49b9b"
                                   }`,
                                 }}
                                 className={[
@@ -1738,7 +1738,7 @@ export default function EnhancedTable({
                                     borderRight: `1px solid ${
                                       appTheme === "dark"
                                         ? "#412d2d"
-                                        : "#9BC9E4"
+                                        : "#e49b9b"
                                     }`,
                                   }}
                                   noWrap

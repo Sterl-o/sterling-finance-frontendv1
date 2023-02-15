@@ -615,7 +615,7 @@ input[type=number].massiveInputAmount {
   align-items: center;
   justify-content: center;
   transition: fill 0.16s ease;
-  fill: #9BC9E4;
+  fill: #e49b9b;
 }
 
 .displayDualIconContainer:hover {
@@ -650,7 +650,7 @@ input[type=number].massiveInputAmount {
   height: 50px;
   padding: 4px;
   border-radius: 100px;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   background: #CFE5F2;
 }
 

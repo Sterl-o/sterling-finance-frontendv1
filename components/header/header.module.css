@@ -178,7 +178,7 @@
 }
 
 .accountButton:active .accountButtonAddress {
-  background: #9BC9E4 !important;
+  background: #e49b9b !important;
 }
 
 .accountButton:active .headBalanceTxt {
@@ -202,7 +202,7 @@
 }
 
 .accountButtonConnect--light {
-  background: #9BC9E4 !important;
+  background: #e49b9b !important;
 }
 
 .accountButtonConnect--light:hover {
@@ -225,7 +225,7 @@
   color: #ffffff !important;
   padding-left: 10px !important;
   padding-right: 10px !important;
-  background: #9BC9E4 !important;
+  background: #e49b9b !important;
   z-index: 2;
   transition: all 0.16s ease;
 }
@@ -472,7 +472,7 @@
   font-weight: 500 !important;
   font-size: 14px !important;
   line-height: 120%;
-  background: #9BC9E4 !important;
+  background: #e49b9b !important;
   border: 1px solid #8e0b0b !important;
   border-radius: 40px !important;
   padding: 3px 10px !important;
@@ -480,7 +480,7 @@
 }
 
 .testnetDisclaimerText--light {
-  background-color: #9BC9E4 !important;
+  background-color: #e49b9b !important;
 }
 
 .testnetDisclaimerText--dark {

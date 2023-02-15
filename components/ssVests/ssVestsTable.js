@@ -163,7 +163,7 @@ const sortIcon = (sortDirection) => {
         xmlns="http://www.w3.org/2000/svg">
         <path
           d="M5.83325 8.33337L9.99992 12.5L14.1666 8.33337H5.83325Z"
-          fill={appTheme === 'dark' ? '#855f5f' : '#9BC9E4'}/>
+          fill={appTheme === 'dark' ? '#855f5f' : '#e49b9b'}/>
       </svg>
     </>
   );
@@ -180,8 +180,8 @@ function EnhancedTableHead(props) {
     <TableHead>
       <TableRow
         style={{
-          border: '1px solid #9BC9E4',
-          borderColor: appTheme === 'dark' ? '#855f5f' : '#9BC9E4',
+          border: '1px solid #e49b9b',
+          borderColor: appTheme === 'dark' ? '#855f5f' : '#e49b9b',
           whiteSpace: 'nowrap',
         }}>
         {headCells.map((headCell) => (
@@ -962,7 +962,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                     margin: 0,
                     marginBottom: 20,
                     background: appTheme === 'dark' ? '#24292D' : '#DBE6EC',
-                    border: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
+                    border: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#e49b9b'}`,
                   }}
                   disableGutters={true}
                   expanded={expanded === labelId}
@@ -1018,14 +1018,14 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
 
                       <div
                         style={{
-                          borderTop: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
+                          borderTop: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#e49b9b'}`,
                           borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#CFE5F2'}`,
                         }}
                         className={['g-flex', 'g-flex--align-center'].join(' ')}>
                         <div
                           style={{
                             width: '50%',
-                            borderRight: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
+                            borderRight: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#e49b9b'}`,
                           }}>
                           <Typography
                             className={classes.cellHeadPaddings}
@@ -1078,7 +1078,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                               fontWeight: 500,
                               fontSize: 12,
                               lineHeight: '120%',
-                              borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
+                              borderBottom: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#e49b9b'}`,
                               color: appTheme === 'dark' ? '#C6CDD2' : '#325569',
                               textAlign: 'right',
                             }}
@@ -1122,7 +1122,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                       <div
                         style={{
                           padding: '6px 20px',
-                          background: appTheme === 'dark' ? '#151718' : '#9BC9E4',
+                          background: appTheme === 'dark' ? '#151718' : '#e49b9b',
                         }}
                         className={['g-flex', 'g-flex--align-center', 'g-flex--space-between'].join(' ')}>
                         <Typography
@@ -1163,7 +1163,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                           <div
                             style={{
                               height: 56,
-                              borderTop: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
+                              borderTop: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#e49b9b'}`,
                             }}
                             className={['g-flex', 'g-flex--align-center'].join(' ')}>
                             <Typography
@@ -1177,7 +1177,7 @@ export default function EnhancedTable({vestNFTs, govToken, veToken}) {
                                 fontSize: 12,
                                 lineHeight: '120%',
                                 color: appTheme === 'dark' ? '#C6CDD2' : '#325569',
-                                borderRight: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#9BC9E4'}`,
+                                borderRight: `1px solid ${appTheme === 'dark' ? '#412d2d' : '#e49b9b'}`,
                               }}
                               noWrap>
                               {headCell.label}

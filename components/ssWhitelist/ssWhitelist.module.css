@@ -26,7 +26,7 @@
   line-height: 120%;
   color: #325569;
   background: #CFE5F2;
-  border-bottom: 1px solid #9BC9E4;
+  border-bottom: 1px solid #e49b9b;
 }
 
 .tokenHeader--dark {
@@ -78,7 +78,7 @@
   height: 32px;
   border-radius: 100px;
   margin-right: 20px !important;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   padding: 2px;
 }
 
@@ -241,7 +241,7 @@
 
 .adaptiveHeader {
   padding: 15px 15px 15px 30px;
-  border-bottom: 1px solid #9BC9E4;
+  border-bottom: 1px solid #e49b9b;
 }
 
 .adaptiveHeader--dark {
@@ -271,7 +271,7 @@
 .adaptiveActionHeader {
   width: 100%;
   background: #CFE5F2;
-  border-bottom: 1px solid #9BC9E4;
+  border-bottom: 1px solid #e49b9b;
 }
 
 .adaptiveActionHeader--dark {

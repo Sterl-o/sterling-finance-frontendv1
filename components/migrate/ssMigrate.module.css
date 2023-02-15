@@ -125,7 +125,7 @@
 }
 
 .assetSearchResults--light {
-  background: #9BC9E4;
+  background: #e49b9b;
   border: 1px solid #86B9D6;
 }
 
@@ -472,7 +472,7 @@
   position: relative;
   height: 40px;
   padding-left: 20px;
-  background: #9BC9E4;
+  background: #e49b9b;
   color: #ffffff;
   font-weight: 500;
   font-size: 14px;
@@ -603,7 +603,7 @@
   height: 40px;
   padding-left: 18px;
   border: 1px solid #86B9D6;
-  background: #9BC9E4;
+  background: #e49b9b;
   font-weight: 500;
   font-size: 14px;
   line-height: 120%;
@@ -658,7 +658,7 @@
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   background: #B8DFF5;
   padding: 4px;
 }
@@ -741,7 +741,7 @@
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   background: #B8DFF5;
   padding: 1px;
 }
@@ -1080,7 +1080,7 @@
   height: 50px;
   padding: 4px;
   border-radius: 100px;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   background: #CFE5F2;
 }
 
@@ -1563,14 +1563,14 @@
   font-size: 18px;
   line-height: 140%;
   color: #0A2C40;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   border-bottom: none;
   cursor: pointer;
   transition: all 0.32s ease;
 }
 
 .pairDetails:last-child {
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
 }
 
 .pairDetails:hover {

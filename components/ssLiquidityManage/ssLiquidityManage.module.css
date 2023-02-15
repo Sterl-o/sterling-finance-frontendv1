@@ -569,7 +569,7 @@ input[type=number].mediumInputAmount {
 }
 
 .swapIconContainer:hover .swapIconContainerInside {
-  background: #9BC9E4;
+  background: #e49b9b;
   border: 1px solid #8e0b0b;
 }
 
@@ -665,7 +665,7 @@ input[type=number].mediumInputAmount {
   height: 50px;
   padding: 4px;
   border-radius: 100px;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   background: #CFE5F2;
 }
 
@@ -687,7 +687,7 @@ input[type=number].mediumInputAmount {
   align-items: center;
   justify-content: center;
   transition: fill 0.16s ease;
-  fill: #9BC9E4;
+  fill: #e49b9b;
 }
 
 .displayDualIconContainer:hover {
@@ -802,7 +802,7 @@ input[type=number].mediumInputAmount {
 .displayAssetIconWithdraw {
   width: 54px;
   height: 54px;
-  border: 2px solid #9BC9E4;
+  border: 2px solid #e49b9b;
   padding: 4px;
   background: #B9DFF5;
 }
@@ -860,7 +860,7 @@ input[type=number].mediumInputAmount {
 }
 
 .mediumdisplayAssetIcon {
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   border-radius: 50px;
   width: 36px;
   height: 36px;
@@ -1299,7 +1299,7 @@ input[type=number].mediumInputAmount {
 }
 
 .assetSearchResults--light {
-  background: #9BC9E4;
+  background: #e49b9b;
   border: 1px solid #86B9D6;
 }
 
@@ -1540,7 +1540,7 @@ input[type=number].mediumInputAmount {
   height: 40px;
   padding-left: 18px;
   border: 1px solid #86B9D6;
-  background: #9BC9E4;
+  background: #e49b9b;
   font-weight: 500;
   font-size: 14px;
   line-height: 120%;
@@ -1595,7 +1595,7 @@ input[type=number].mediumInputAmount {
   width: 54px;
   height: 54px;
   border-radius: 50%;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   background: #B8DFF5;
   padding: 4px;
 }

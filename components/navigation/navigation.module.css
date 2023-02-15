@@ -398,7 +398,7 @@ a.linkz {
 }
 
 .nav-button:active {
-  background: #9BC9E4 !important;
+  background: #e49b9b !important;
   color: #8e0b0b !important;
   border: 1px solid var(--main-secondary-light) !important;
   z-index: 9;

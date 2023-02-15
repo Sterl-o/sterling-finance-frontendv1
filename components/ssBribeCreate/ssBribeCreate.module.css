@@ -226,7 +226,7 @@ input[type=number].massiveInputAmount {
 }
 
 .assetSearchResults--light {
-  background: #9BC9E4;
+  background: #e49b9b;
   border: 1px solid #86B9D6;
 }
 
@@ -614,7 +614,7 @@ input[type=number].massiveInputAmount {
   align-items: center;
   justify-content: center;
   transition: fill 0.16s ease;
-  fill: #9BC9E4;
+  fill: #e49b9b;
 }
 
 .displayDualIconContainer:hover {
@@ -655,7 +655,7 @@ input[type=number].massiveInputAmount {
   height: 50px;
   padding: 4px;
   border-radius: 100px;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   background: #CFE5F2;
 }
 
@@ -683,7 +683,7 @@ input[type=number].massiveInputAmount {
   position: absolute;
   left: 0px;
   top: 10px;
-  border: 5px solid #212b48;
+  border: 5px solid #482121;
   border-radius: 100px;
 }
 .img2Logo {
@@ -691,7 +691,7 @@ input[type=number].massiveInputAmount {
   left: 60px;
   z-index: 1;
   top: 10px;
-  border: 5px solid #212b48;
+  border: 5px solid #482121;
   border-radius: 100px;
 }
 .doubleImages {

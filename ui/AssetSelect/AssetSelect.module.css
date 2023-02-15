@@ -25,14 +25,14 @@
   align-items: center;
   justify-content: center;
   transition: fill 0.16s ease;
-  fill: #9BC9E4;
+  fill: #e49b9b;
 }
 
 .displayDualIconContainerSmallest {
   width: 50px;
   height: 50px;
   background: #CFE5F2;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   border-radius: 100px;
   margin-right: 10px;
 }
@@ -128,7 +128,7 @@
   height: 50px;
   padding: 4px;
   border-radius: 100px;
-  border: 1px solid #9BC9E4;
+  border: 1px solid #e49b9b;
   background: #CFE5F2;
 }
 
@@ -258,7 +258,7 @@
 }
 
 .assetSearchResults--light {
-  background: #9BC9E4;
+  background: #e49b9b;
   border: 1px solid #86B9D6;
 }
 
@@ -295,7 +295,7 @@
 .displayAssetIconSecond {
   width: 54px;
   height: 54px;
-  border: 2px solid #9BC9E4;
+  border: 2px solid #e49b9b;
   padding: 4px;
   background: #B9DFF5;
 }

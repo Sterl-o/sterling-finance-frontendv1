@@ -174,8 +174,8 @@ function EnhancedTableHead(props) {
     <TableHead>
       <TableRow
         style={{
-          border: "1px solid #9BC9E4",
-          borderColor: appTheme === "dark" ? "#855f5f" : "#9BC9E4",
+          border: "1px solid #e49b9b",
+          borderColor: appTheme === "dark" ? "#855f5f" : "#e49b9b",
           whiteSpace: "nowrap",
         }}
       >
@@ -190,8 +190,8 @@ function EnhancedTableHead(props) {
                 sortDirection={orderBy === headCell.id ? order : false}
                 style={{
                   background: appTheme === "dark" ? "#24292D" : "#CFE5F2",
-                  borderBottom: "1px solid #9BC9E4",
-                  borderColor: appTheme === "dark" ? "#855f5f" : "#9BC9E4",
+                  borderBottom: "1px solid #e49b9b",
+                  borderColor: appTheme === "dark" ? "#855f5f" : "#e49b9b",
                   zIndex: 10,
                 }}
               >
@@ -222,8 +222,8 @@ function EnhancedTableHead(props) {
               <StyledTableCell
                 style={{
                   background: appTheme === "dark" ? "#24292D" : "#CFE5F2",
-                  borderBottom: "1px solid #9BC9E4",
-                  borderColor: appTheme === "dark" ? "#855f5f" : "#9BC9E4",
+                  borderBottom: "1px solid #e49b9b",
+                  borderColor: appTheme === "dark" ? "#855f5f" : "#e49b9b",
                   color: appTheme === "dark" ? "#C6CDD2" : "#325569",
                 }}
                 key={headCell.id}
@@ -467,7 +467,7 @@ const useStyles = makeStyles((theme) => {
       fontWeight: "700",
     },
     filterContainer: {
-      background: "#212b48",
+      background: "#482121",
       minWidth: "300px",
       marginTop: "15px",
       borderRadius: "10px",
@@ -1156,7 +1156,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                           background:
                             appTheme === "dark" ? "#24292D" : "#DBE6EC",
                           border: `1px solid ${
-                            appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                            appTheme === "dark" ? "#412d2d" : "#e49b9b"
                           }`,
                         }}
                         disableGutters={true}
@@ -1318,10 +1318,10 @@ export default function EnhancedTable({ rewards, tokenID }) {
                             <div
                               style={{
                                 borderTop: `1px solid ${
-                                  appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                                  appTheme === "dark" ? "#412d2d" : "#e49b9b"
                                 }`,
                                 borderBottom: `1px solid ${
-                                  appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                                  appTheme === "dark" ? "#412d2d" : "#e49b9b"
                                 }`,
                               }}
                               className={["g-flex"].join(" ")}
@@ -1330,7 +1330,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                 style={{
                                   width: "50%",
                                   borderRight: `1px solid ${
-                                    appTheme === "dark" ? "#412d2d" : "#9BC9E4"
+                                    appTheme === "dark" ? "#412d2d" : "#e49b9b"
                                   }`,
                                 }}
                               >
@@ -1347,7 +1347,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                     borderBottom: `1px solid ${
                                       appTheme === "dark"
                                         ? "#412d2d"
-                                        : "#9BC9E4"
+                                        : "#e49b9b"
                                     }`,
                                     color:
                                       appTheme === "dark"
@@ -1413,7 +1413,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                     borderBottom: `1px solid ${
                                       appTheme === "dark"
                                         ? "#412d2d"
-                                        : "#9BC9E4"
+                                        : "#e49b9b"
                                     }`,
                                     color:
                                       appTheme === "dark"
@@ -1534,7 +1534,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                               style={{
                                 padding: "6px 20px",
                                 background:
-                                  appTheme === "dark" ? "#151718" : "#9BC9E4",
+                                  appTheme === "dark" ? "#151718" : "#e49b9b",
                               }}
                               className={[
                                 "g-flex",
@@ -1594,7 +1594,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                     borderTop: `1px solid ${
                                       appTheme === "dark"
                                         ? "#412d2d"
-                                        : "#9BC9E4"
+                                        : "#e49b9b"
                                     }`,
                                   }}
                                   className={[
@@ -1619,7 +1619,7 @@ export default function EnhancedTable({ rewards, tokenID }) {
                                       borderRight: `1px solid ${
                                         appTheme === "dark"
                                           ? "#412d2d"
-                                          : "#9BC9E4"
+                                          : "#e49b9b"
                                       }`,
                                     }}
                                     noWrap
