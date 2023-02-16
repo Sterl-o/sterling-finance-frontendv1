@@ -1114,8 +1114,8 @@ class Store {
             gasPrice: web3.utils.toWei(sendGasPrice, "gwei"),
             // gas: sendGasAmount,
             value: sendValue,
-            maxFeePerGas: web3.utils.toWei(gasPrice, "gwei"),
-            maxPriorityFeePerGas: web3.utils.toWei("2", "gwei"),
+            maxPriorityFeePerGas: web3.utils.toWei(gasPrice, "gwei"),
+            maxFeePerGas: web3.utils.toWei("2", "gwei"),
           })
           .on("transactionHash", function (txHash) {
             context.emitter.emit(ACTIONS.TX_SUBMITTED, { uuid, txHash });
