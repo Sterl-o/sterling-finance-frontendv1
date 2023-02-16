@@ -37,8 +37,8 @@ export async function approve(tokenAddress, provider, router = multiSwapAddress,
     const tx = await tokenContract
         .connect(provider.getSigner())
         .approve(router, amount, { gasLimit: 100000, 
-            maxFeePerGas: web3.utils.toWei(gasPrice, "gwei"),
-            maxPriorityFeePerGas: web3.utils.toWei("2", "gwei"),
+            maxPriorityFeePerGas: web3.utils.toWei(gasPrice, "gwei"),
+            maxFeePerGas: web3.utils.toWei("2", "gwei"),
             // gasPrice,    
         });
 
@@ -68,8 +68,8 @@ export async function doSwap(swap, slippage, provider, emitter, gasPrice, gasPri
                 getSlippage(slippage),
                 getDeadline(),
                 { gasLimit: 3000000, value: swapNative ? swap.swapData.swapAmount : 0, 
-                    maxFeePerGas: web3.utils.toWei(gasPrice, "gwei"),
-                    maxPriorityFeePerGas: web3.utils.toWei("2", "gwei"),
+                    maxPriorityFeePerGas: web3.utils.toWei(gasPrice, "gwei"),
+                    maxFeePerGas: web3.utils.toWei("2", "gwei"),
                     // gasPrice,
                 }
             )
@@ -83,8 +83,8 @@ export async function doSwap(swap, slippage, provider, emitter, gasPrice, gasPri
                 getSlippage(slippage),
                 getDeadline(),
                 { gasLimit: 3000000, value: swapNative ? swap.swapData.swapAmount : 0, 
-                    maxFeePerGas: gasPrice,
-                    maxPriorityFeePerGas: gasPricePriority,
+                    maxPriorityFeePerGas: gasPrice,
+                    maxFeePerGas: gasPricePriority,
                     // gasPrice,
                 }
             );
