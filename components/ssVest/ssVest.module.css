@@ -678,7 +678,7 @@ input[type=number].massiveInputAmount {
 .displayAssetIconWhite {
   border: 1px solid rgba(128, 128, 128, 0.5);
   border-radius: 50px;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
   width: 100px;
   height: 100px;
   padding: 10px;

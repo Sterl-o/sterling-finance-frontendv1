@@ -51,7 +51,7 @@
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
   max-width: 80px;
   min-height: 50px;
   padding: 20px 12px 4px 12px;
@@ -177,28 +177,28 @@
 }
 
 .displayAssetIconSmall {
-  border: 1px solid rgba(126, 153, 176, 0.2);
+  border: 1px solid rgba(176, 126, 126, 0.2);
   border-radius: 30px;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
   padding: 6px;
 }
 
 .displayChainIcon {
-  border: 1px solid rgba(126, 153, 176, 0.2);
+  border: 1px solid rgba(176, 126, 126, 0.2);
   border-radius: 20px;
   position: absolute;
   top: 60px;
   right: 0px;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
 }
 
 .displayChainIconSmall {
-  border: 1px solid rgba(126, 153, 176, 0.2);
+  border: 1px solid rgba(176, 126, 126, 0.2);
   border-radius: 20px;
   position: absolute;
   top: 30px;
   right: -5px;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
 }
 
 .inputBalanceText,

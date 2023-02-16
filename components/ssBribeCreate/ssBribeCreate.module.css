@@ -459,7 +459,7 @@ input[type=number].massiveInputAmount {
   cursor: pointer;
   padding: 6px;
   font-size: 30px !important;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
   margin: 4px;
   border-radius: 6px;
 }
@@ -596,7 +596,7 @@ input[type=number].massiveInputAmount {
 .displayAssetIconSmall {
   border: 1px solid rgba(128, 128, 128, 0.5);
   border-radius: 30px;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
   padding: 6px;
 }
 
@@ -713,7 +713,7 @@ input[type=number].massiveInputAmount {
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
 }
 
 .mediumInputAssetSelect {
@@ -745,7 +745,7 @@ input[type=number].massiveInputAmount {
 .mediumdisplayAssetIcon {
   border: 1px solid rgba(128, 128, 128, 0.5);
   border-radius: 50px;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
   width: 50px;
   height: 50px;
   padding: 5px;
@@ -921,7 +921,7 @@ input[type=number].massiveInputAmount {
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
 }
 
 .mediumInputAssetSelect {
@@ -953,7 +953,7 @@ input[type=number].massiveInputAmount {
 .mediumdisplayAssetIcon {
   border: 1px solid rgba(128, 128, 128, 0.5);
   border-radius: 50px;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
   width: 50px;
   height: 50px;
   padding: 5px;

@@ -10,13 +10,13 @@
 }
 
 .smallText {
-  color: rgba(126, 153, 176, 0.9);
+  color: rgba(176, 126, 126, 0.9);
   margin: 0 15px 0 0 !important;
   padding: 18px 0;
 }
 
 .tableContainer {
-  border: 1px solid rgba(126, 153, 176, 0.2);
+  border: 1px solid rgba(176, 126, 126, 0.2);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -32,7 +32,7 @@
   left: 50%;
   transform: translatex(-50%);
   border-radius: 12 !important;
-  border: 1px solid rgba(126, 153, 176, 0.2);
+  border: 1px solid rgba(176, 126, 126, 0.2);
   z-index: 20 !important;
 }
 
@@ -155,7 +155,7 @@
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
 }
 
 .mediumInputAssetSelect {

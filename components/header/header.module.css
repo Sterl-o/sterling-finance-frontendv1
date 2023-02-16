@@ -484,12 +484,12 @@
 }
 
 .testnetDisclaimerText--dark {
-  background-color: rgb(33, 43, 72) !important;
+  background-color: rgb(72, 33, 33) !important;
 }
 
 .menuBody--light {
   border-radius: 0;
-  border: 1px solid rgba(126, 153, 176, 0.2);
+  border: 1px solid rgba(176, 126, 126, 0.2);
   background: #8e0b0b;
 }
 

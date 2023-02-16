@@ -16,7 +16,7 @@
 }
 
 .helpText {
-  color: rgba(126, 153, 176, 0.9);
+  color: rgba(176, 126, 126, 0.9);
   margin: 0 15px 0 0 !important;
   padding: 15px 0;
 }
@@ -59,13 +59,13 @@
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(126, 153, 176, 0.2);
+  border: 1px solid rgba(176, 126, 126, 0.2);
 }
 
 .filterListTitle {
   margin-bottom: 10px;
   padding-bottom: 20px;
-  border-bottom: 1px solid rgba(126, 153, 176, 0.2);
+  border-bottom: 1px solid rgba(176, 126, 126, 0.2);
 }
 
 .filterButton {
@@ -79,7 +79,7 @@
   border-radius: 10px;
   width: 100%;
   align-items: center;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
   padding: 0 20px;
   min-height: 60px;
 }

@@ -145,28 +145,28 @@
 }
 
 .displayAssetIconSmall {
-  border: 1px solid rgba(126, 153, 176, 0.2);
+  border: 1px solid rgba(176, 126, 126, 0.2);
   border-radius: 30px;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
   padding: 6px;
 }
 
 .displayChainIcon {
-  border: 1px solid rgba(126, 153, 176, 0.2);
+  border: 1px solid rgba(176, 126, 126, 0.2);
   border-radius: 20px;
   position: absolute;
   top: 60px;
   right: 0px;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
 }
 
 .displayChainIconSmall {
-  border: 1px solid rgba(126, 153, 176, 0.2);
+  border: 1px solid rgba(176, 126, 126, 0.2);
   border-radius: 20px;
   position: absolute;
   top: 30px;
   right: -5px;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
 }
 
 .inputTitleContainerSlippage {
@@ -1161,7 +1161,7 @@
   cursor: pointer;
   padding: 6px;
   font-size: 30px !important;
-  background: rgb(33, 43, 72);
+  background: rgb(72, 33, 33);
   margin: 4px;
   border-radius: 6px;
 }
@@ -1322,7 +1322,7 @@
   font-weight: 700 !important;
   color: #bb4f4f !important;
   padding-bottom: 15px !important;
-  border-bottom: 1px solid rgba(126, 153, 176, 0.2);
+  border-bottom: 1px solid rgba(176, 126, 126, 0.2);
   font-size: 14px !important;
 }
 
