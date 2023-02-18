@@ -33,12 +33,13 @@ export const RENAME_ASSETS = {
 export const BLACK_LIST_TOKENS = [
   // '0x104592a158490a9228070e0a8e5343b499e125d0'.toLowerCase(), // wrong FRAX
   '0xfa157458912d54492df38448c613375c772f2b08'.toLowerCase(), // OLD DEPLOY STERLING TOKEN
+  '0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc'.toLowerCase(), // OLD DEPLOY STERLING TOKEN
 ]
 
 export const BASE_ASSETS_WHITELIST = [ // Done
   {
-    id: "0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc",
-    address: "0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc",
+    id: "0x065F35BF534c47AEfa23BA71837778cE0a3CA9Ca",
+    address: "0x065F35BF534c47AEfa23BA71837778cE0a3CA9Ca",
     chainId: "42161",
     symbol: "STR",
   },
@@ -582,7 +583,7 @@ export const DIRECT_SWAP_ROUTES = {
   // SPHERE -> USD+
   // ["0x62f594339830b90ae4c084ae7d223ffafd9658a7".toLowerCase()]: "0x236eec6359fb44cce8f97e99387aa7f8cd5cde1f".toLowerCase(),
   // penSTR -> STR
-  // ["0x5b0522391d0a5a37fd117fe4c43e8876fb4e91e6".toLowerCase()]: "0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc".toLowerCase(),
+  // ["0x5b0522391d0a5a37fd117fe4c43e8876fb4e91e6".toLowerCase()]: "0x065F35BF534c47AEfa23BA71837778cE0a3CA9Ca".toLowerCase(),
 }
 
 export const MULTISWAP_INCLUDE = [
@@ -595,6 +596,6 @@ export const ALLOWED_DUPLICATE_SYMBOLS = [
 ]
 
 export const DEFAULT_ASSET_FROM = "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1" // DONE
-export const DEFAULT_ASSET_TO = "0x67910c8E12aE4743a6411ed07Bea78fA4a6859dc" // DONE
+export const DEFAULT_ASSET_TO = "0x065F35BF534c47AEfa23BA71837778cE0a3CA9Ca" // DONE
 
 export const GAS_MULTIPLIER = 5
