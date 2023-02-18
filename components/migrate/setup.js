@@ -441,7 +441,7 @@ export default function Setup() {
     }
 
     let res = await routerContract.methods
-      .quoteAddLiquidity(addy0, addy1, isStable, sendAmount0, sendAmount1)
+      .quoteAddLiquidity(addy0, addy1, isStable, isStable ? 1000 : 2000, sendAmount0, sendAmount1)
       .call();
     res = { res, token0: token0, token1: token1 };
     setQuote(res);

@@ -253,7 +253,7 @@ export async function getPairAddressByTokens(web3, addressA, addressB, stable) {
     CONTRACTS.FACTORY_ADDRESS
   );
   return await factoryContract.methods
-    .getPair(addressA, addressB, stable)
+    .getPair(addressA, addressB, stable, stable ? 1000 : 2000)
     .call();
 }
 
