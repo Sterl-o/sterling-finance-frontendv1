@@ -1928,7 +1928,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
 
                                     <table>
                                       <tbody>
-                                      <tr>
+                                      {/* <tr>
                                         <td style={{minWidth: 100}}>Min APR</td>
                                         <td style={{textAlign: 'right'}}><b>{formatCurrency(
                                             BigNumber(row?.gauge?.derivedAPR)
@@ -1936,7 +1936,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                                 .times(40),
                                             2
                                         )}%</b></td>
-                                      </tr>
+                                      </tr> */}
                                       <tr>
                                         <td>Max APR</td>
                                         <td style={{textAlign: 'right'}}><b>{formatCurrency(
@@ -1944,7 +1944,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                             2
                                         )}%</b></td>
                                       </tr>
-                                      {(row?.gauge?.additionalApr0 && BigNumber(row?.gauge?.additionalApr0).gt(0)) &&
+                                      {/* {(row?.gauge?.additionalApr0 && BigNumber(row?.gauge?.additionalApr0).gt(0)) &&
                                           <tr>
                                             <td>Bonus {row.token0.symbol} APR</td>
                                             <td style={{textAlign: 'right'}}><b>
@@ -1965,22 +1965,22 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                               )}%
                                             </b></td>
                                           </tr>
-                                      }
-                                      {(row?.gauge?.boost && BigNumber(row?.gauge?.boost).gt(0)) &&
+                                      } */}
+                                      {/* {(row?.gauge?.boost && BigNumber(row?.gauge?.boost).gt(0)) &&
                                           <tr>
                                             <td>Your boost</td>
                                             <td style={{textAlign: 'right'}}><b>x{BigNumber(row?.gauge?.boost).toFixed(2)}</b></td>
                                           </tr>
-                                      }
+                                      } */}
 
-                                      {(row?.gauge?.boost && BigNumber(row?.gauge?.boost).gt(0)) &&
+                                      {/* {(row?.gauge?.boost && BigNumber(row?.gauge?.boost).gt(0)) &&
                                           <tr>
                                             <td>Your APR</td>
                                             <td style={{textAlign: 'right'}}><b>
                                               {BigNumber(row?.gauge?.personalAPR).toFixed(2)}%
                                             </b>{" "}</td>
                                           </tr>
-                                      }
+                                      } */}
                                       </tbody>
                                     </table>
 
@@ -3222,7 +3222,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
 
                                             <table>
                                               <tbody>
-                                              <tr>
+                                              {/* <tr>
                                                 <td style={{minWidth: 100}}>Min APR</td>
                                                 <td style={{textAlign: 'right'}}><b>{formatCurrency(
                                                     BigNumber(row?.gauge?.derivedAPR)
@@ -3230,7 +3230,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                                         .times(40),
                                                     2
                                                 )}%</b></td>
-                                              </tr>
+                                              </tr> */}
                                               <tr>
                                                 <td>Max APR</td>
                                                 <td style={{textAlign: 'right'}}><b>{formatCurrency(
@@ -3238,7 +3238,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                                     2
                                                 )}%</b></td>
                                               </tr>
-                                              {(row?.gauge?.additionalApr0 && BigNumber(row?.gauge?.additionalApr0).gt(0)) &&
+                                              {/* {(row?.gauge?.additionalApr0 && BigNumber(row?.gauge?.additionalApr0).gt(0)) &&
                                                   <tr>
                                                     <td>Bonus {row.token0.symbol} APR</td>
                                                     <td style={{textAlign: 'right'}}><b>
@@ -3259,8 +3259,8 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                                       )}%
                                                     </b></td>
                                                   </tr>
-                                              }
-                                              {(row?.gauge?.boost && BigNumber(row?.gauge?.boost).gt(0)) &&
+                                              } */}
+                                              {/* {(row?.gauge?.boost && BigNumber(row?.gauge?.boost).gt(0)) &&
                                                   <tr>
                                                     <td>Your boost</td>
                                                     <td style={{textAlign: 'right'}}><b>x{BigNumber(row?.gauge?.boost).toFixed(2)}</b></td>
@@ -3274,7 +3274,7 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                                       {BigNumber(row?.gauge?.personalAPR).toFixed(2)}%
                                                     </b>{" "}</td>
                                                   </tr>
-                                              }
+                                              } */}
                                               </tbody>
                                             </table>
                                           </React.Fragment>
