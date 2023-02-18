@@ -26,7 +26,8 @@ export function isNetworkToken(tokenAdr) {
 }
 
 export async function getEthPrice() {
-  return parseFloat((await client.query(QUERIES.bundleQuery).toPromise()).data.bundle.ethPrice);
+  const ethPrice = (await client.query(QUERIES.bundleQuery).toPromise()).data.bundle?.ethPrice
+  return ethPrice ? parseFloat(ethPrice) : 0;
 }
 
 export async function getTokenBalance(tokenAdr, web3, accountAdr, decimals) {

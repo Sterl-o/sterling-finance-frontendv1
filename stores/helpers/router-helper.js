@@ -37,7 +37,7 @@ export const quoteAddLiquidity = async (
         addy0,
         addy1,
         pair.isStable,
-        pair.isStable ? 1000 : 2000,
+        pair.isStable ? 5000 : 500,
         sendAmount0,
         sendAmount1
       )
@@ -84,7 +84,7 @@ export const quoteRemoveLiquidity = async (
         token0.address,
         token1.address,
         pair.isStable,
-        pair.isStable ? 1000 : 2000,
+        pair.isStable ? 5000 : 500,
         sendWithdrawAmount
       )
       .call();
