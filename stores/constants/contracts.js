@@ -36,7 +36,7 @@ export const ROUTER_ABI = abis.routerABI
 export const VE_DIST_ADDRESS = '0x3EfB1b284a3EBa3955c53b728a2Cc4182a07e92F' // NOT USED
 export const VE_DIST_ABI = abis.veDistABI
 
-export const VOTER_ADDRESS = '0xc913cc3c00c9a072dd16e0b7a0db6e7b46dd82d9' // DONE
+export const VOTER_ADDRESS = '0xc710553485E9a5dcdA3a61687503866313C00195' // DONE
 export const VOTER_ABI = abis.voterABI
 
 export const REWARD_ADDRESS = '0x065F35BF534c47AEfa23BA71837778cE0a3CA9Ca' // DONE

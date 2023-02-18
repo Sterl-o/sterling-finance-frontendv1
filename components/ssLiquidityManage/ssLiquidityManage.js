@@ -2585,7 +2585,7 @@ export default function ssLiquidityManage() {
               {createLP && renderMediumInputToggle("stable", stable)}
 
               <div className={classes.controls}>
-                <div className={classes.controlItem}>{renderTokenSelect()}</div>
+                {/* <div className={classes.controlItem}>{renderTokenSelect()}</div> */}
 
                 <div
                   className={[
