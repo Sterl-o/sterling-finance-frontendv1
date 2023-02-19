@@ -1910,12 +1910,16 @@ export default function EnhancedTable({ pairs, isLoading }) {
                           >
                             {tableCellContent(
                               `${formatCurrency(
-                                  BigNumber(row?.gauge?.derivedAPR).div(100).times(40),
-                                  0
-                              )}→${formatCurrency(
                                   BigNumber(row?.gauge?.derivedAPR),
                                   0
                               )}%`,
+                              // `${formatCurrency(
+                              //     BigNumber(row?.gauge?.derivedAPR).div(100).times(40),
+                              //     0
+                              // )}→${formatCurrency(
+                              //     BigNumber(row?.gauge?.derivedAPR),
+                              //     0
+                              // )}%`,
                               null,
                               <Tooltip
                                 title={
@@ -3204,12 +3208,16 @@ export default function EnhancedTable({ pairs, isLoading }) {
                                   {headCell.id === "apr" &&
                                     tableCellContent(
                                         `${formatCurrency(
-                                            BigNumber(row?.gauge?.derivedAPR).div(100).times(40),
-                                            0
-                                        )}→${formatCurrency(
                                             BigNumber(row?.gauge?.derivedAPR),
                                             0
                                         )}%`,
+                                        // `${formatCurrency(
+                                        //     BigNumber(row?.gauge?.derivedAPR).div(100).times(40),
+                                        //     0
+                                        // )}→${formatCurrency(
+                                        //     BigNumber(row?.gauge?.derivedAPR),
+                                        //     0
+                                        // )}%`,
                                       null,
                                       windowWidth > 660 ? <Tooltip
                                         title={
