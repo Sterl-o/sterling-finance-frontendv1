@@ -27,16 +27,16 @@ export const FTM_SYMBOL = 'ETH'
 export const FTM_DECIMALS = 18
 export const FTM_LOGO = 'https://i.ibb.co/DfkQ3C7/eth.png'
 
-export const FACTORY_ADDRESS = '0x53E270672a6F6ba16671d70A3FB11E19aE5cAf4f' // DONE
+export const FACTORY_ADDRESS = '0x064A292E0b02EBc11618f45ce0748f06C5e544ED' // DONE
 export const FACTORY_ABI = abis.factoryABI
 
-export const ROUTER_ADDRESS = '0xF10C960e5A35C11aA28575B3aC4FEd7a89dD03fF' // DONE
+export const ROUTER_ADDRESS = '0xbE07e8B952E2C37fBD9bb14349E3bbd885135C08' // DONE
 export const ROUTER_ABI = abis.routerABI
 
 export const VE_DIST_ADDRESS = '0x3EfB1b284a3EBa3955c53b728a2Cc4182a07e92F' // NOT USED
 export const VE_DIST_ABI = abis.veDistABI
 
-export const VOTER_ADDRESS = '0xc710553485E9a5dcdA3a61687503866313C00195' // DONE
+export const VOTER_ADDRESS = '0xA13bd45542e8C7f3D1aC4070aBaEC4B9cEd1f12A' // DONE
 export const VOTER_ABI = abis.voterABI
 
 export const REWARD_ADDRESS = '0x065F35BF534c47AEfa23BA71837778cE0a3CA9Ca' // DONE
