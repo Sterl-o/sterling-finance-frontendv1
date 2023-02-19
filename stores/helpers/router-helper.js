@@ -37,6 +37,7 @@ export const quoteAddLiquidity = async (
         addy0,
         addy1,
         pair.isStable,
+        pair.isStable ? 5000 : 500,
         sendAmount0,
         sendAmount1
       )
