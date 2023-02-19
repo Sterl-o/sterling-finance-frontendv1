@@ -248,7 +248,6 @@ export const createPairDeposit = async (
       token0.address,
       token1.address,
       isStable,
-      isStable ? 5000 : 500,
       sendAmount0,
       sendAmount1,
       sendAmount0Min,
@@ -263,12 +262,11 @@ export const createPairDeposit = async (
       params = [
         token1.address,
         isStable,
-        isStable ? 5000 : 500,
         sendAmount1,
         sendAmount1Min,
         sendAmount0Min,
-        {to: account,
-        deadline: deadline},
+        account,
+        deadline,
       ];
       sendValue = sendAmount0;
     }
@@ -277,12 +275,11 @@ export const createPairDeposit = async (
       params = [
         token0.address,
         isStable,
-        isStable ? 5000 : 500,
         sendAmount0,
         sendAmount0Min,
         sendAmount1Min,
-        {to: account,
-        deadline: deadline},
+        account,
+        deadline,
       ];
       sendValue = sendAmount1;
     }
@@ -623,7 +620,6 @@ export const removeLiquidity = async (
         token0.address,
         token1.address,
         pair.isStable,
-        pair.isStable ? 5000 : 500,
         sendAmount
       )
       .call();
@@ -644,12 +640,11 @@ export const removeLiquidity = async (
         token0.address,
         token1.address,
         pair.isStable,
-        pair.isStable ? 5000 : 500,
         sendAmount,
         sendAmount0Min,
         sendAmount1Min,
-        {to: account,
-        deadline: deadline},
+        account,
+        deadline,
       ],
       account,
       gasPrice,
