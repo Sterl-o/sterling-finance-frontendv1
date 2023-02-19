@@ -37,7 +37,6 @@ export const quoteAddLiquidity = async (
         addy0,
         addy1,
         pair.isStable,
-        pair.isStable ? 5000 : 500,
         sendAmount0,
         sendAmount1
       )
@@ -84,7 +83,6 @@ export const quoteRemoveLiquidity = async (
         token0.address,
         token1.address,
         pair.isStable,
-        pair.isStable ? 5000 : 500,
         sendWithdrawAmount
       )
       .call();
@@ -251,8 +249,7 @@ export const quoteSwap = async (
           BigNumber(amountIn).div(10 ** parseInt(tokenInDecimals)),
           BigNumber(reserves[0]).div(1e18),
           BigNumber(reserves[1]).div(1e18),
-          bestAmountOut.routes[i].stable,
-          bestAmountOut.routes[i].stable ? 5000 : 500
+          bestAmountOut.routes[i].stable
         );
 
         const ratio = priceAfterSwap.div(priceWithoutImpact);
@@ -288,4 +285,3 @@ export const quoteSwap = async (
     emitter.emit(ACTIONS.ERROR, ex);
   }
 };
-
