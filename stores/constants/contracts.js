@@ -30,7 +30,7 @@ export const FTM_LOGO = 'https://i.ibb.co/DfkQ3C7/eth.png'
 export const FACTORY_ADDRESS = '0x61330C51481f861EC1C7fF3b3c5582C6030AcbBF' // DONE
 export const FACTORY_ABI = abis.factoryABI
 
-export const ROUTER_ADDRESS = '0x3E74deF75422431dD0e4Eab23C375C521136A29c' // DONE
+export const ROUTER_ADDRESS = '0xE69f2E0Dd798920D7A58535388Af3200BA215a3b' // DONE
 export const ROUTER_ABI = abis.routerABI
 
 export const VE_DIST_ADDRESS = '0x3EfB1b284a3EBa3955c53b728a2Cc4182a07e92F' // NOT USED
