@@ -159,16 +159,6 @@ export const BASE_ASSETS_WHITELIST = [ // Done
     id: "0xAE6e3540E97b0b9EA8797B157B510e133afb6282",
     symbol: "DEGEN"
   }, {
-    address: "0xaE6aab43C4f3E0cea4Ab83752C278f8dEbabA689",
-    chainId: "42161",
-    id: "0xaE6aab43C4f3E0cea4Ab83752C278f8dEbabA689",
-    symbol: "DF"
-  }, {
-    address: "0x1D54Aa7E322e02A0453c0F2fA21505cE7F2E9E93",
-    chainId: "42161",
-    id: "0x1D54Aa7E322e02A0453c0F2fA21505cE7F2E9E93",
-    symbol: "DFYN"
-  }, {
     address: "0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65",
     chainId: "42161",
     id: "0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65",

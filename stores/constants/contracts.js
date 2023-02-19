@@ -41,7 +41,7 @@ export const VOTER_ABI = abis.voterABI
 
 export const REWARD_ADDRESS = '0x065F35BF534c47AEfa23BA71837778cE0a3CA9Ca' // DONE
 
-export const LIBRARY_ADDRESS = '0x988d2829A76D2a2d39BfB4420b55Ba07c380853A' // DONE
+export const LIBRARY_ADDRESS = '0x75A632198a4B5eA3368B6F98Bc26A4204B00C597' // DONE
 export const LIBRARY_ABI = abis.sterlingLibraryABI
 
 export const ERC20_ABI = abis.erc20ABI

@@ -183,22 +183,6 @@
     },
     {
         "chainId": 42161,
-        "address": "0xaE6aab43C4f3E0cea4Ab83752C278f8dEbabA689",
-        "name": "dForce",
-        "symbol": "DF",
-        "decimals": 18,
-        "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/4758.png"
-    },
-    {
-        "chainId": 42161,
-        "address": "0x1D54Aa7E322e02A0453c0F2fA21505cE7F2E9E93",
-        "name": "DFYN Token",
-        "symbol": "DFYN",
-        "decimals": 18,
-        "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/9511.png"
-    },
-    {
-        "chainId": 42161,
         "address": "0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65",
         "name": "dHedge DAO Token",
         "symbol": "DHT",
