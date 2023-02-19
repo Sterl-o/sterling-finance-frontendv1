@@ -1,13 +1,13 @@
 import abis from "../abis";
 
-export const GOV_TOKEN_ADDRESS = '0x065F35BF534c47AEfa23BA71837778cE0a3CA9Ca' // DONE
+export const GOV_TOKEN_ADDRESS = '0x5DB7b150c5F38c5F5db11dCBDB885028fcC51D68' // DONE
 export const GOV_TOKEN_NAME = 'Sterling'
 export const GOV_TOKEN_SYMBOL = 'STR'
 export const GOV_TOKEN_DECIMALS = 18
 export const GOV_TOKEN_LOGO = 'https://i.ibb.co/SPqY38r/logo.png'
 export const GOV_TOKEN_ABI = abis.tokenABI
 
-export const VE_TOKEN_ADDRESS = '0x877b1D69dfB4573b86F9290248950A580d00829B' // DONE
+export const VE_TOKEN_ADDRESS = '0x450330Df68E1ed6e0683373D684064bDa9115fEe' // DONE
 export const VE_TOKEN_NAME = 'veSTR'
 export const VE_TOKEN_SYMBOL = 'veSTR'
 export const VE_TOKEN_DECIMALS = 18
@@ -27,21 +27,21 @@ export const FTM_SYMBOL = 'ETH'
 export const FTM_DECIMALS = 18
 export const FTM_LOGO = 'https://i.ibb.co/DfkQ3C7/eth.png'
 
-export const FACTORY_ADDRESS = '0x53E270672a6F6ba16671d70A3FB11E19aE5cAf4f' // DONE
+export const FACTORY_ADDRESS = '0xF7A23B9A9dCB8d0aff67012565C5844C20C11AFC' // DONE
 export const FACTORY_ABI = abis.factoryABI
 
-export const ROUTER_ADDRESS = '0xF10C960e5A35C11aA28575B3aC4FEd7a89dD03fF' // DONE
+export const ROUTER_ADDRESS = '0x0cBD3aEa90538a1Cf3C60B05582b691f6d2b2B01' // DONE
 export const ROUTER_ABI = abis.routerABI
 
 export const VE_DIST_ADDRESS = '0x3EfB1b284a3EBa3955c53b728a2Cc4182a07e92F' // NOT USED
 export const VE_DIST_ABI = abis.veDistABI
 
-export const VOTER_ADDRESS = '0xc913cc3c00c9a072dd16e0b7a0db6e7b46dd82d9' // DONE
+export const VOTER_ADDRESS = '0x474E967717B7A12352e1Cb731492bcc01d7816e2' // DONE
 export const VOTER_ABI = abis.voterABI
 
-export const REWARD_ADDRESS = '0x065F35BF534c47AEfa23BA71837778cE0a3CA9Ca' // DONE
+export const REWARD_ADDRESS = '0x5DB7b150c5F38c5F5db11dCBDB885028fcC51D68' // DONE
 
-export const LIBRARY_ADDRESS = '0x988d2829A76D2a2d39BfB4420b55Ba07c380853A' // DONE
+export const LIBRARY_ADDRESS = '0x0C34264D70013b96f5Cc1216b4d9E0a6F2fCD648' // DONE
 export const LIBRARY_ABI = abis.sterlingLibraryABI
 
 export const ERC20_ABI = abis.erc20ABI
