@@ -251,7 +251,8 @@ export const quoteSwap = async (
           BigNumber(amountIn).div(10 ** parseInt(tokenInDecimals)),
           BigNumber(reserves[0]).div(1e18),
           BigNumber(reserves[1]).div(1e18),
-          bestAmountOut.routes[i].stable
+          bestAmountOut.routes[i].stable,
+          bestAmountOut.routes[i].stable ? 5000 : 500
         );
 
         const ratio = priceAfterSwap.div(priceWithoutImpact);
